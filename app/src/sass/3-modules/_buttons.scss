@@ -1,0 +1,52 @@
+@import "../1-base/colors";
+
+.button {
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: initial;
+    width: fit-content;
+    text-align: center;
+
+    &--primary {
+        background-color: $primary-500;
+        color: $bg-color;
+
+        &:hover {
+            opacity: 0.7;
+            transition: ease-out .2s;
+        }
+    }
+
+    &--secondary {
+        border: 1px solid $text-500;
+        color: $text-500;
+
+        &:hover {
+            opacity: 0.7;
+            transition: ease-out .2s;
+        }
+    }
+
+    &--tertiary {
+        color: $text-500;
+
+        &:hover {
+            text-decoration: underline;
+            opacity: 0.7;
+            transition: ease-out .2s;
+        }
+    }
+}
+
+.link {
+    color: $secondary-400;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary-500;
+        transition: ease-out .2s;
+    }
+}
