@@ -8,13 +8,13 @@
     "sass-watch": "node-sass --watch app/src/sass/main.scss app/dist/css/main.css",
     "sass-watch-min": "node-sass --output-style compressed --watch app/src/sass/main.scss app/dist/css/main.min.css",
     "sass-watch-all": "npm-run-all --parallel sass-watch sass-watch-min"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "sass": "^1.80.4"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5"
