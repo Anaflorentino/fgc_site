@@ -1,0 +1,27 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.header {
+    padding: 16px 0;
+}
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+    &__links {
+        display: flex;
+        gap: $spacer-xs;
+    }
+}
+
+.nav-bottom {
+
+    &__links {
+        display: flex;
+        gap: 16px;
+        justify-content: start;
+    }
+}
