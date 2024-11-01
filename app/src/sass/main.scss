@@ -1,9 +1,11 @@
 @import "./1-base/utilities";
 @import "./1-base/colors";
+@import "./1-base/sizes";
 @import "./2-layout/containers";
 @import "./3-modules/buttons";
 @import "./3-modules/inputs";
 @import "./4-sections/header";
+@import "./4-sections/testimonials";
 @import "./4-sections/hero";
 
-@include reset
+@include reset;
