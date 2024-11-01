@@ -177,8 +177,10 @@
 
 .why-choose {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  gap: 48px; }
 
 .why-choose__img {
   width: 526.97px;
