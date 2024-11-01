@@ -1,0 +1,43 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.nav {
+    display: flex;
+    gap: 4px;
+}
+
+.blog {
+
+&__title {
+    margin: 48px 0;
+}
+}
+
+.articles {
+    display: flex;
+    gap: 32px;
+    height: 560px;
+
+    .wrapper {
+        width: 100%;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+.article {
+    height: 100%;
+    width: 100%;
+    border: 1px solid $neutrals-500;
+    border-radius: $br-xxl;
+}
+
+.all .article {
+    height: 202px;
+}
+
+
