@@ -1,0 +1,42 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../1-base/sizes";
+
+
+.why-choose__accordion {
+    width: 540px;
+}
+
+.why-choose__accordion__item {
+
+    border: none;
+    display: flex;
+    gap: $spacer-sm;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    padding: $p-xxl;
+    width: 100%;
+    border-radius: $br-lg;
+    margin-bottom: $spacer-md;
+
+
+    &--is-open {
+        background-color: $neutrals-100;
+    }
+
+    &--is-closed {
+        background-color: transparent;
+    }
+}
+
+.why-choose__accordion__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.why-choose__accordion__text {
+    text-align: start;
+}
