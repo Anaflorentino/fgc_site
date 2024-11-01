@@ -310,6 +310,56 @@
 .services__item__text, .services__item__included {
   margin-bottom: 16px; }
 
+.button {
+  text-decoration: none;
+  padding: 16px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: initial;
+  width: fit-content;
+  text-align: center; }
+  .button--primary {
+    background-color: #ff4667;
+    color: #ffff; }
+    .button--primary:hover {
+      opacity: 0.7;
+      transition: ease-out .2s; }
+  .button--secondary {
+    border: 1px solid #342430;
+    color: #342430; }
+    .button--secondary:hover {
+      opacity: 0.7;
+      transition: ease-out .2s; }
+  .button--tertiary {
+    color: #342430; }
+    .button--tertiary:hover {
+      text-decoration: underline;
+      opacity: 0.7;
+      transition: ease-out .2s; }
+
+.link {
+  color: #3fa1d7;
+  font-weight: bold;
+  text-decoration: none; }
+  .link:hover {
+    color: #0f89cd;
+    transition: ease-out .2s; }
+
+.team {
+  background-color: #f9f9f9;
+  padding: 64px 0; }
+
+.team__title {
+  text-align: center; }
+
+.team__cards {
+  display: flex;
+  gap: 32px; }
+  .team__cards__item {
+    border: solid 1px #ebebeb;
+    height: 479px;
+    width: 347px; }
+
 * {
   margin: 0;
   padding: 0;

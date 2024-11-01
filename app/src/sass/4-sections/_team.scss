@@ -1,0 +1,23 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.team {
+    background-color: $neutrals-100;
+    padding: 64px 0;
+}
+
+.team__title {
+    text-align: center;
+}
+
+.team__cards {
+    display: flex;
+    gap: 32px;
+
+    &__item {
+        border: solid 1px $neutrals-500;
+        height: 479px;
+        width: 347px;
+    }
+}
