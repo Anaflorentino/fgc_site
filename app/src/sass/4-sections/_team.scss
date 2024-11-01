@@ -14,6 +14,7 @@
 .team__cards {
     display: flex;
     gap: 32px;
+    justify-content: center;
 
     &__item {
         border: solid 1px $neutrals-500;

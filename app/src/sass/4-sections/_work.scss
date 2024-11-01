@@ -1,0 +1,43 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.work__bg {
+    background-color: $text-500;
+    height: 512px;
+    width: 1012px;
+    margin: 0 auto;
+    padding: 48px 0;
+    border-radius: $br-xxl;
+    z-index: 1; 
+}
+.work {
+    padding: 48px 0;
+}
+.work__title {
+    text-align: center;
+  
+    h2, p, span {
+
+        color: $bg-color;
+    }
+}
+.work__gallery {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin: -342px 0 0;
+
+    &__item {
+        width: 320px;
+        height: 220.78px;
+
+        &__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 16px;
+        }
+    }
+}

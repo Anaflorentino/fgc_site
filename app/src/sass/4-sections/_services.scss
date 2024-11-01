@@ -7,6 +7,7 @@
     flex-direction: row;
     gap: 16px;
     margin-bottom: $spacer-xxl;
+    flex-wrap: wrap;
 }
 
 .services__item, .services__item__title {
