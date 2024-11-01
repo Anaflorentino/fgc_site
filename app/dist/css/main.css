@@ -429,6 +429,56 @@
       object-position: center;
       border-radius: 16px; }
 
+.button {
+  text-decoration: none;
+  padding: 16px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: initial;
+  width: fit-content;
+  text-align: center; }
+  .button--primary {
+    background-color: #ff4667;
+    color: #ffff; }
+    .button--primary:hover {
+      opacity: 0.7;
+      transition: ease-out .2s; }
+  .button--secondary {
+    border: 1px solid #342430;
+    color: #342430; }
+    .button--secondary:hover {
+      opacity: 0.7;
+      transition: ease-out .2s; }
+  .button--tertiary {
+    color: #342430; }
+    .button--tertiary:hover {
+      text-decoration: underline;
+      opacity: 0.7;
+      transition: ease-out .2s; }
+
+.link {
+  color: #3fa1d7;
+  font-weight: bold;
+  text-decoration: none; }
+  .link:hover {
+    color: #0f89cd;
+    transition: ease-out .2s; }
+
+.subscription {
+  padding: 48px 0; }
+  .subscription__title {
+    text-align: center;
+    margin-bottom: 48px; }
+
+.subscription__cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center; }
+  .subscription__cards__item {
+    border: 1px solid #ebebeb;
+    width: 326px;
+    height: 488px; }
+
 * {
   margin: 0;
   padding: 0;

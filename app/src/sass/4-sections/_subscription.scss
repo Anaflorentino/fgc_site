@@ -1,0 +1,23 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.subscription {
+    padding: 48px 0;
+
+    &__title {
+        text-align: center;
+        margin-bottom: $spacer-xxl;
+    }
+}
+.subscription__cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+
+    &__item {
+        border: 1px solid $neutrals-500;
+        width: 326px;
+        height: 488px;
+    }
+}
