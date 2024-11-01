@@ -1,0 +1,26 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.coupons {
+    padding: 48px 0;
+    &__title {
+        text-align: center;
+        margin-bottom: $spacer-xxl;
+    }
+
+
+    &__combos, &__discount {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        margin-bottom: $spacer-xxl;
+
+        &__item {
+            border: 1px solid $neutrals-500;
+            height: 340px;
+            width: 100%;
+    }
+}
+}
+
