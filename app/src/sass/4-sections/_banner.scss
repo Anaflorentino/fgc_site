@@ -1,0 +1,13 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+
+.promotion__banner {
+    height: 388px;
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: $br-xxl;
+    }
+}
