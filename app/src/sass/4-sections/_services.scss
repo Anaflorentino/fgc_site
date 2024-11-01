@@ -1,3 +1,18 @@
 @import "../1-base/colors";
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
+
+.services__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: $spacer-xxl;
+}
+
+.services__item, .services__item__title {
+    margin-bottom: $spacer-md;
+}
+
+.services__item__text, .services__item__included {
+    margin-bottom: $spacer-sm;
+}
