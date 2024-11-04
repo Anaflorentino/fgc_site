@@ -1,6 +1,53 @@
 .section-title {
   margin-bottom: 40px; }
 
+.text-heading-1 {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.64px; }
+
+.text-heading-2 {
+  font-size: 24px;
+  font-weight: medium;
+  line-height: 1.2;
+  letter-spacing: -0.336px; }
+
+.text-heading-3 {
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 1.6;
+  letter-spacing: -0.336px; }
+
+.text-heading-4 {
+  font-size: 18px;
+  font-weight: medium;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-large {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-large-bold {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-small {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0px; }
+
+.text-label {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0px; }
+
 .container {
   max-width: 1250px;
   margin: auto; }
@@ -10,38 +57,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .input-field {
   background-color: transparent;
@@ -64,57 +114,108 @@
   .input-field::placeholder {
     color: #a29aa0; }
 
+.text-heading-1 {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.64px; }
+
+.text-heading-2 {
+  font-size: 24px;
+  font-weight: medium;
+  line-height: 1.2;
+  letter-spacing: -0.336px; }
+
+.text-heading-3 {
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 1.6;
+  letter-spacing: -0.336px; }
+
+.text-heading-4 {
+  font-size: 18px;
+  font-weight: medium;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-large {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-large-bold {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-small {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0px; }
+
+.text-label {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0px; }
+
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .header {
   padding: 16px 0; }
-
-.nav-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px; }
-  .nav-top__links {
+  .header__nav-top {
     display: flex;
-    gap: 12px; }
-
-.nav-bottom__links {
-  display: flex;
-  gap: 16px;
-  justify-content: start; }
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px; }
+    .header__nav-top__links {
+      display: flex;
+      gap: 16px; }
+  .header__nav-bottom {
+    display: flex;
+    justify-content: start;
+    gap: 16px; }
+    .header__nav-bottom__links {
+      display: flex;
+      gap: 16px; }
 
 .testimonials {
   background-color: #f9f9f9;
@@ -143,87 +244,123 @@
   justify-content: flex-end;
   align-items: center; }
 
+.text-heading-1 {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.64px; }
+
+.text-heading-2 {
+  font-size: 24px;
+  font-weight: medium;
+  line-height: 1.2;
+  letter-spacing: -0.336px; }
+
+.text-heading-3 {
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 1.6;
+  letter-spacing: -0.336px; }
+
+.text-heading-4 {
+  font-size: 18px;
+  font-weight: medium;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-large {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-large-bold {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: -0.2px; }
+
+.text-body-small {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0px; }
+
+.text-label {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0px; }
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  .hero__title {
+    margin-bottom: 24px; }
+  .hero__subtitle {
+    margin-bottom: 16px; }
+  .hero__insurance {
+    display: flex;
+    align-items: center;
+    margin: 24px 0; }
+    .hero__insurance .material-symbols-rounded {
+      font-size: 48px;
+      color: #776c74;
+      padding-right: 8px;
+      font-variation-settings: 'FILL' 1; }
+    .hero__insurance__text {
+      color: #776c74; }
+  .hero__benefit {
+    margin-bottom: 12px; }
+  .hero__cta {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px; }
 
-.hero__text__title {
-  font-size: 32px; }
-
-.hero__text__subtitle {
-  font-size: 28px; }
-
-.hero__text__title, .hero__text__subtitle {
-  margin-bottom: 16px; }
-
-.hero__text__benefits li {
-  margin-bottom: 8px; }
-
-.pre-form {
-  display: inline-flex;
-  padding: 20px 32px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px; }
-
-.hero__assets {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 12px; }
-  .hero__assets p {
-    background-color: #e0e0e0;
-    border-radius: 999px;
-    box-sizing: border-box;
-    padding: 4px 12px;
-    width: fit-content; }
-
-.hero__img {
-  width: 678px;
-  height: 502px; }
-  .hero__img .img-1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 24px; }
+.hero__img .img-1 {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+  margin-left: 56px; }
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .why-choose {
   display: flex;
@@ -280,38 +417,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .services__menu {
   display: flex;
@@ -328,38 +468,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .team {
   background-color: #f9f9f9;
@@ -379,38 +522,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .work__bg {
   background-color: #342430;
@@ -446,38 +592,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .subscription {
   padding: 48px 0; }
@@ -496,38 +645,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .coupons {
   padding: 48px 0; }
@@ -546,38 +698,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .nav {
   display: flex;
@@ -607,38 +762,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .extreme {
   display: flex;
@@ -658,38 +816,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .navigation-arrows {
   display: flex;
@@ -739,38 +900,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .blog-fixed__articles {
   display: flex;
@@ -794,38 +958,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .faq {
   display: flex;
@@ -842,38 +1009,41 @@
 
 .button {
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 14px 18px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 600;
   text-transform: initial;
   width: fit-content;
-  text-align: center; }
+  text-align: center;
+  transition: ease-out 0.2s; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
     .button--primary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--secondary {
     border: 1px solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s; }
   .button--tertiary {
     color: #342430; }
     .button--tertiary:hover {
-      text-decoration: underline;
       opacity: 0.7;
-      transition: ease-out .2s; }
+      transition: ease-out 0.2s;
+      text-decoration: underline; }
 
 .link {
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none; }
   .link:hover {
-    color: #0f89cd;
-    transition: ease-out .2s; }
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    color: #0f89cd; }
 
 .footer {
   background-color: #342430; }
