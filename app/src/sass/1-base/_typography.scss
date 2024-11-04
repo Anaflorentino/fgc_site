@@ -1,11 +1,90 @@
-// Large Screens
-$l-h1: 32px;
-$l-h2: 28px;
-$l-p: 16px;
+// Font families
+$font-primary: 'Arial',
+sans-serif;
 
-// Medium Screens:
+// Font sizes
+$font-size-xs: 12px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-md2: 18px;
+$font-size-lg: 20px;
+$font-size-xl: 24px;
+$font-size-xxl: 32px;
 
-// Small Screens:
-$s-h1: 28px;
-$s-h2: 20px;
+// Font weights
+$font-weight-light: light;
+$font-weight-regular: normal;
+$font-weight-medium: medium;
+$font-weight-bold: bold;
 
+// Line heights
+$line-height-xs: 1.2;
+$line-height-sm: 1.4;
+$line-height-md: 1.6;
+$line-height-md2: 1.6;
+$line-height-lg: 1.1;
+$line-height-xl: 1.2;
+
+// Letter spacings
+$letter-spacing--2: -0.64px;
+$letter-spacing--1-4: -0.336px;
+$letter-spacing--1:-0.2px;
+$letter-spacing-0: 0px;
+
+// Map -> Text Styles
+$text-styles: 
+    ('heading-1': (size: $font-size-xxl, wight: $font-weight-bold, line-height: $line-height-lg, letter-spacing: $letter-spacing--2),
+    'heading-2': (size: $font-size-xl, weight: $font-weight-medium, line-height: $line-height-xl, letter-spacing: $letter-spacing--1-4),
+    'heading-3': (size: $font-size-lg, weight: $font-weight-medium, line-height: $line-height-md, letter-spacing: $letter-spacing--1-4),
+    'heading-4': (size: $font-size-md2, weight: $font-weight-medium, line-height: $line-height-md2, letter-spacing: $letter-spacing--1),
+    'body-large': (size: $font-size-md, weight: $font-weight-regular, line-height: $line-height-md, letter-spacing: $letter-spacing--1),
+    'body-large-bold': (size: $font-size-md, weight: $font-weight-bold, line-height: $line-height-md, letter-spacing: $letter-spacing--1),
+    'body-small': (size: $font-size-sm, weight: $font-weight-regular, line-height: $line-height-md, letter-spacing: $letter-spacing-0),
+    'label': (size: $font-size-xs, weight: $font-weight-regular, line-height: $line-height-md, letter-spacing: $letter-spacing-0),
+);
+
+// Mixin -> text styles
+@mixin text-style($style-name) {
+    $style: map-get($text-styles, $style-name);
+  
+    @if $style {
+      font-size: map-get($style, size);
+      font-weight: map-get($style, weight);
+      line-height: map-get($style, line-height);
+      letter-spacing: map-get($style, letter-spacing);
+    } @else {
+      @warn "Style `#{$style-name}` not found on `$text-styles` :(";
+    }
+  }
+
+  .text-heading-1 {
+    @include text-style('heading-1');
+  }
+  
+  .text-heading-2 {
+    @include text-style('heading-2');
+  }
+  
+  .text-heading-3 {
+    @include text-style('heading-3');
+  }
+
+  .text-heading-4 {
+    @include text-style('heading-4');
+  }
+  
+  .text-body-large {
+    @include text-style('body-large');
+  }
+  
+  .text-body-large-bold {
+    @include text-style('body-large-bold');
+  }
+
+  .text-body-small {
+    @include text-style('body-small');
+  }
+
+  .text-label {
+    @include text-style('label');
+  }
