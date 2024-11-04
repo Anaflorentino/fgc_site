@@ -5,33 +5,41 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 48px;
 
-    &__text {}
+    &__text {
+        margin-bottom: 0px;
+    }
 
     &__title {
-        margin-bottom: 24px;
+        margin-bottom: 16px;
+
+        &--color {
+            color: $primary-400;
+        }
     }
 
     &__subtitle {
-        margin-bottom: 16px;
+        color: $text-400;
     }
 
     &__insurance {
         display: flex;
         align-items: center;
-        margin: 24px 0;
+        margin: 32px 0;
 
         .material-symbols-rounded {
-            font-size: 48px;
-            color: $text-300;
-            padding-right: 8px;
+            font-size: 44px;
+            color: $neutrals-900;
+            padding-right: 4px;
             font-variation-settings: 
             'FILL' 1
         }
 
 
         &__text {
-            color: $text-300;
+            color: $neutrals-900;
+
         }
 
 
@@ -39,6 +47,7 @@
 
     &__benefit {
         margin-bottom: 12px;
+        font-weight: 500;
     }
 
     &__cta {
