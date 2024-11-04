@@ -692,11 +692,14 @@
     transition: ease-out .2s; }
 
 .whats-included {
-  border: 1px solid tomato; }
+  display: flex;
+  gap: 32px;
+  overflow: hidden;
+  height: 626px; }
   .whats-included__table {
     border: 1px solid #ebebeb;
     border-radius: 12px;
-    max-width: 352px;
+    width: 352px;
     padding: 52px 36px; }
     .whats-included__table__title {
       text-align: center;

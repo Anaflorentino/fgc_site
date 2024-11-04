@@ -3,12 +3,15 @@
 @import "../3-modules/buttons";
 
 .whats-included {
-    border: 1px solid tomato;
+    display: flex;
+    gap: 32px;
+    overflow: hidden;
+    height: 626px;
 
     &__table {
         border: 1px solid $neutrals-500;
         border-radius: $br-lg;
-        max-width: 352px;
+        width: 352px;
         padding: 52px 36px;
 
         &__title {
