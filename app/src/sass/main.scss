@@ -1,5 +1,6 @@
 @import "./1-base/utilities";
 @import "./1-base/colors";
+@import "./1-base/typography";
 @import "./1-base/sizes";
 @import "./2-layout/containers";
 @import "./3-modules/buttons";
@@ -16,5 +17,6 @@
 @import "./4-sections/coupons";
 @import "./4-sections/blog";
 @import "./4-sections/extreme";
+@import "./4-sections/whats-included";
 
 @include reset;

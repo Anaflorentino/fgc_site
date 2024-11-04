@@ -1,4 +1,5 @@
 @import "../1-base/sizes";
+@import "../1-base/typography";
 
 .hero {
     display: flex;
@@ -7,7 +8,14 @@
     }
 
 .hero__text {
-    max-width: 432px;
+
+    &__title {
+        font-size: $l-h1;
+    }
+
+    &__subtitle {
+        font-size: $l-h2;
+    }
 
     &__title, &__subtitle {
         margin-bottom: 16px;

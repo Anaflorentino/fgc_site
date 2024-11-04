@@ -148,12 +148,17 @@
   align-items: center;
   justify-content: space-between; }
 
-.hero__text {
-  max-width: 432px; }
-  .hero__text__title, .hero__text__subtitle {
-    margin-bottom: 16px; }
-  .hero__text__benefits li {
-    margin-bottom: 8px; }
+.hero__text__title {
+  font-size: 32px; }
+
+.hero__text__subtitle {
+  font-size: 28px; }
+
+.hero__text__title, .hero__text__subtitle {
+  margin-bottom: 16px; }
+
+.hero__text__benefits li {
+  margin-bottom: 8px; }
 
 .pre-form {
   display: inline-flex;
@@ -650,9 +655,79 @@
       border-radius: 16px; }
   .extreme__content {
     max-width: 550px; }
-    .extreme__content__list {
-      display: flex;
-      align-items: center; }
+
+.button {
+  text-decoration: none;
+  padding: 16px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: initial;
+  width: fit-content;
+  text-align: center; }
+  .button--primary {
+    background-color: #ff4667;
+    color: #ffff; }
+    .button--primary:hover {
+      opacity: 0.7;
+      transition: ease-out .2s; }
+  .button--secondary {
+    border: 1px solid #342430;
+    color: #342430; }
+    .button--secondary:hover {
+      opacity: 0.7;
+      transition: ease-out .2s; }
+  .button--tertiary {
+    color: #342430; }
+    .button--tertiary:hover {
+      text-decoration: underline;
+      opacity: 0.7;
+      transition: ease-out .2s; }
+
+.link {
+  color: #3fa1d7;
+  font-weight: bold;
+  text-decoration: none; }
+  .link:hover {
+    color: #0f89cd;
+    transition: ease-out .2s; }
+
+.whats-included {
+  border: 1px solid tomato; }
+  .whats-included__table {
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    max-width: 352px;
+    padding: 52px 36px; }
+    .whats-included__table__title {
+      text-align: center;
+      margin-bottom: 48px; }
+      .whats-included__table__title .material-symbols-rounded {
+        font-size: 2.4em; }
+    .whats-included__table__content {
+      text-align: start; }
+      .whats-included__table__content__wrapper {
+        margin-bottom: 48px; }
+      .whats-included__table__content__cta {
+        display: block;
+        text-align: center; }
+      .whats-included__table__content__show {
+        display: block;
+        text-align: right;
+        margin-bottom: 48px; }
+      .whats-included__table__content__room {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 32px; }
+        .whats-included__table__content__room .material-symbols-rounded {
+          font-size: 1.6em; }
+      .whats-included__table__content ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+        gap: 4px; }
+        .whats-included__table__content ul li .material-symbols-rounded {
+          font-size: 1.2em; }
 
 * {
   margin: 0;
