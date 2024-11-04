@@ -2,6 +2,12 @@
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
 
+.navigation-arrows {
+display: flex;
+gap: 20px;
+justify-content: flex-end;
+margin-bottom: 32px;
+}
 .whats-included {
     display: flex;
     gap: 32px;

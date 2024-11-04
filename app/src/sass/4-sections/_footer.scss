@@ -1,0 +1,54 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+
+.footer {
+    background-color: $text-500;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 96px 0;
+    }
+
+    &__column {
+
+        &__title {
+            color: white;
+        }
+    }
+
+    &__subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__content {
+
+        &__link {
+            color: white;
+
+            &--disabled {
+                color: $neutrals-900;
+                // desabilitar click**
+            }
+        }
+
+        &__logos {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+    }
+
+    &__copy {
+        color: $neutrals-700;
+        display: block;
+        text-align: center;
+        padding-bottom: 48px;
+        padding-top: 16px;
+        border-top: 1px solid $neutrals-700;
+    }
+}
+
