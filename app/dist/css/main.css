@@ -51,10 +51,15 @@
 .container {
   max-width: 1250px;
   margin: auto;
-  background-color: yellow; }
+  padding: 0 16px; }
 
 .section-spacer {
   margin-bottom: 120px; }
+
+.cta {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px; }
 
 .button {
   text-decoration: none;
@@ -201,7 +206,7 @@
     color: #0f89cd; }
 
 .header {
-  padding: 16px 0; }
+  padding-top: 16px; }
   .header__nav-top {
     display: flex;
     justify-content: space-between;
@@ -309,9 +314,11 @@
     display: flex;
     align-items: center;
     margin: 32px 0; }
+    .hero__insurance__text {
+      color: #5d5059; }
     .hero__insurance .material-symbols-rounded {
       font-size: 44px;
-      color: #636363;
+      color: #5d5059;
       padding-right: 4px;
       font-variation-settings: "FILL" 1; }
   .hero__benefit {
@@ -321,19 +328,19 @@
     letter-spacing: -0.2px;
     margin-bottom: 12px;
     font-weight: 500; }
-  .hero__cta {
+  .hero__img {
     display: flex;
-    gap: 16px;
-    margin-top: 24px; }
-  .hero__img img {
-    max-width: 100%;
-    border-radius: 24px;
-    height: auto;
-    display: block; }
-  .hero__img span {
-    display: block;
-    text-align: end;
-    margin-top: 16px; }
+    flex-direction: column;
+    align-items: end; }
+    .hero__img img {
+      max-width: 100%;
+      border-radius: 24px;
+      height: auto;
+      display: block; }
+    .hero__img span {
+      display: inline-block;
+      text-align: end;
+      margin-top: 16px; }
 
 .button {
   text-decoration: none;
