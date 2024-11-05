@@ -9,19 +9,16 @@
     transition: border-color 0.3s ease;
     color: $text-500;
 
-    // Estado Hover
     &:hover {
         border-color: $primary-300;
     }
 
-    // Estado Focus
     &:focus {
         background-color: $neutrals-100;
         border-color: $primary-500;
         outline: none;
     }
 
-    // Estado Disabled
     &:disabled {
         border-color: $text-200;
         background-color: $neutrals-500;
@@ -29,7 +26,6 @@
         opacity: 0.6;
     }
 
-    // Estilo do Placeholder
     &::placeholder {
         color: $text-200;
     }
