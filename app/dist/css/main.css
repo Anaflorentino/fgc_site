@@ -467,10 +467,10 @@
     position: relative; }
     .hero .image-wrapper .form-wrapper {
       position: absolute;
-      top: 10px;
+      top: 16px;
       left: -32px;
       background-color: yellow;
-      width: 347px;
+      width: 342px;
       border-radius: 16px;
       padding: 24px 32px; }
     .hero .image-wrapper .form {
@@ -482,7 +482,8 @@
       .hero .image-wrapper .form__inputs {
         display: flex;
         flex-direction: column;
-        gap: 12px; }
+        gap: 12px;
+        line-height: 100%; }
         .hero .image-wrapper .form__inputs #cleaning-type, .hero .image-wrapper .form__inputs #bathrooms, .hero .image-wrapper .form__inputs #bedrooms {
           padding: 10px 16px;
           font-size: 16px;
