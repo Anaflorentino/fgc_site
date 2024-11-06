@@ -465,13 +465,28 @@
     flex-direction: column;
     align-items: end;
     position: relative; }
-    .hero .image-wrapper .pre-form {
+    .hero .image-wrapper .form-wrapper {
       position: absolute;
-      top: 36px;
+      top: 10px;
       left: -32px;
       background-color: yellow;
-      height: 432px;
-      width: 347px; }
+      width: 347px;
+      border-radius: 16px;
+      padding: 24px 32px; }
+    .hero .image-wrapper .form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px; }
+      .hero .image-wrapper .form__cta {
+        width: 100%; }
+      .hero .image-wrapper .form__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 12px; }
+        .hero .image-wrapper .form__inputs #cleaning-type, .hero .image-wrapper .form__inputs #bathrooms, .hero .image-wrapper .form__inputs #bedrooms {
+          padding: 10px 16px;
+          font-size: 16px;
+          line-height: 100%; }
   .hero__img {
     border-radius: 12px;
     width: 100%;
