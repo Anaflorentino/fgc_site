@@ -16,7 +16,7 @@
 
         &__links {
             display: flex;
-            gap: $spacer-sm;
+            gap: $spacer-xs;
         }
     }
 
@@ -27,7 +27,7 @@
 
         &__links {
             display: flex;
-            gap: $spacer-sm;
+            gap: 0;
         }
     }
 }

@@ -93,15 +93,29 @@
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -230,15 +244,29 @@
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -276,14 +304,14 @@
     margin-bottom: 16px; }
     .header__nav-top__links {
       display: flex;
-      gap: 16px; }
+      gap: 12px; }
   .header__nav-bottom {
     display: flex;
     justify-content: start;
     gap: 16px; }
     .header__nav-bottom__links {
       display: flex;
-      gap: 16px; }
+      gap: 0; }
 
 .testimonials {
   background-color: #f9f9f9;
@@ -435,7 +463,15 @@
   .hero .image-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: end; }
+    align-items: end;
+    position: relative; }
+    .hero .image-wrapper .pre-form {
+      position: absolute;
+      top: 36px;
+      left: -32px;
+      background-color: yellow;
+      height: 432px;
+      width: 347px; }
   .hero__img {
     border-radius: 12px;
     width: 100%;
@@ -449,15 +485,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -541,15 +591,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -593,15 +657,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -648,15 +726,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -719,15 +811,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -773,15 +879,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -827,15 +947,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -892,15 +1026,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -947,15 +1095,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -1032,15 +1194,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -1091,15 +1267,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }
@@ -1143,15 +1333,29 @@ span.hero__soon {
 
 .button {
   text-decoration: none;
-  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
   transition: ease-out 0.2s; }
+  .button--lg {
+    font-size: 16px;
+    padding: 12px 20px; }
+  .button--md {
+    font-size: 14px;
+    padding: 12px 14px; }
+  .button--link {
+    color: #5d5059;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+    transition: none; }
+    .button--link:hover {
+      background-color: #f9f9f9;
+      font-weight: 600;
+      color: #342430; }
   .button--primary {
     background-color: #ff4667;
     color: #ffff; }

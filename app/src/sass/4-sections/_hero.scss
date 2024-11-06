@@ -61,6 +61,16 @@
         display: flex;
         flex-direction: column;
         align-items: end;
+        position: relative;
+
+        .pre-form {
+            position: absolute;
+            top: 36px;
+            left: -32px;
+            background-color: yellow;
+            height: 432px;
+            width: 347px;
+        }
     }
 
     &__img {
