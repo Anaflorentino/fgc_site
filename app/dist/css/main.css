@@ -1,52 +1,82 @@
 .section-title {
   margin-bottom: 40px; }
 
-.text-heading-1 {
-  font-size: 32px;
-  line-height: 1.1;
-  letter-spacing: -0.64px; }
+.text-headline-1 {
+  font-size: 40px;
+  line-height: 122%;
+  letter-spacing: -0.864px; }
 
-.text-heading-2 {
-  font-size: 24px;
-  font-weight: medium;
-  line-height: 1.2;
-  letter-spacing: -0.336px; }
+.text-headline-2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.704px; }
 
-.text-heading-3 {
-  font-size: 20px;
-  font-weight: medium;
-  line-height: 1.6;
-  letter-spacing: -0.336px; }
+.text-headline-3 {
+  font-size: 1.812rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.704px; }
 
-.text-heading-4 {
-  font-size: 18px;
-  font-weight: medium;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+.text-title-1 {
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: -0.52px; }
+
+.text-title-2 {
+  font-size: 1.438rem;
+  font-weight: 500;
+  line-height: 137%;
+  letter-spacing: -0.52px; }
+
+.text-title-3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 146%;
+  letter-spacing: -0.32px; }
 
 .text-body-large {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: -0.198px; }
 
-.text-body-large-bold {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+.text-body-large--semibold {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.144px; }
 
-.text-body-small {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: 0px; }
+.text-body-large--bold {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.144px; }
+
+.text-body-medium {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: -0.144px; }
+
+.text-body-medium--semibold {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.096px; }
 
 .text-label {
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: 0px; }
+  font-size: 0.812rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.056px; }
+
+.text-label {
+  font-size: 0.812rem;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -0.056px; }
 
 .container {
   max-width: 1250px;
@@ -63,10 +93,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -120,59 +151,90 @@
   .input-field::placeholder {
     color: #a29aa0; }
 
-.text-heading-1 {
-  font-size: 32px;
-  line-height: 1.1;
-  letter-spacing: -0.64px; }
+.text-headline-1 {
+  font-size: 40px;
+  line-height: 122%;
+  letter-spacing: -0.864px; }
 
-.text-heading-2 {
-  font-size: 24px;
-  font-weight: medium;
-  line-height: 1.2;
-  letter-spacing: -0.336px; }
+.text-headline-2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.704px; }
 
-.text-heading-3 {
-  font-size: 20px;
-  font-weight: medium;
-  line-height: 1.6;
-  letter-spacing: -0.336px; }
+.text-headline-3 {
+  font-size: 1.812rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.704px; }
 
-.text-heading-4 {
-  font-size: 18px;
-  font-weight: medium;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+.text-title-1 {
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: -0.52px; }
+
+.text-title-2 {
+  font-size: 1.438rem;
+  font-weight: 500;
+  line-height: 137%;
+  letter-spacing: -0.52px; }
+
+.text-title-3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 146%;
+  letter-spacing: -0.32px; }
 
 .text-body-large {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: -0.198px; }
 
-.text-body-large-bold {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+.text-body-large--semibold {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.144px; }
 
-.text-body-small {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: 0px; }
+.text-body-large--bold {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.144px; }
+
+.text-body-medium {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: -0.144px; }
+
+.text-body-medium--semibold {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.096px; }
 
 .text-label {
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: 0px; }
+  font-size: 0.812rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.056px; }
+
+.text-label {
+  font-size: 0.812rem;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -0.056px; }
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -236,8 +298,9 @@
 .testimonials__cards {
   display: flex;
   gap: 32px;
-  overflow: hidden;
-  margin-bottom: 32px; }
+  overflow: auto;
+  margin-bottom: 32px;
+  height: 490px; }
   .testimonials__cards__item {
     height: 460px;
     min-width: 306px;
@@ -249,105 +312,148 @@
   justify-content: flex-end;
   align-items: center; }
 
-.text-heading-1 {
-  font-size: 32px;
-  line-height: 1.1;
-  letter-spacing: -0.64px; }
+.text-headline-1 {
+  font-size: 40px;
+  line-height: 122%;
+  letter-spacing: -0.864px; }
 
-.text-heading-2 {
-  font-size: 24px;
-  font-weight: medium;
-  line-height: 1.2;
-  letter-spacing: -0.336px; }
+.text-headline-2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.704px; }
 
-.text-heading-3 {
-  font-size: 20px;
-  font-weight: medium;
-  line-height: 1.6;
-  letter-spacing: -0.336px; }
+.text-headline-3 {
+  font-size: 1.812rem;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.704px; }
 
-.text-heading-4 {
-  font-size: 18px;
-  font-weight: medium;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+.text-title-1 {
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: -0.52px; }
+
+.text-title-2 {
+  font-size: 1.438rem;
+  font-weight: 500;
+  line-height: 137%;
+  letter-spacing: -0.52px; }
+
+.text-title-3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 146%;
+  letter-spacing: -0.32px; }
 
 .text-body-large {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: -0.198px; }
 
-.text-body-large-bold {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.6;
-  letter-spacing: -0.2px; }
+.text-body-large--semibold {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.144px; }
 
-.text-body-small {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: 0px; }
+.text-body-large--bold {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.144px; }
+
+.text-body-medium {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: -0.144px; }
+
+.text-body-medium--semibold {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.096px; }
 
 .text-label {
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.6;
-  letter-spacing: 0px; }
+  font-size: 0.812rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.056px; }
+
+.text-label {
+  font-size: 0.812rem;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -0.056px; }
 
 .hero {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
-  margin-top: 48px; }
+  gap: 64px;
+  margin-top: 52px; }
+  .hero__text {
+    max-width: 42%; }
   .hero__title {
-    margin-bottom: 16px;
-    font-size: 32px;
-    line-height: 1.1;
-    letter-spacing: -0.64px; }
+    margin-bottom: 12px;
+    font-size: 40px;
+    line-height: 122%;
+    letter-spacing: -0.864px; }
     .hero__title--color {
       color: #ff6b85; }
   .hero__subtitle {
-    color: #5d5059; }
+    color: #5d5059;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 146%;
+    letter-spacing: -0.198px;
+    margin-bottom: 28px; }
   .hero__insurance {
     display: flex;
-    align-items: center;
-    margin: 32px 0; }
+    align-items: top;
+    margin: 24px 0 0 0; }
     .hero__insurance__text {
-      color: #5d5059; }
+      color: #3fa1d7;
+      font-size: 14px; }
     .hero__insurance .material-symbols-rounded {
-      font-size: 44px;
-      color: #5d5059;
+      font-size: 42px;
+      color: #3fa1d7;
       padding-right: 4px;
       font-variation-settings: "FILL" 1; }
+  .hero__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; }
   .hero__benefit {
-    font-size: 18px;
-    font-weight: medium;
-    line-height: 1.6;
-    letter-spacing: -0.2px;
-    margin-bottom: 12px;
-    font-weight: 500; }
-  .hero__img {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.096px; }
+  .hero .image-wrapper {
     display: flex;
     flex-direction: column;
     align-items: end; }
-    .hero__img img {
-      max-width: 100%;
-      border-radius: 24px;
-      height: auto;
-      display: block; }
-    .hero__img span {
-      display: inline-block;
-      text-align: end;
-      margin-top: 16px; }
+  .hero__img {
+    border-radius: 12px;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    object-position: left right;
+    margin-bottom: 16px; }
+
+span.hero__soon {
+  font-size: 13px; }
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -435,10 +541,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -486,10 +593,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -540,10 +648,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -610,10 +719,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -663,10 +773,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -716,10 +827,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -780,10 +892,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -834,10 +947,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -918,10 +1032,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -976,10 +1091,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -1027,10 +1143,11 @@
 
 .button {
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 12px 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 1;
   text-transform: initial;
   width: fit-content;
   text-align: center;
@@ -1095,7 +1212,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Axiforma', Arial, Helvetica, sans-serif;
   color: #342430; }
 
 a {
@@ -1103,3 +1220,12 @@ a {
 
 li {
   list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-size: scale-down;
+  background-repeat: no-repeat;
+  shape-margin: 1rem; }

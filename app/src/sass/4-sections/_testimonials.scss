@@ -16,8 +16,9 @@
 .testimonials__cards {
     display: flex;
     gap: 32px;
-    overflow: hidden;  
+    overflow: auto;  
     margin-bottom: 32px;
+    height: 490px;
 
 
     &__item {
