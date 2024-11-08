@@ -1,3 +1,11 @@
+// Breakpoints
+$breakpoint-lg: 863px;
+$breakpoint-md: 740px;
+$breakpoint-sm: 494px;
+$breakpoint-xs: 380px;
+
+
+  
   .container {
     max-width: 1250px;
     margin: auto;
@@ -5,32 +13,32 @@
 
 @media (min-width: 863px) {
   .container {
-    padding: 0 60px;
+    padding: 20px 60px;
   }
 }
 
 @media (max-width: 862px) {
   .container {
-    padding: 0 40px;
+    padding: 20px 40px;
   }
 }
 
 @media (max-width: 792px) {
   .container {
-    padding: 0 32px;
+    padding: 20px 32px;
   }
 }
 
 @media (max-width: 494px) {
   .container {
-    padding: 0 20px;
+    padding: 20px 20px;
   }
 }
 
 
 @media (max-width: 380px) {
   .container {
-    padding: 0 20px;
+    padding: 20px 20px;
   }
 }
 
