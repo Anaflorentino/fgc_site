@@ -5,76 +5,82 @@
 @import "../3-modules/buttons";
 
 .testimonials {
-    background-color: $neutrals-100;
+    background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%);
     padding: 48px 0;
-}
 
-.testimonials__title {
-    display: flex;
-    align-items: end;
-    gap: 24px;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
+    &__title {
+        display: flex;
+        align-items: end;
+        gap: 24px;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
 
-.testimonials__cards {
-    display: flex;
-    gap: 32px;
-    overflow: auto;
-    margin-bottom: 32px;
+    &__cards {
+        display: flex;
+        gap: 32px;
+        overflow: auto;
 
-    &__item {
-        border-radius: $br-md;
-        height: fit-content;
-        min-width: 306px;
-        border: 1px solid $neutrals-500;
-        background-color: $bg-color;
-        padding: 24px;
+        &__item {
+            border-radius: $br-md;
+            height: fit-content;
+            min-width: 306px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 17px 45px -30px rgba($text-500, 0.25);
+            padding: 24px;
+        }
+
+    }
+
+    &__footer {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+
+            span, strong {
+                color: $text-200;
+            }
+        }
+
+        &__brands {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            align-items: center;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-left: 16px;
+    }
+
+
+    &__header {
+        display: flex;
+        gap: 8px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+
+        p,
+        span,
+        h3 {
+            line-height: 100%;
+        }
     }
 
 }
 
-.testimonials__footer {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-}
 
-.testimonials__navigation {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-left: 16px;
-}
-
-.testimonials__footer__brands {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    align-items: center;
-}
-
-.testimonials__footer__text {
-    display: flex;
-    flex-direction: column;
-}
-
-.testimonials__header {
-    display: flex;
-    gap: 8px;
-    justify-content: space-between;
-    align-items: center;
-
-    p, span, h3 {
-        line-height: 100%;
-    }
-}
-
-.testimonials__header {
-    margin-bottom: 16px;
-}
-
-
+// Cards content
 .header__name {
     height: 40px;
     width: 40px;
@@ -98,6 +104,7 @@
     font-size: 12px;
     flex-direction: column;
     gap: 10px;
+
     span {
         color: $text-200;
     }
@@ -155,6 +162,12 @@
         font-weight: bold;
     }
 
+}
+
+.testimonials__images {
+    img {
+        border-radius: 8px;
+    }
 }
 
 .last__image {

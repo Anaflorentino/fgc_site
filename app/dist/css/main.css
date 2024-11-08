@@ -368,60 +368,54 @@
     color: #0f89cd; }
 
 .testimonials {
-  background-color: #f9f9f9;
+  background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%);
   padding: 48px 0; }
-
-.testimonials__title {
-  display: flex;
-  align-items: end;
-  gap: 24px;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-
-.testimonials__cards {
-  display: flex;
-  gap: 32px;
-  overflow: auto;
-  margin-bottom: 32px; }
-  .testimonials__cards__item {
-    border-radius: 8px;
-    height: fit-content;
-    min-width: 306px;
-    border: 1px solid #ebebeb;
-    background-color: #ffff;
-    padding: 24px; }
-
-.testimonials__footer {
-  display: flex;
-  align-items: start;
-  justify-content: space-between; }
-
-.testimonials__navigation {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  margin-left: 16px; }
-
-.testimonials__footer__brands {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  align-items: center; }
-
-.testimonials__footer__text {
-  display: flex;
-  flex-direction: column; }
-
-.testimonials__header {
-  display: flex;
-  gap: 8px;
-  justify-content: space-between;
-  align-items: center; }
-  .testimonials__header p, .testimonials__header span, .testimonials__header h3 {
-    line-height: 100%; }
-
-.testimonials__header {
-  margin-bottom: 16px; }
+  .testimonials__title {
+    display: flex;
+    align-items: end;
+    gap: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .testimonials__cards {
+    display: flex;
+    gap: 32px;
+    overflow: auto; }
+    .testimonials__cards__item {
+      border-radius: 8px;
+      height: fit-content;
+      min-width: 306px;
+      background-color: white;
+      box-shadow: 0px 17px 45px -30px rgba(52, 36, 48, 0.25);
+      padding: 24px; }
+  .testimonials__footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between; }
+    .testimonials__footer__text {
+      display: flex;
+      flex-direction: column; }
+      .testimonials__footer__text span, .testimonials__footer__text strong {
+        color: #a29aa0; }
+    .testimonials__footer__brands {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: center; }
+  .testimonials__navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 16px; }
+  .testimonials__header {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px; }
+    .testimonials__header p,
+    .testimonials__header span,
+    .testimonials__header h3 {
+      line-height: 100%; }
 
 .header__name {
   height: 40px;
@@ -484,6 +478,9 @@
   .flash-logo p {
     font-size: 14px;
     font-weight: bold; }
+
+.testimonials__images img {
+  border-radius: 8px; }
 
 .last__image {
   display: inline; }
