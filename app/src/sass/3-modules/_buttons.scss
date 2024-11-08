@@ -14,7 +14,8 @@
 
 .button {
     text-decoration: none;
-    border-radius: 8px;
+    display: block;
+    border-radius: 10px;
     font-weight: 600;
     line-height: 1;
     text-transform: initial;
@@ -22,15 +23,16 @@
     text-align: center;
     transition: ease-out 0.2s;
 
-&--lg {
-    font-size: 16px;
-    padding: 1rem 1.5rem;
-}
+    &--lg {
+        font-size: 16px;
+        padding: 1rem 1.5rem;
+    }
 
-&--md {
-    font-size: 14px;
-    padding: 12px 14px;
-}
+    &--md {
+        border-radius: 8px;
+        font-size: 14px;
+        padding: 12px 14px;
+    }
 
 
 
@@ -80,9 +82,31 @@
     color: $secondary-400;
     font-weight: bold;
     text-decoration: none;
+    font-size: 14px;
 
     &:hover {
         @include button-hover($secondary-500);
     }
 }
 
+.tab {
+    display: block;
+    font-size: .84rem;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid $neutrals-500;
+    color: $text-400;
+
+    &--is-active {
+   
+        color: $text-500;
+        border-color: $secondary-400;
+        background-color: $neutrals-100;
+}
+
+    &:hover {
+        border-color: $secondary-400;
+    }
+
+   
+}

@@ -427,9 +427,9 @@
         </section>
 
         <!-- W h y - c h o o s e - u s -->
-        <section class="why-choose container section-spacer" aria-label="Why Choose Us">
+        <section class="why-choose container " aria-label="Why Choose Us">
 
-            <div class="why-choose__accordion">
+            <div class="why-choose__accordion section-spacer">
                 <h2 class="section__title">Why choose Flash Guys?</h2>
                 <button class="why-choose__accordion__item why-choose__accordion__item--is-open">
                     <h3 class="why-choose__accordion__title">Super qualified 24/7 professionals<a href="#"><span
@@ -477,51 +477,65 @@
         </section>
 
         <!-- p r o m o t i o n a l  - b a n n e r -->
-        <aside class="promotion container section-spacer" aria-label="Promotional Banner">
-            <div class="promotion__banner">
-                <a href="#"> <img src="../fgc_site/assets/Images/banner.png" alt="Halloween 15%Off Promotion Banner"
+        <aside class="promotion container" aria-label="Promotional Banner">
+            <div class="promotion__banner section-spacer">
+                <a href="#"> <img src="./assets/Images/banner.png" alt="Halloween 15%Off Promotion Banner"
                         class="promotion__banner__img"></a>
         </aside>
 
         <!-- o u r  -  s e r v i c e s -->
         <section class="services container section-spacer" aria-label="Our Services">
-            <div>
-                <h2 class="section__title--pairing">Discover our services</h2>
+            <div class="section-header">
+                <h2 class="section__title">Discover our services</h2>
                 <p class="section__subtitle">From homes to offices, we got it all covered</p>
             </div>
 
             <nav aria-label="Services Navigation">
                 <ul class="services__menu">
-                    <li><a href="">Deep Cleaning</a></li>
-                    <li><a href="">Standard Cleaning</a></li>
-                    <li><a href="">Move-in/Move-out</a></li>
-                    <li><a href="">Carpets & Upholstery</a></li>
-                    <li><a href="">Extreme Cleaning</a></li>
-                    <li><a href="">Commercial</a></li>
-                    <li><a href="">Post-Construction</a></li>
-                    <li><a href="">AirBnb Cleaning</a></li>
+                    <li><a href="" class="tab tab--is-active"><img src="./assets/Icons/cleanings/deep.svg" alt="Deep Cleaning Service star icon"
+                                width="18px" height="18px">Deep Cleaning</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/standard.svg" alt="Standard Cleaning Service home icon" width="14px"
+                                height="14px">Standard Cleaning</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/move.svg" alt="Move-in/Move-out Cleaning Service home icon" width="16px"
+                                height="16px">Move-in/Move-out</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/carpet.svg" alt="Carpets & Upholstery Cleaning Services couch icon" width="16px"
+                                height="16px">Carpets & Upholstery</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/extreme.svg" alt="Extreme Cleaning Service icon" width="16px"
+                                height="16px">Extreme Cleaning</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/commercial.svg" alt="Commercial Cleaning Service building icon" width="14px"
+                                height="14px">Commercial</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/construction.svg" alt="Post-Construction Cleaning Service operator icon" width="16px"
+                                height="16px">Post-Construction</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/air.svg" alt="AirBnb Cleaning Service icon - AirBnb logo" width="16px"
+                                height="16px">AirBnb Cleaning</a></li>
+                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/eco.svg" alt="Eco-friendly Cleaning Service leaf icon" width="16px"
+                                height="16px">Eco-friendly</a></li>
                 </ul>
             </nav>
 
             <!-- Deep Cleaning -->
-            <article class="services__item">
+            <article class="services__item --is-active">
                 <h3 class="services__item__title">Deep Cleaning</h3>
-                <p class="services__item__text">A heavy clean to refresh your home. Remove built-up dirt and grime to
+                <p class="services__item__text section__body">A heavy clean to refresh your home. Remove built-up dirt
+                    and grime to
                     make your space feel brand new.
                     Deep Cleaning is the top choice for thoroughly cleaning your home down to the smallest detail.
                     Perfect for preparing for a special occasion or simply treating yourself. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table to...<a class="link" href="#"> 5+
+                            more</a></p>
+
                 </div>
-                <a href="#" class="button button--md button--secondary">Free estimate</a>
-                <a href="#" class="button button--md button--primary">Book now</a>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
             </article>
 
             <!-- Standard Cleaning -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">Standard Cleaning</h3>
                 <p class="services__item__text">An economical, fast, but very efficient cleaning. Perfect for everyday
                     cleaning for a spotless home.
@@ -532,12 +546,14 @@
                         Making beds . Clutter . Electronics . Table tops</p>
                     <a href="#">5+ more</a>
                 </div>
-                <a href="#" class="button button--md button--secondary">Free estimate</a>
-                <a href="#" class="button button--md button--primary">Book now</a>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
             </article>
 
             <!-- Move-in/Move-out -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">Move-in/Move-out</h3>
                 <p class="services__item__text">Moving? Let us handle the cleaning! Complete cleaning to get your old
                     place ready for the next tenant
@@ -549,12 +565,14 @@
                         Making beds . Clutter . Electronics . Table tops</p>
                     <a href="#">5+ more</a>
                 </div>
-                <a href="#" class="button button--md button--secondary">Free estimate</a>
-                <a href="#" class="button button--md button--primary">Book now</a>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
             </article>
 
             <!-- Carpets & Upholsery Cleaning -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">Carpets & Upholsery Cleaning</h3>
                 <p class="services__item__text">Refresh your home with our expert carpet and upholstery cleaning
                     service. We’ll bring new life to your living spaces, ensuring a clean and comfortable environment
@@ -563,12 +581,14 @@
                     <p>Easily find this service in our additional section while booking</p>
                     <a href="#">5+ more</a>
                 </div>
-                <a href="#" class="button button--md button--secondary">Free estimate</a>
-                <a href="#" class="button button--md button--primary">Book now</a>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
             </article>
 
             <!-- Post Construction -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">Post Construction</h3>
                 <p class="services__item__text">Our post-construction cleaning service is designed to transform your
                     newly renovated space into a
@@ -580,12 +600,14 @@
                         Making beds . Clutter . Electronics . Table tops</p>
                     <a href="#">5+ more</a>
                 </div>
-                <a href="#" class="button button--md button--secondary">Free estimate</a>
-                <a href="#" class="button button--md button--primary">Book now</a>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
             </article>
 
             <!-- Commercial Cleaning -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">Commercial Cleaning</h3>
                 <p class="services__item__text">Create a clean and professional workspace that boosts productivity and
                     impresses clients. Our
@@ -596,12 +618,14 @@
                         Making beds . Clutter . Electronics . Table tops</p>
                     <a href="#">5+ more</a>
                 </div>
-                <a href="#" class="button button--md button--secondary">Free estimate</a>
-                <a href="#" class="button button--md button--primary">Book now</a>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
             </article>
 
             <!-- Extreme Cleaning -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">Extreme Cleaning</h3>
                 <p class="services__item__text">Is your place overwhelmed by clutter, damage, or neglect? Our Extreme
                     Cleaning service is designed to
@@ -617,7 +641,7 @@
             </article>
 
             <!-- AirBnb Cleaning -->
-            <article class="services__item">
+            <article class="services__item disabled">
                 <h3 class="services__item__title">AirBnb Cleaning</h3>
                 <p class="services__item__text">Keep your Airbnb guests coming back with our top-rated cleaning service.
                     We'll ensure your guests will feel like home, helping you maintain a 5-star rating. </p>
@@ -627,9 +651,29 @@
                         Making beds . Clutter . Electronics . Table tops</p>
                     <a href="#">5+ more</a>
                 </div>
+                <div class="cta">
+                    <a href="#" class="button button--md button--secondary">Free estimate</a>
+                    <a href="#" class="button button--md button--primary">Book now</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Eco-friendly -->
+        <article class="services__item disabled">
+            <h3 class="services__item__title">Eco-friendly</h3>
+            <p class="services__item__text">Keep your Airbnb guests coming back with our top-rated cleaning service.
+                We'll ensure your guests will feel like home, helping you maintain a 5-star rating. </p>
+            <div class="services__item__included">
+                <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
+                    Making beds . Clutter . Electronics . Table tops</p>
+                <a href="#">5+ more</a>
+            </div>
+            <div class="cta">
                 <a href="#" class="button button--md button--secondary">Free estimate</a>
                 <a href="#" class="button button--md button--primary">Book now</a>
-            </article>
+            </div>
+        </article>
         </section>
 
         <!-- o u r  - t e a m -->

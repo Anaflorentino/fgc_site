@@ -17,7 +17,9 @@
     }
   
     &__subtitle {
-      @include text-style('title', 'sm');
+      @include text-style('body', 'lg', 'regular');
+      margin-top: 12px;
+      color: $text-400;
     }
   
     &__body {
