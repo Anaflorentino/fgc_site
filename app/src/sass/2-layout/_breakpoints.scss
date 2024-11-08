@@ -11,19 +11,9 @@ $breakpoint-xs: 380px;
     margin: auto;
   }
 
-@media (min-width: 863px) {
-  .container {
-    padding: 20px 60px;
-  }
-}
 
-@media (max-width: 862px) {
-  .container {
-    padding: 20px 40px;
-  }
-}
 
-@media (max-width: 792px) {
+@media (min-width: 495px) {
   .container {
     padding: 20px 32px;
   }

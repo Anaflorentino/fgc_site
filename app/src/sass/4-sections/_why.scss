@@ -1,13 +1,19 @@
 @import "../1-base/colors";
 @import "../1-base/sizes";
 @import "../1-base/sizes";
+@import "../2-layout/breakpoints";
 @import "../3-modules/buttons";
 
 .why-choose {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 48px;
+    gap: 24px;
+
+    
+    @media (max-width: $breakpoint-lg) {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -42,6 +48,7 @@
     width: 100%;
     border-radius: $br-lg;
     margin-bottom: $spacer-md;
+    margin-top: $spacer-lg;
 
 
     &--is-open {
@@ -58,6 +65,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    text-align: start;
 }
 
 .why-choose__accordion__text {
