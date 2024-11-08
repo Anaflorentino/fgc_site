@@ -6,23 +6,15 @@
 
 .testimonials {
     background-color: $neutrals-100;
-    padding: 76px 214px;
-
-    @media (max-width: $breakpoint-md) {
-        padding: 48px 20px;
-    }
+    padding: 48px 0;
 }
 
 .testimonials__title {
     display: flex;
-    align-items: center;
+    align-items: end;
+    gap: 24px;
     justify-content: space-between;
-
-    @media (max-width: $breakpoint-md) {
-        flex-direction: column;
-        gap: 24px;
-        align-items: flex-start;
-    }
+    flex-wrap: wrap
 }
 
 .testimonials__cards {
@@ -39,9 +31,29 @@
     }
 }
 
+.testimonials__footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
 .testimonials__navigation {
     display: flex;
     gap: 20px;
-    justify-content: flex-end;
     align-items: center;
+    margin-left: 16px;
 }
+
+.testimonials__footer__brands {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+align-items: center;
+}
+
+.testimonials__footer__text {
+    display: flex;
+    flex-direction: column;
+}
+
+
