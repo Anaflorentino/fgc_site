@@ -1,17 +1,28 @@
 @import "../1-base/typography";
 @import "../1-base/colors";
 @import "../1-base/sizes";
+@import "../2-layout/breakpoints";
 @import "../3-modules/buttons";
 
 .testimonials {
     background-color: $neutrals-100;
     padding: 76px 214px;
+
+    @media (max-width: $breakpoint-md) {
+        padding: 48px 20px;
+    }
 }
 
 .testimonials__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: $breakpoint-md) {
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
 }
 
 .testimonials__cards {
@@ -20,7 +31,6 @@
     overflow: auto;
     margin-bottom: 32px;
     height: 490px;
-
 
     &__item {
         height: 460px;
