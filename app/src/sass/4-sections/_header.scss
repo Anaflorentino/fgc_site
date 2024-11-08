@@ -14,9 +14,15 @@
         align-items: center;
         margin-bottom: $spacer-sm;
 
+      
+
         &__links {
             display: flex;
             gap: $spacer-xs;
+
+            @media (max-width: 460px) {
+                display: none;
+            }
         }
     }
 
@@ -24,6 +30,10 @@
         display: flex;
         justify-content: start;
         gap: $spacer-sm;
+
+        @media (max-width: 708px) {
+            display: none;
+        }
 
         &__links {
             display: flex;

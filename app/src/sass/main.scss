@@ -1,8 +1,10 @@
 @import "./1-base/utilities";
 @import "./1-base/colors";
 @import "./1-base/typography";
+@import "./3-modules/text";
 @import "./1-base/sizes";
 @import "./2-layout/containers";
+@import "./2-layout/breakpoints";
 @import "./2-layout/components";
 @import "./3-modules/buttons";
 @import "./3-modules/inputs";

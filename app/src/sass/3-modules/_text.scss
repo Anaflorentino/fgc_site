@@ -1,0 +1,44 @@
+@import "../1-base/sizes";
+@import "../1-base/typography";
+@import "../1-base/colors";
+
+// Componentes globais de texto
+.section {
+    &__supertitle, &__title, &__subtitle, &__paragraph  {
+        color: $text-500;
+    }
+
+    &__supertitle {
+      @include text-style('headline', 'lg');
+    }
+
+    &__title {
+        @include text-style('headline', 'md');
+    }
+  
+    &__subtitle {
+      @include text-style('title', 'sm');
+    }
+  
+    &__body {
+      @include text-style('body', 'md');
+    }
+
+    &__list {
+        @include text-style('body', 'md', 'bold');
+    }
+
+    &__label {
+        @include text-style('label', 'default');
+        color: $text-300;
+    }
+  
+    &__title--highlight, &__subtitle--highlight, &__body--highlight {
+      color: $primary-500;
+    }
+
+    &__subtitle--center, &__title--center, &__body--center {
+      text-align: center;
+    }
+  }
+  

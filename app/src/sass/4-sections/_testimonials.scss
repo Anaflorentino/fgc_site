@@ -1,5 +1,7 @@
+@import "../1-base/typography";
 @import "../1-base/colors";
 @import "../1-base/sizes";
+@import "../3-modules/buttons";
 
 .testimonials {
     background-color: $neutrals-100;
@@ -10,13 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 32px;
-
 }
+
 .testimonials__cards {
     display: flex;
     gap: 32px;
-    overflow: auto;  
+    overflow: auto;
     margin-bottom: 32px;
     height: 490px;
 
@@ -26,7 +27,6 @@
         min-width: 306px;
         border: 1px solid $neutrals-500;
     }
-
 }
 
 .testimonials__navigation {
