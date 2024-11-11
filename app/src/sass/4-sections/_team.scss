@@ -22,6 +22,13 @@
         gap: 24px;
     }
 
+    
+    @media (max-width: $breakpoint-md) {
+        overflow: auto;
+        align-items: start;
+        padding-bottom: 24px;
+    }
+
     &__item {
         border-radius: $br-lg;
         background-color: $bg-color;

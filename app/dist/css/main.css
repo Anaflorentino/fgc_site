@@ -978,6 +978,11 @@
       flex-direction: column;
       align-items: center;
       gap: 24px; } }
+  @media (max-width: 740px) {
+    .team__cards {
+      overflow: auto;
+      align-items: start;
+      padding-bottom: 24px; } }
   .team__cards__item {
     border-radius: 12px;
     background-color: #ffff;
