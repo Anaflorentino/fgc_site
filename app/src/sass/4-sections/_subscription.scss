@@ -16,6 +16,19 @@
     gap: 32px;
     justify-content: center;
 
+    @media (max-width: $breakpoint-md) {
+        overflow: auto;
+        justify-content: start;
+        padding-bottom: 24px;
+    }
+
+    
+    @media (max-width: $breakpoint-sm) {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
     &__item {
         border-radius: $br-md;
         height: fit-content;

@@ -1237,6 +1237,16 @@
   display: flex;
   gap: 32px;
   justify-content: center; }
+  @media (max-width: 740px) {
+    .subscription__cards {
+      overflow: auto;
+      justify-content: start;
+      padding-bottom: 24px; } }
+  @media (max-width: 494px) {
+    .subscription__cards {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px; } }
   .subscription__cards__item {
     border-radius: 8px;
     height: fit-content;
