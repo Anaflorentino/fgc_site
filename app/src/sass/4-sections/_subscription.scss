@@ -17,8 +17,85 @@
     justify-content: center;
 
     &__item {
+        border-radius: $br-md;
+        height: fit-content;
+        min-width: 294px;
+        background-color: $bg-color;
         border: 1px solid $neutrals-500;
-        width: 326px;
-        height: 488px;
+        box-shadow: 0px 17px 45.6px -30px rgba(0, 0, 0, 0.15);
+        padding: 36px 32px 40px 32px;
+      
+    }
+}
+
+.plan {
+
+    &__name,
+    &__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        margin-bottom: 16px;
+        h3 {
+            color: $text-400;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.46;
+            letter-spacing: -1.6%;
+        }
+    }
+
+
+        &__price {
+            h4 {
+                font-size: 23px;
+                font-weight: 700;
+                letter-spacing: -2%;
+            }
+
+            span {
+                color: $text-200;
+            }
+        }
+
+        &__visit {
+            font-size: 18px;
+            color: $text-200;
+            font-weight: 600;
+        }
+
+    &__discount {
+        background-color: #4BFFCC;
+        text-transform: uppercase;
+        padding: 6px 12px;
+        font-size: 13px;
+        border-radius: $br-full;
+        line-height: 1;
+        font-weight: 600;
+    }
+
+    &__list {
+
+        margin-top: 20px;
+        margin-bottom: 32px;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: $text-400;
+        }
+    }
+
+    &__disclaimer {
+        color: $text-200;
+        display: block;
+        text-align: center;
+        margin-top: 16px;
     }
 }
