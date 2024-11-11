@@ -1008,7 +1008,7 @@
   display: flex;
   gap: 32px;
   justify-content: center; }
-  @media (max-width: 740px) {
+  @media (max-width: 863px) {
     .team__cards {
       overflow: auto;
       justify-content: start;
@@ -1237,7 +1237,7 @@
   display: flex;
   gap: 32px;
   justify-content: center; }
-  @media (max-width: 740px) {
+  @media (max-width: 863px) {
     .subscription__cards {
       overflow: auto;
       justify-content: start;
@@ -1380,20 +1380,56 @@
   .tab:hover {
     border-color: #3fa1d7; }
 
-.coupons {
-  padding: 48px 0; }
-  .coupons__title {
-    text-align: center;
-    margin-bottom: 48px; }
-  .coupons__combos, .coupons__discount {
-    display: flex;
-    gap: 32px;
-    justify-content: center;
-    margin-bottom: 48px; }
-    .coupons__combos__item, .coupons__discount__item {
-      border: 1px solid #ebebeb;
-      height: 340px;
-      width: 100%; }
+.coupons__title {
+  text-align: center;
+  margin-bottom: 48px; }
+
+.coupons__combos, .coupons__discount {
+  display: flex;
+  gap: 32px 16px;
+  justify-content: center;
+  margin-bottom: 48px;
+  height: 100%;
+  flex-wrap: wrap; }
+  .coupons__combos__item, .coupons__discount__item {
+    text-align: center; }
+
+.coupons__combos__item {
+  padding: 32px 16px;
+  width: 227px;
+  min-width: 227px;
+  background-color: #e7f3fa;
+  border-radius: 12px; }
+
+.combo h3 {
+  margin: 14px 0; }
+
+.combo__description {
+  font-size: 14px;
+  line-height: 130%; }
+
+.combo__includes {
+  color: #776c74;
+  display: block;
+  line-height: 144%;
+  margin-top: 14px; }
+  .combo__includes b {
+    color: #776c74; }
+
+.coupons__discount__item {
+  background-color: #ffedf0;
+  padding: 32px;
+  width: 174px;
+  min-width: 174px;
+  border-radius: 12px; }
+
+.coupon h3 {
+  margin: 14px 0;
+  line-height: 120%; }
+
+.coupon__description {
+  color: #776c74;
+  line-height: 120%; }
 
 .button {
   text-decoration: none;
