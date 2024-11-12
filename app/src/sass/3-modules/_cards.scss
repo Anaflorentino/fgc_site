@@ -1,9 +1,0 @@
-@import "../1-base/colors";
-@import "../1-base/sizes";
-
-.card {
-    border-radius: $br-md;
-    height: fit-content;
-    background-color: $bg-color;
-    box-shadow: 0px 17px 45px -30px rgba($text-500, 0.25);
-}

@@ -66,7 +66,7 @@
 
     <main>
         <!-- h e r o -->
-        <section class="section hero container section-spacer" aria-label="Reliable Cleaning Services Hero Section">
+        <section class="section hero container" aria-label="Reliable Cleaning Services Hero Section">
             <div class="hero__text">
                 <h1 class="section__supertitle hero__title">Best reliable cleaning services for <span
                         class="section__supertitle section__title--highlight">
@@ -158,7 +158,7 @@
         </section>
 
         <!-- t e s t i m o n i a l s -->
-        <section class="testimonials section-spacer" aria-label="Client's Testimonials">
+        <section class="testimonials" aria-label="Client's Testimonials">
             <div class="testimonials__title container">
                 <h2 class="section__title">What our clients say</h2>
                 <ul>
@@ -427,7 +427,7 @@
         </section>
 
         <!-- W h y - c h o o s e - u s -->
-        <section class="why-choose container section-spacer" aria-label="Why Choose Us">
+        <section class="why-choose container" aria-label="Why Choose Us">
 
             <div class="why-choose__accordion">
                 <h2 class="section__title">Why choose Flash Guys?</h2>
@@ -478,13 +478,13 @@
 
         <!-- p r o m o t i o n a l  - b a n n e r -->
         <aside class="promotion container" aria-label="Promotional Banner">
-            <div class="promotion__banner section-spacer">
+            <div class="promotion__banner">
                 <a href="#"> <img src="./assets/Images/banner.png" alt="Halloween 15%Off Promotion Banner"
                         class="promotion__banner__img"></a>
         </aside>
 
         <!-- o u r  -  s e r v i c e s -->
-        <section class="services container section-spacer" aria-label="Our Services">
+        <section class="services container" aria-label="Our Services">
             <div class="section-header">
                 <h2 class="section__title">Discover our services</h2>
                 <p class="section__subtitle">From homes to offices, we got it all covered</p>
@@ -774,7 +774,7 @@
         </section>
 
         <!-- o u r  - w o r k // resolver !!! -->
-        <!-- <section class="work container section-spacer" aria-label="Our Work - Gallery">
+        <!-- <section class="work container" aria-label="Our Work - Gallery">
             <div class="work__bg">
                 <div class="work__title">
                     <h2 class="section__title--pairing">Our Work</h2>
@@ -802,7 +802,7 @@
         </section> -->
 
         <!-- s u b s c r i p t i o n -->
-        <section class="subscription container section-spacer" aria-label="Our Subscription Plans">
+        <section class="subscription container" aria-label="Our Subscription Plans">
             <div class="subscription__title">
                 <h2 class="section__title--pairing">Discover our subscription plans</h2>
                 <p class="section__subtitle">For every lifestyle, a customized and flexible plan</p>
@@ -893,7 +893,7 @@
         </section>
 
         <!-- c o u p o n s -->
-        <section class="coupons container section-spacer" aria-label="Coupons and Promotions">
+        <section class="coupons container" aria-label="Coupons and Promotions">
             <h2 class="coupons__title section__title">Exclusive cleaning coupons for a sparkling, fresh makeover</h2>
             <div class="coupons__combos">
                 <!-- combo-1 -->
@@ -998,7 +998,7 @@
         </section>
 
         <!-- e x t r e m e -->
-        <section class="extreme section-spacer container" aria-label="Extreme Cleaning Service">
+        <section class="extreme container" aria-label="Extreme Cleaning Service">
             <div class="extreme__image">
                 <img src="https://img.freepik.com/premium-photo/chaos-room-sloppy-dirty-house-depressive-apartment_89386-3224.jpg"
                     alt="Picture of a destroyed and messy house">
@@ -1034,1384 +1034,1481 @@
             </div>
         </section>
 
-        <!--  w h a t s  i n c l u d e d -->
-        <section class="container section-spacer" aria-label="What's Included in Our Services - Table of Content">
+        <!--  w h a t  i s  i n c l u d e d -->
+        <section class="whats-included" aria-label="What's Included in Our Services - Table of Content">
             <h2 class="section__title">What is included in each kind of cleaning?</h2>
             <div class="navigation-arrows">
                 <img src="./assets/Icons/left-arrow.svg" alt="Left arrow icon for navigation">
                 <img src="./assets/Icons/right-arrow.svg" alt="Right arrow icon for navigation">
             </div>
-            <div class="whats-included">
+
+            <div class="included-services container">
+
                 <!-- STANDARD CLEANING -->
-                <div class="whats-included__table">
-                    <div class="whats-included__table__title">
-                        <span class="material-symbols-rounded">
-                            home
-                        </span>
-                        <h2>Standard Cleaning</h2>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/standard.svg"
+                            alt="Home icon representing Standard Cleaning Service" width="28px" height="28px">
+                        <h3>Standard Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
                     </div>
-                    <div class="whats-included__table__content">
 
-                        <!-- Bathroom -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bathroom
-                                </span>
-                                <h3>Bathroom</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks (clean & polish)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clean/sanitize</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Toilets</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Tubs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Showers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
                         </div>
-
-                        <!-- Kitchen -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    kitchen
-                                </span>
-                                <h3>Kitchen</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Microwave</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of appliances</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge/oven (outside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dishwashing</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge (inside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Oven (inside)</li>
-                            </ul>
-                        </div>
-
-                        <!-- General Rooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    meeting_room
-                                </span>
-                                <h3>General rooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Furniture</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light switches</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Door knobs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light fixtures</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Living Spaces</li>
-                            </ul>
-                        </div>
-
-                        <!-- Living Spaces -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    living
-                                </span>
-                                </span>
-                                <h3>Living spaces</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Hallways</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Staircases</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Table tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Electronics</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Laundry</li>
-                            </ul>
-                        </div>
-
-                        <!-- Bedrooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bedroom_parent
-                                </span>
-                                </span>
-                                <h3>Bedrooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Making beds</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and moping the flooer</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clutter</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="whats-included__table__content__show">Show less</a>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
                     </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
                 </div>
 
                 <!-- DEEP CLEANING -->
-                <div class="whats-included__table">
-                    <div class="whats-included__table__title">
-                        <span class="material-symbols-rounded">
-                            home
-                        </span>
-                        <h2>Deep Cleaning</h2>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/deep.svg"
+                            alt="Home icon representing Deep Cleaning Service" width="28px" height="28px">
+                        <h3>Deep Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
                     </div>
-                    <div class="whats-included__table__content">
 
-                        <!-- Bathroom -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bathroom
-                                </span>
-                                <h3>Bathroom</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks (clean & polish)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clean/sanitize</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Toilets</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Tubs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Showers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
                         </div>
-
-                        <!-- Kitchen -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    kitchen
-                                </span>
-                                <h3>Kitchen</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Microwave</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of appliances</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge/oven (outside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dishwashing</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge (inside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Oven (inside)</li>
-                            </ul>
-                        </div>
-
-                        <!-- General Rooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    meeting_room
-                                </span>
-                                <h3>General rooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Furniture</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light switches</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Door knobs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light fixtures</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Living Spaces</li>
-                            </ul>
-                        </div>
-
-                        <!-- Living Spaces -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    living
-                                </span>
-                                </span>
-                                <h3>Living spaces</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Hallways</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Staircases</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Table tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Electronics</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Laundry</li>
-                            </ul>
-                        </div>
-
-                        <!-- Bedrooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bedroom_parent
-                                </span>
-                                </span>
-                                <h3>Bedrooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Making beds</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and moping the flooer</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clutter</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="whats-included__table__content__show">Show less</a>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
                     </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
                 </div>
 
-                <!-- MOVE-IN/OUT -->
-                <div class="whats-included__table">
-                    <div class="whats-included__table__title">
-                        <span class="material-symbols-rounded">
-                            home
-                        </span>
-                        <h2>Move-in/out</h2>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                <!-- MOVE-IN/MOVE-OUT -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/move.svg"
+                            alt="Home Switch icon representing Move-in/Move-out Cleaning Service" width="28px"
+                            height="28px">
+                        <h3>Move-in/out Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
                     </div>
-                    <div class="whats-included__table__content">
 
-                        <!-- Bathroom -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bathroom
-                                </span>
-                                <h3>Bathroom</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks (clean & polish)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clean/sanitize</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Toilets</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Tubs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Showers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
                         </div>
-
-                        <!-- Kitchen -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    kitchen
-                                </span>
-                                <h3>Kitchen</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Microwave</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of appliances</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge/oven (outside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dishwashing</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge (inside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Oven (inside)</li>
-                            </ul>
-                        </div>
-
-                        <!-- General Rooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    meeting_room
-                                </span>
-                                <h3>General rooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Furniture</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light switches</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Door knobs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light fixtures</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Living Spaces</li>
-                            </ul>
-                        </div>
-
-                        <!-- Living Spaces -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    living
-                                </span>
-                                </span>
-                                <h3>Living spaces</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Hallways</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Staircases</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Table tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Electronics</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Laundry</li>
-                            </ul>
-                        </div>
-
-                        <!-- Bedrooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bedroom_parent
-                                </span>
-                                </span>
-                                <h3>Bedrooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Making beds</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and moping the flooer</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clutter</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="whats-included__table__content__show">Show less</a>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
                     </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
                 </div>
+
 
                 <!-- POST CONSTRUCTION -->
-                <div class="whats-included__table">
-                    <div class="whats-included__table__title">
-                        <span class="material-symbols-rounded">
-                            home
-                        </span>
-                        <h2>Post Construction</h2>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/post.svg"
+                            alt="Operator icon representing Post-Construction Cleaning Service" width="28px"
+                            height="28px">
+                        <h3>Post-Construction</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
                     </div>
-                    <div class="whats-included__table__content">
 
-                        <!-- Bathroom -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bathroom
-                                </span>
-                                <h3>Bathroom</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks (clean & polish)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clean/sanitize</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Toilets</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Tubs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Showers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
                         </div>
-
-                        <!-- Kitchen -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    kitchen
-                                </span>
-                                <h3>Kitchen</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Microwave</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of appliances</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge/oven (outside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dishwashing</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge (inside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Oven (inside)</li>
-                            </ul>
-                        </div>
-
-                        <!-- General Rooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    meeting_room
-                                </span>
-                                <h3>General rooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Furniture</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light switches</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Door knobs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light fixtures</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Living Spaces</li>
-                            </ul>
-                        </div>
-
-                        <!-- Living Spaces -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    living
-                                </span>
-                                </span>
-                                <h3>Living spaces</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Hallways</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Staircases</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Table tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Electronics</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Laundry</li>
-                            </ul>
-                        </div>
-
-                        <!-- Bedrooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bedroom_parent
-                                </span>
-                                </span>
-                                <h3>Bedrooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Making beds</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and moping the flooer</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clutter</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="whats-included__table__content__show">Show less</a>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
                     </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+                <!-- AirBnb -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/air.svg"
+                            alt="AirBnb logo  representing AirBnb Cleaning Service" width="28px" height="28px">
+                        <h3>AirBnb Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
                 </div>
 
                 <!-- Commercial -->
-                <div class="whats-included__table">
-                    <div class="whats-included__table__title">
-                        <span class="material-symbols-rounded">
-                            home
-                        </span>
-                        <h2>Commercial Cleaning</h2>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/commercial.svg"
+                            alt="Building icon representing Commercial Cleaning Service" width="28px" height="28px">
+                        <h3>Commercial Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
                     </div>
-                    <div class="whats-included__table__content">
 
-                        <!-- Bathroom -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bathroom
-                                </span>
-                                <h3>Bathroom</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks (clean & polish)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clean/sanitize</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Toilets</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Tubs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Showers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
                         </div>
-
-                        <!-- Kitchen -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    kitchen
-                                </span>
-                                <h3>Kitchen</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Microwave</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of appliances</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge/oven (outside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dishwashing</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge (inside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Oven (inside)</li>
-                            </ul>
-                        </div>
-
-                        <!-- General Rooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    meeting_room
-                                </span>
-                                <h3>General rooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Furniture</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light switches</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Door knobs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light fixtures</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Living Spaces</li>
-                            </ul>
-                        </div>
-
-                        <!-- Living Spaces -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    living
-                                </span>
-                                </span>
-                                <h3>Living spaces</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Hallways</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Staircases</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Table tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Electronics</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Laundry</li>
-                            </ul>
-                        </div>
-
-                        <!-- Bedrooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bedroom_parent
-                                </span>
-                                </span>
-                                <h3>Bedrooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Making beds</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and moping the flooer</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clutter</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="whats-included__table__content__show">Show less</a>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
                     </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
                 </div>
 
-                <!-- AIR BNB -->
-                <div class="whats-included__table">
-                    <div class="whats-included__table__title">
-                        <span class="material-symbols-rounded">
-                            home
-                        </span>
-                        <h2>AirBnb Cleaning</h2>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
-                    </div>
-                    <div class="whats-included__table__content">
 
-                        <!-- Bathroom -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bathroom
-                                </span>
-                                <h3>Bathroom</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks (clean & polish)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clean/sanitize</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Toilets</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Tubs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Showers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-
-                        <!-- Kitchen -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    kitchen
-                                </span>
-                                <h3>Kitchen</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Microwave</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Sinks</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of appliances</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge/oven (outside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dishwashing</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Fridge (inside)</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Oven (inside)</li>
-                            </ul>
-                        </div>
-
-                        <!-- General Rooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    meeting_room
-                                </span>
-                                <h3>General rooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Counter tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Furniture</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Mirrors</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and mopping the floor</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Outside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Dusting</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light switches</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Door knobs</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Light fixtures</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Living Spaces</li>
-                            </ul>
-                        </div>
-
-                        <!-- Living Spaces -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    living
-                                </span>
-                                </span>
-                                <h3>Living spaces</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Hallways</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Staircases</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Table tops</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Electronics</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Laundry</li>
-                            </ul>
-                        </div>
-
-                        <!-- Bedrooms -->
-                        <div class="whats-included__table__content__wrapper">
-                            <div class="whats-included__table__content__room">
-                                <span class="material-symbols-rounded">
-                                    bedroom_parent
-                                </span>
-                                </span>
-                                <h3>Bedrooms</h3>
-                            </div>
-                            <ul>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Making beds</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Vacuum and moping the flooer</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Clutter</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Windows sills</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Baseboards</li>
-                                <li><span class="material-symbols-rounded">
-                                        check
-                                    </span>Inside of cabinets and drawers</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="whats-included__table__content__show">Show less</a>
-                        <a href="#" class="whats-included__table__content__cta">Book now</a>
-                    </div>
-                </div>
             </div>
-            <a href="#">View All</a>
+            <a href="#" class="link view-all">View all</a>
         </section>
 
         <!-- f i x e d  b l o g -->
-        <section class="blog-fixed container section-spacer" aria-label="Our Latest Blog Posts">
+        <section class="blog-fixed container" aria-label="Our Latest Blog Posts">
             <div class="title-wrapper">
                 <div class="blog-fixed__title">
-                    <h2 class="text-heading-1">Cleaning tips</h2>
+                    <h3 class="text-heading-1">Cleaning tips</h3>
                     <p>Find simple, helpful tips to make cleaning easy and keep your home always sparkling clean</p>
                 </div>
                 <div class="blog-fixed__cta">
@@ -2455,7 +2552,7 @@
         </section>
 
         <!-- F A Q -->
-        <section class="faq container section-spacer" aria-label="FAQ - Frequently Asked Questions">
+        <section class="faq container" aria-label="FAQ - Frequently Asked Questions">
             <div class="faq__wrapper">
                 <div class="faq__title">
                     <h2 class="section__title">Frequently Asked Questions</h2>

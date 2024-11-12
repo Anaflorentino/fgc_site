@@ -239,12 +239,6 @@
   .input__field::placeholder {
     color: #a29aa0; }
 
-.card {
-  border-radius: 8px;
-  height: fit-content;
-  background-color: #ffff;
-  box-shadow: 0px 17px 45px -30px rgba(52, 36, 48, 0.25); }
-
 .button {
   display: block;
   text-decoration: none;
@@ -1710,47 +1704,60 @@
   display: flex;
   gap: 20px;
   justify-content: flex-end;
-  margin-bottom: 32px; }
+  margin-bottom: 2rem; }
 
 .whats-included {
+  overflow: auto; }
+  .whats-included .view-all {
+    display: block;
+    text-align: center;
+    margin-top: 2rem; }
+
+.included-services {
   display: flex;
-  gap: 32px;
-  overflow: hidden; }
-  .whats-included__table {
+  gap: 16px; }
+  .included-services__header {
+    text-align: center;
+    margin-bottom: 2rem; }
+    .included-services__header h3 {
+      font-size: 1.2rem;
+      margin: 1.2rem 0;
+      color: #342430; }
+  .included-services__item {
     border: 1px solid #ebebeb;
-    border-radius: 12px;
-    width: 352px;
-    padding: 52px 36px; }
-    .whats-included__table__title {
-      text-align: center;
-      margin-bottom: 48px; }
-      .whats-included__table__title .material-symbols-rounded {
-        font-size: 2.4em; }
-    .whats-included__table__content {
-      text-align: start; }
-      .whats-included__table__content__wrapper {
-        margin-bottom: 48px; }
-      .whats-included__table__content__cta {
-        display: block;
-        text-align: center; }
-      .whats-included__table__content__show {
-        display: block;
-        text-align: right;
-        margin-bottom: 48px; }
-      .whats-included__table__content__room {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        margin-bottom: 32px; }
-        .whats-included__table__content__room .material-symbols-rounded {
-          font-size: 1.6em; }
-      .whats-included__table__content ul li {
-        display: flex;
-        align-items: center;
-        margin-bottom: 12px;
-        gap: 4px; }
-        .whats-included__table__content ul li .material-symbols-rounded {
-          font-size: 1.2em; }
+    background-color: #ffff;
+    box-shadow: 0px 17px 45.6px -30px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 48px 24px 32px 24px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 177px; }
+  .included-services__room ul {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    margin-top: 1.4rem; }
+    .included-services__room ul li {
+      font-size: .8rem;
+      color: #5d5059;
+      display: flex;
+      gap: 4px; }
+      .included-services__room ul li img {
+        height: fit-content; }
+  .included-services__room__header {
+    display: flex;
+    align-items: center;
+    gap: 8px; }
+    .included-services__room__header h4 {
+      font-size: 1rem;
+      color: #5d5059;
+      line-height: 1; }
+  .included-services__cta span {
+    display: block;
+    text-align: end;
+    margin-bottom: 2rem; }
 
 .button {
   display: block;
