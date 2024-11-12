@@ -13,6 +13,7 @@
 }
 
 .button {
+    display: block;
     text-decoration: none;
     border-radius: 10px;
     font-weight: 600;
@@ -24,7 +25,6 @@
 
     &--full {
         width: 100%;
-        display: block;
     }
 
     &--lg {

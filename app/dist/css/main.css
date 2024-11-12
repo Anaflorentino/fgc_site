@@ -147,6 +147,7 @@
   margin-top: 24px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -156,8 +157,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -245,6 +245,7 @@
   box-shadow: 0px 17px 45px -30px rgba(52, 36, 48, 0.25); }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -254,8 +255,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -372,6 +372,7 @@
     padding: 20px 20px; } }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -381,8 +382,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -697,6 +697,7 @@
     padding: 20px 20px; } }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -706,8 +707,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -826,6 +826,7 @@
     border-radius: 24px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -835,8 +836,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -927,6 +927,7 @@
   display: none; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -936,8 +937,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1054,6 +1054,7 @@
         text-align: center; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1063,8 +1064,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1157,6 +1157,7 @@
       border-radius: 16px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1166,8 +1167,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1310,6 +1310,7 @@
   margin-top: 16px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1319,8 +1320,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1432,6 +1432,7 @@
   line-height: 120%; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1441,8 +1442,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1529,6 +1529,7 @@
   height: 212px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1538,8 +1539,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1601,21 +1601,33 @@
 
 .extreme {
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  justify-content: start;
+  gap: 60px; }
   .extreme__img {
-    height: 516px;
-    width: 533px; }
+    height: 100%; }
     .extreme__img img {
-      width: 100%;
-      height: 100%;
       object-fit: cover;
       object-position: center;
       border-radius: 16px; }
   .extreme__content {
-    max-width: 550px; }
+    max-width: 44%; }
+  .extreme__title {
+    margin-bottom: 16px; }
+  .extreme__description {
+    margin-bottom: 24px;
+    line-height: 140%; }
+  .extreme__list {
+    margin-bottom: 24px; }
+    .extreme__list__item {
+      display: inline-list-item;
+      margin-bottom: 16px;
+      line-height: 160%; }
+      .extreme__list__item img {
+        margin-right: 8px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1625,8 +1637,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1733,6 +1744,7 @@
           font-size: 1.2em; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1742,8 +1754,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1824,6 +1835,7 @@
   margin-bottom: 48px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1833,8 +1845,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1908,6 +1919,7 @@
       margin-bottom: 12px; }
 
 .button {
+  display: block;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -1917,8 +1929,7 @@
   text-align: center;
   transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    display: block; }
+    width: 100%; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
