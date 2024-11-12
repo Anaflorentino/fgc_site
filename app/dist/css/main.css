@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Axiforma Regular';
   src: url("../fonts/Axiforma-Regular.ttf") format("truetype");
@@ -1601,28 +1602,36 @@
 
 .extreme {
   display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 60px; }
-  .extreme__img {
-    height: 100%; }
-    .extreme__img img {
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 48px; }
+  @media (max-width: 740px) {
+    .extreme {
+      flex-direction: column; } }
+  .extreme__image {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    padding-right: 32px; }
+    .extreme__image img {
+      border-radius: 8px;
+      max-height: 100%;
+      /* Limita a altura da imagem à altura do container */
       object-fit: cover;
-      object-position: center;
-      border-radius: 16px; }
+      /* Garante que a imagem se ajuste */
+      display: block; }
   .extreme__content {
-    max-width: 44%; }
+    flex: 1; }
   .extreme__title {
-    margin-bottom: 16px; }
+    margin-bottom: 12px; }
   .extreme__description {
-    margin-bottom: 24px;
-    line-height: 140%; }
+    margin-bottom: 32px;
+    line-height: 1.6; }
   .extreme__list {
-    margin-bottom: 24px; }
+    margin-bottom: 32px; }
     .extreme__list__item {
-      display: inline-list-item;
       margin-bottom: 16px;
-      line-height: 160%; }
+      line-height: 1.6; }
       .extreme__list__item img {
         margin-right: 8px; }
 

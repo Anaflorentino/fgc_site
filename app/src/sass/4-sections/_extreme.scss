@@ -4,39 +4,50 @@
 
 .extreme {
     display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 48px;
 
-    &__img {
-       
-height: 100%;
+    @media (max-width: $breakpoint-md) {
+        flex-direction: column;
+    }
+
+    &__image {
+        display: flex;
+        flex: 1;
+        align-items: flex-start;
+        padding-right: 32px;
+
         img {
+            border-radius: $br-md;
+            max-height: 100%;
+            /* Limita a altura da imagem à altura do container */
             object-fit: cover;
-            object-position: center;
-            border-radius: $br-xl;
+            /* Garante que a imagem se ajuste */
+            display: block;
         }
     }
 
     &__content {
-        max-width: 44%;
+        flex: 1;
     }
 
     &__title {
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
 
     &__description {
-        margin-bottom: 24px;
-        line-height: 140%;
+        margin-bottom: 32px;
+        line-height: 1.6;
+
     }
 
     &__list {
-        margin-bottom: 24px;
+        margin-bottom: 32px;
+
         &__item {
-            display: inline-list-item;
             margin-bottom: 16px;
-            line-height: 160%;
+            line-height: 1.6;
 
             img {
                 margin-right: 8px;
