@@ -3,7 +3,7 @@
 
 
 
-.input__field {
+.input-field {
     background-color: transparent;
     padding: $p-md $p-lg;
     border: 1px solid $neutrals-600;
@@ -11,8 +11,13 @@
     transition: border-color 0.3s ease;
     color: $text-500;
 
+    &--lg {
+        padding-bottom: 5rem;
+    }
+
     &:hover {
         border-color: $primary-300;
+        background-color: $bg-color;
     }
 
     &:focus {
