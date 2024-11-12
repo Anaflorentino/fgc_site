@@ -1,0 +1,33 @@
+
+@import "../1-base/colors";
+@import "../1-base/sizes";
+
+
+.accordion {
+    width: 100%;
+    border: none;
+    display: flex;
+    gap: $spacer-sm;
+    flex-direction: column;
+    cursor: pointer;
+    padding: $p-xxl;
+    border-radius: $br-lg;
+    margin-bottom: $spacer-md;
+    margin-top: $spacer-lg;
+    text-align: start;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &--is-open {
+        background-color: $neutrals-100;
+    }
+
+    &--is-closed {
+        background-color: transparent;
+    }
+    
+}

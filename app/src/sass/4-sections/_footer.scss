@@ -4,6 +4,7 @@
 
 .footer {
     background-color: $text-500;
+    color: white;
 
     &__wrapper {
         display: flex;
@@ -26,7 +27,7 @@
 
     &__content {
 
-        &__link {
+        &__link, a {
             color: white;
 
             &--disabled {

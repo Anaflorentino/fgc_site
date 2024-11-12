@@ -34,39 +34,3 @@ img {
     min-width: 320px;
     flex: 1;
 }
-
-.why-choose__accordion__item {
-    width: 100%;
-    border: none;
-    display: flex;
-    gap: $spacer-sm;
-    flex-direction: column;
-    cursor: pointer;
-    padding: $p-xxl;
-    border-radius: $br-lg;
-    margin-bottom: $spacer-md;
-    margin-top: $spacer-lg;
-    text-align: start;
-
-   
-
-
-    &--is-open {
-        background-color: $neutrals-100;
-    }
-
-    &--is-closed {
-        background-color: transparent;
-    }
-}
-
-.why-choose__accordion__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: start;
-}
-
-.why-choose__accordion__text {
-    text-align: start;
-}

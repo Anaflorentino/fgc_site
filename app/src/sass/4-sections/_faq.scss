@@ -5,20 +5,20 @@
 .faq {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 48px;
 
-
-    &__wrapper {
+    &__content, &__accordion {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-}
-
-&__message {
-    display: flex;
-    flex-direction: column;
-
-    &__input {
-        margin-bottom: 12px;
+        flex: 1;
     }
-}
+
+    &__content {
+        &__message {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
 }
