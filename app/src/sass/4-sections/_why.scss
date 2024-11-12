@@ -5,50 +5,50 @@
 @import "../3-modules/buttons";
 
 .why-choose {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
+   display: flex;
+   gap: 48px;
+   justify-content: space-between;
+   align-items: stretch;
 
-    
-    @media (max-width: $breakpoint-lg) {
-        flex-wrap: wrap;
-    }
+   @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+}
 }
 
 
-.why-choose__img {
-
-    max-width: 526.97px;
-    height: 574px;
-    border-radius: 24px;
-.img-1 {
-    display: block;
+.why-choose__image {
+display: flex;
+align-items: flex-start;
+flex: 1;
+   
+img {
     max-width: 100%;
-    height: 100%;
+    max-height: 100%; 
     object-fit: cover;
-    border-radius: $br-xxl;
+    display: block;
+    border-radius: $br-md;
 }
- 
 }
 
 .why-choose__accordion {
-    width: 540px;
+    min-width: 320px;
+    flex: 1;
 }
 
 .why-choose__accordion__item {
-
+    width: 100%;
     border: none;
     display: flex;
     gap: $spacer-sm;
     flex-direction: column;
-    align-items: flex-start;
     cursor: pointer;
     padding: $p-xxl;
-    width: 100%;
     border-radius: $br-lg;
     margin-bottom: $spacer-md;
     margin-top: $spacer-lg;
+    text-align: start;
+
+   
 
 
     &--is-open {
@@ -64,7 +64,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     text-align: start;
 }
 
