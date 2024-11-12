@@ -6,11 +6,12 @@
 display: flex;
 gap: 20px;
 justify-content: flex-end;
-margin-bottom: 2rem
+align-items: flex-end;
 }
 
 .whats-included {
-    overflow: auto;
+    padding: 64px 0;
+    background: -webkit-linear-gradient(rgba(255,70,192,0.05) 0%, rgba(21,165,246,0.05) 100%);
 
     .view-all {
         display: block;
@@ -22,7 +23,10 @@ margin-bottom: 2rem
 
 .included-services {
     display: flex;
+    align-items: flex-start;
     gap: 16px;
+    overflow: auto;
+
 
     &__header {
         text-align: center;
