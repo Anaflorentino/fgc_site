@@ -1,4 +1,3 @@
-
 @import "../1-base/colors";
 @import "../1-base/sizes";
 
@@ -22,12 +21,23 @@
         align-items: center;
     }
 
-    &--is-open {
-        background-color: $neutrals-100;
-    }
 
     &--is-closed {
         background-color: transparent;
+        
+        &:hover {
+        
+        }
     }
-    
+
+    &--is-open {
+        background-color: $neutrals-100;
+
+        &:hover {
+            background-color: $neutrals-300;
+        }
+
+    }
+
+
 }

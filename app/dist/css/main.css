@@ -234,10 +234,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  .accordion--is-open {
-    background-color: #f9f9f9; }
   .accordion--is-closed {
     background-color: transparent; }
+  .accordion--is-open {
+    background-color: #f9f9f9; }
+    .accordion--is-open:hover {
+      background-color: #f2f2f2; }
 
 .input-field {
   background-color: transparent;
@@ -1706,8 +1708,6 @@
 .whats-included {
   padding: 64px 0;
   background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%); }
-  .whats-included h2 {
-    margin: 0; }
   .whats-included .view-all {
     display: block;
     text-align: center;
@@ -1724,7 +1724,7 @@
     text-align: center; }
     .included-services__header h3 {
       font-size: 1.2rem;
-      margin: 1.2rem 0;
+      margin: 1.2rem auto;
       color: #342430; }
   .included-services__item {
     border: 1px solid #ebebeb;
@@ -1929,6 +1929,10 @@
   justify-content: space-between;
   align-items: flex-end;
   gap: 48px; }
+  @media (max-width: 740px) {
+    .faq {
+      flex-direction: column;
+      align-items: center; } }
   .faq__content, .faq__accordion {
     display: flex;
     flex-direction: column;
