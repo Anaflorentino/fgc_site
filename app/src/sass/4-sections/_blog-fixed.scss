@@ -2,7 +2,15 @@
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
 
+
 .blog-fixed {
+    &__title {
+        margin-right: 2em;
+
+        @media (max-width: $breakpoint-md) {
+            margin-right: 0;
+        }
+    }
 
 
     &__articles {
@@ -19,10 +27,14 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
+
             @media (max-width: $breakpoint-md) {
-             width: 100%;;
+                width: 100%;
+                ;
             }
-            p, h3 {
+
+            p,
+            h3 {
                 @include truncate(2);
                 margin-top: .2em;
                 line-height: 1.4;
@@ -35,6 +47,7 @@
             h3 {
                 font-size: 1.2rem;
             }
+
             p {
                 font-size: 1rem;
                 color: $text-400;
@@ -49,9 +62,16 @@
     }
 }
 
+
 .title-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
+
+    @media (max-width: $breakpoint-md) {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2em;
+    }
 }
