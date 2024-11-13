@@ -22,6 +22,7 @@
     width: fit-content;
     text-align: center;
     transition: ease-out 0.2s;
+    white-space: nowrap;
 
     &--full {
         width: 100%;
