@@ -48,6 +48,12 @@
         &__item {
             margin-bottom: 16px;
             line-height: 1.6;
+            display: flex;
+            align-items: flex-start;
+
+            b {
+                display: contents;
+            }
 
             img {
                 margin-right: 8px;
