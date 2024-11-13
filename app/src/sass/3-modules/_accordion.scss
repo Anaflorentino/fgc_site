@@ -12,8 +12,8 @@
     padding: $p-xxl;
     border-radius: $br-lg;
     margin-bottom: $spacer-md;
-    margin-top: $spacer-lg;
     text-align: start;
+    transition: ease-in-out 300ms;
 
     &__title {
         display: flex;
@@ -24,14 +24,22 @@
 
     &--is-closed {
         background-color: transparent;
-        
+
+        .material-symbols-rounded {
+            color: $primary-500;
+        }
+
         &:hover {
-        
+            opacity: .8;
         }
     }
 
     &--is-open {
         background-color: $neutrals-100;
+
+        .material-symbols-rounded {
+            color: $text-500;
+            }
 
         &:hover {
             background-color: $neutrals-300;
