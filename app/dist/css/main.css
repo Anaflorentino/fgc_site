@@ -2002,10 +2002,11 @@
 
 .blog-fixed__articles {
   display: flex;
-  gap: 16px; }
+  gap: 1em; }
   @media (max-width: 740px) {
     .blog-fixed__articles {
-      flex-direction: column; } }
+      flex-direction: column;
+      gap: 4em; } }
   .blog-fixed__articles__item {
     width: 30%;
     display: flex;
@@ -2039,7 +2040,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 48px; }
+  margin-bottom: 2em; }
   @media (max-width: 740px) {
     .title-wrapper {
       flex-direction: column;
