@@ -1155,7 +1155,10 @@
 
 .cleaner__bio {
   text-align: center;
-  min-width: 16%; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2em; }
   .cleaner__bio h4 {
     font-size: 24px;
     margin-top: .6em; }
@@ -1177,11 +1180,9 @@
   margin-bottom: 4em; }
 
 .cleaner__content {
-  flex: 1;
-  max-width: 66%; }
-  @media (max-width: 494px), (max-width: 740px) {
-    .cleaner__content {
-      max-width: 100%; } }
+  display: flex;
+  flex-direction: column;
+  flex: 1; }
   .cleaner__content h3 {
     font-size: 28px;
     margin-bottom: .6em; }
