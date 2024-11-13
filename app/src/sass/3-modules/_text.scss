@@ -18,7 +18,7 @@
   
     &__subtitle {
       @include text-style('body', 'lg', 'regular');
-      margin-top: 12px;
+      margin-top: .2em;
       color: $text-400;
     }
   
