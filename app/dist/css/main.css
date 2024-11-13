@@ -475,6 +475,11 @@
     gap: 24px;
     justify-content: space-between;
     flex-wrap: wrap; }
+  .testimonials__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden; }
   .testimonials__cards {
     display: flex;
     gap: 32px;
@@ -493,7 +498,8 @@
     .testimonials__footer__text {
       display: flex;
       flex-direction: column; }
-      .testimonials__footer__text span, .testimonials__footer__text strong {
+      .testimonials__footer__text span,
+      .testimonials__footer__text strong {
         color: #a29aa0; }
     .testimonials__footer__brands {
       display: flex;
@@ -557,7 +563,11 @@
   margin-top: 16px; }
   .answer p {
     font-size: 12px;
-    color: #5d5059; }
+    color: #5d5059;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden; }
 
 .answer__header {
   display: flex;
