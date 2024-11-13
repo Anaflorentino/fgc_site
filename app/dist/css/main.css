@@ -605,7 +605,7 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  gap: 8%;
+  gap: 4em;
   margin-top: 3.5rem; }
   @media (max-width: 740px) {
     .hero {
@@ -618,7 +618,8 @@
       padding: 32px 16px;
       margin-bottom: 0; } }
   .hero__text {
-    max-width: 40%; }
+    max-width: 40%;
+    flex: 1; }
     @media (max-width: 740px) {
       .hero__text {
         max-width: 100%; } }
@@ -645,7 +646,8 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-    position: relative; }
+    position: relative;
+    max-width: 54%; }
     @media (max-width: 494px) {
       .hero .image-wrapper {
         align-items: center;
@@ -655,8 +657,8 @@
         display: none; } }
     .hero .image-wrapper .form-wrapper {
       position: absolute;
-      top: -16px;
-      left: -20px;
+      top: 12px;
+      left: 24px;
       min-width: 305px;
       border-radius: 16px;
       padding: 24px 32px;
@@ -907,6 +909,11 @@
   margin-bottom: 32px; }
   .services__item__title {
     margin-bottom: 16px; }
+  .services__item__included {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden; }
   .services__item__text, .services__item__included {
     margin-bottom: 16px;
     max-width: 75%; }
@@ -1042,7 +1049,11 @@
         font-weight: 400;
         color: #5d5059;
         text-align: center;
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden; }
       .team__cards__item .cleaner__cta {
         display: inline-block;
         width: 100%;
@@ -1136,7 +1147,8 @@
       gap: 32px; } }
 
 .cleaner__bio {
-  text-align: center; }
+  text-align: center;
+  min-width: 16%; }
   .cleaner__bio h4 {
     font-size: 24px;
     margin-top: .6em; }
@@ -1159,7 +1171,7 @@
 
 .cleaner__content {
   flex: 1;
-  max-width: 70%; }
+  max-width: 66%; }
   @media (max-width: 494px), (max-width: 740px) {
     .cleaner__content {
       max-width: 100%; } }
@@ -1977,9 +1989,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start; }
+    .blog-fixed__articles__item p, .blog-fixed__articles__item h3 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-top: .2em; }
     .blog-fixed__articles__item__img {
       width: 100%;
-      border-radius: 8px; }
+      border-radius: 8px;
+      margin-bottom: .8em; }
 
 .title-wrapper {
   display: flex;

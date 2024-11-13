@@ -16,9 +16,15 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
+
+            p, h3 {
+                @include truncate(2);
+                margin-top: .2em;
+            }
             &__img {
                 width: 100%;
                 border-radius: $br-md;
+                margin-bottom: .8em;
             }
         }
     }

@@ -26,6 +26,10 @@
             margin-bottom: $spacer-sm;
         }
 
+        &__included {
+        @include truncate(2);
+        }
+
         &__text,
         &__included {
             margin-bottom: $spacer-sm;
