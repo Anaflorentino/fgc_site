@@ -1244,10 +1244,23 @@
 .our-work h2, .our-work p {
   text-align: center; }
 
-.carousel {
-  border-radius: 24px; }
-  .carousel img {
-    border-radius: 16px; }
+@media (max-width: 768px) {
+  .our-work__title {
+    margin-bottom: 2em; } }
+
+.carousel img {
+  border-radius: 16px; }
+  @media (max-width: 768px) {
+    .carousel img {
+      border-radius: 8px; } }
+
+.scroll-hint {
+  --scroll-hint: 25%;
+  max-height: 460px; }
+
+@media (max-width: 768px) {
+  .scroll-hint {
+    --scroll-hint: 0; } }
 
 .button {
   display: block;
