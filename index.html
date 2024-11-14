@@ -713,36 +713,6 @@
         </section>
 
 
-        <!-- o u r  - w o r k // resolver !!! -->
-        <!-- <section class="work container" aria-label="Our Work - Gallery">
-            <div class="work__bg">
-                <div class="work__title">
-                    <h2 class="section__title--pairing">Our Work</h2>
-                    <p class="section__subtitle">Committed to making spaces sparkle, <span>everytime.</span></p>
-                </div>
-            </div>
-            <div class="work__gallery">
-                <div class="work__gallery__item">
-                    <img src="https://images.stockcake.com/public/f/0/a/f0a9652d-f99c-4f80-b758-c912017f5158_large/modern-kitchen-interior-stockcake.jpg"
-                        alt="" class="work__gallery__item__img">
-                </div>
-                <div class="work__gallery__item">
-                    <img src="https://i.pinimg.com/236x/5d/23/20/5d2320eeb530a72163fe9773c3c7ca6c.jpg" alt=""
-                        class="work__gallery__item__img">
-                </div>
-                <div class="work__gallery__item">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0UOKfXiRg6N03t488-380Zzfl3pdL4nc0Q&s"
-                        alt="" class="work__gallery__item__img">
-                </div>
-                <div class="work__gallery__item">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJWQzV1JqB7_z9XdrfLI5NZVLVszyh6SQp8A&s"
-                        alt="" class="work__gallery__item__img">
-                </div>
-            </div>
-        </section> -->
-
-        
-
         <!-- s u b s c r i p t i o n -->
         <section class="subscription container" aria-label="Our Subscription Plans">
             <div class="subscription__title">
@@ -938,8 +908,18 @@
         <!-- e x t r e m e -->
         <section class="extreme container" aria-label="Extreme Cleaning Service">
             <div class="extreme__image">
-                <img src="https://img.freepik.com/premium-photo/chaos-room-sloppy-dirty-house-depressive-apartment_89386-3224.jpg"
-                    alt="Picture of a destroyed and messy house">
+                <sl-image-comparer>
+                    <img
+                      slot="before"
+                      src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80&sat=-100&bri=-5"
+                      alt="Grayscale version of kittens in a basket looking around."
+                    />
+                    <img
+                      slot="after"
+                      src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                      alt="Color version of kittens in a basket looking around."
+                    />
+                  </sl-image-comparer>
             </div>
             <div class="extreme__content">
                 <h2 class="section__title extreme__title">Extreme Cleaning</h2>
