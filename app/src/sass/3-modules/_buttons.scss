@@ -130,8 +130,27 @@
 // Estilos para setas de navegação  <- ->
 .navigation {
     @include button-reset();
+    border: 1px solid $text-500;
+    border-radius: 0.75rem;
+    width: 42px;
+    height: 42px;
+    ;
+
+
 
     &:hover {
         @include button-hover();
     }
+}
+
+#left {
+    background-image: url("/assets/Icons/left-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#right {
+    background-image: url("/assets/Icons/right-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
