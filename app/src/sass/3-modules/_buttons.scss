@@ -2,7 +2,7 @@
 @import "../1-base/sizes";
 
 
-// Mixin => hover
+// Mixin de hover
 @mixin button-hover($color: null) {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -12,16 +12,25 @@
     }
 }
 
-.button {
-    display: block;
-    text-decoration: none;
+// Mixin de reset dos botões
+@mixin button-reset {
     border: none;
     background-color: transparent;
+    box-sizing: border-box;
     cursor: pointer;
-    white-space: nowrap;
-    line-height: 1;
+    display: block;
     font-family: inherit;
+    white-space: nowrap;
+    text-decoration: none;
     width: fit-content;
+    line-height: 1;
+}
+
+
+// Estilos gerais dos botões
+.button {
+    @include button-reset();
+
     border-radius: 10px;
     font-weight: 600;
     text-transform: initial;
@@ -85,6 +94,7 @@
     }
 }
 
+// Estilos para links
 .link {
     color: $secondary-400;
     font-weight: bold;
@@ -96,6 +106,7 @@
     }
 }
 
+// Estilos para tabs
 .tab {
     display: block;
     font-size: 0.875rem;
@@ -105,15 +116,22 @@
     color: $text-400;
 
     &--is-active {
-   
+
         color: $text-500;
         border-color: $secondary-400;
         background-color: $neutrals-100;
-}
+    }
 
     &:hover {
         border-color: $secondary-400;
     }
+}
 
-   
+// Estilos para setas de navegação  <- ->
+.navigation {
+    @include button-reset();
+
+    &:hover {
+        @include button-hover();
+    }
 }
