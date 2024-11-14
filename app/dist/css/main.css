@@ -180,7 +180,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -305,7 +306,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -433,7 +435,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -773,7 +776,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -877,7 +881,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -984,7 +989,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1116,7 +1122,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1274,7 +1281,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1428,7 +1436,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1551,7 +1560,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1649,7 +1659,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1759,7 +1770,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -1894,7 +1906,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -2025,7 +2038,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -2128,7 +2142,8 @@
   transition: ease-out 0.2s;
   white-space: nowrap; }
   .button--full {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
   .button--lg {
     font-size: 16px;
     padding: 1rem 1.5rem; }
@@ -2188,34 +2203,82 @@
   .tab:hover {
     border-color: #3fa1d7; }
 
+.container {
+  max-width: 1250px;
+  margin: auto; }
+
+@media (min-width: 495px) {
+  .container {
+    padding: 20px 32px; } }
+
+@media (max-width: 494px) {
+  .container {
+    padding: 20px 20px; } }
+
+@media (max-width: 380px) {
+  .container {
+    padding: 20px 20px; } }
+
 .footer {
   background-color: #342430;
-  color: white; }
+  color: #ffff; }
   .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 1em;
     align-items: start;
-    padding: 96px 0; }
+    padding: 96px 32px;
+    flex-wrap: wrap; }
+    @media (max-width: 740px) {
+      .footer__wrapper {
+        gap: 4em;
+        justify-content: flex-start; } }
+    @media (max-width: 494px) {
+      .footer__wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; } }
   .footer__column__title {
-    color: white; }
+    color: #ffff;
+    margin-bottom: 2em; }
+  .footer__column p {
+    color: #ffff;
+    margin-bottom: 1em; }
   .footer__subscribe {
     display: flex;
-    flex-direction: column; }
-  .footer__content__link, .footer__content a {
-    color: white; }
-    .footer__content__link--disabled, .footer__content a--disabled {
-      color: #636363; }
-  .footer__content__logos {
+    flex-direction: column;
+    gap: .8em; }
+  .footer__content {
     display: flex;
-    gap: 12px;
-    align-items: center; }
+    flex-direction: column;
+    gap: .8rem; }
+    .footer__content__link {
+      color: #f9f9f9;
+      font-weight: 300; }
+      .footer__content__link:hover {
+        opacity: .8; }
+      .footer__content__link--disabled {
+        color: #636363;
+        pointer-events: none; }
+    .footer__content__logos {
+      display: flex;
+      gap: 1em;
+      align-items: center;
+      margin-top: 2em; }
+      .footer__content__logos :hover {
+        opacity: .8; }
   .footer__copy {
     color: #a7a7a7;
     display: block;
+    align-self: center;
     text-align: center;
     padding-bottom: 48px;
     padding-top: 16px;
-    border-top: 1px solid #a7a7a7; }
+    border-top: 1px solid #a7a7a7;
+    margin: 0 4em; }
+
+div.footer__column:nth-child(6) {
+  max-width: 300px; }
 
 * {
   margin: 0;
