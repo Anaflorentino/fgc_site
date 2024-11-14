@@ -32,19 +32,21 @@
         &__title {
             color: $bg-color;
             margin-bottom: 2em;
+            font-weight: 500;
+            font-size: 1.1em;
 
         }
 
         p {
-            color: $bg-color;
-            margin-bottom: 1em;
+            color: $neutrals-500;
+            margin-bottom: .6em;
         }
     }
 
     &__subscribe {
         display: flex;
         flex-direction: column;
-        gap: .8em;
+        gap: .9em;
     }
 
     &__content {
@@ -56,6 +58,7 @@
         &__link {
             color: $neutrals-100;
             font-weight: 300;
+            font-size: .9em;
 
             &:hover {
                 opacity: .8;
@@ -82,13 +85,13 @@
     }
 
     &__copy {
-        color: $neutrals-700;
+        color: $neutrals-800;
         display: block;
         align-self: center;
         text-align: center;
         padding-bottom: 48px;
         padding-top: 16px;
-        border-top: 1px solid $neutrals-700;
+        border-top: 1px solid $neutrals-800;
         margin: 0 4em;
     }
 }

@@ -15,37 +15,39 @@
 .button {
     display: block;
     text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1;
+    font-family: inherit;
+    width: fit-content;
     border-radius: 10px;
     font-weight: 600;
-    line-height: 1;
     text-transform: initial;
-    width: fit-content;
-    text-align: center;
     transition: ease-out 0.2s;
-    white-space: nowrap;
 
     &--full {
         width: 100%;
-        text-align: center;
     }
 
     &--lg {
-        font-size: 16px;
+        font-size: 1rem;
         padding: 1rem 1.5rem;
     }
 
     &--md {
-        border-radius: 8px;
-        font-size: 14px;
-        padding: 12px 14px;
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        padding: 0.875rem 1.25rem;
     }
 
 
     &--link {
         color: $text-400;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 400;
-        padding: 12px 16px;
+        padding: 0.75rem 1rem;
         transition: none;
 
         &:hover {
@@ -65,7 +67,7 @@
 
 
     &--secondary {
-        border: 1px solid $text-500;
+        border: 0.063rem solid $text-500;
         color: $text-500;
 
         &:hover {
@@ -87,7 +89,7 @@
     color: $secondary-400;
     font-weight: bold;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
 
     &:hover {
         @include button-hover($secondary-500);
@@ -96,10 +98,10 @@
 
 .tab {
     display: block;
-    font-size: .84rem;
-    padding: 12px 20px;
-    border-radius: 10px;
-    border: 1px solid $neutrals-500;
+    font-size: 0.875rem;
+    padding: .8rem 1.25rem;
+    border-radius: 0.625rem;
+    border: 0.063rem solid $neutrals-500;
     color: $text-400;
 
     &--is-active {

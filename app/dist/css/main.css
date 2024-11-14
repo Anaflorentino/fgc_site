@@ -71,15 +71,15 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .section__supertitle, .section__title, .section__subtitle, .section__paragraph {
   color: #342430; }
@@ -153,15 +153,15 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .cta {
   display: flex;
@@ -171,29 +171,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -205,7 +207,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -221,7 +223,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -229,10 +231,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -297,29 +299,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -331,7 +335,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -347,7 +351,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -355,10 +359,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -373,15 +377,15 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .header {
   padding-top: 16px; }
@@ -413,42 +417,44 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -460,7 +466,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -476,7 +482,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -484,10 +490,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -636,15 +642,15 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .hero {
   display: flex;
@@ -754,42 +760,44 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -801,7 +809,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -817,7 +825,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -825,10 +833,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -872,29 +880,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -906,7 +916,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -922,7 +932,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -930,10 +940,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -980,29 +990,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1014,7 +1026,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1030,7 +1042,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1038,10 +1050,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1113,29 +1125,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1147,7 +1161,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1163,7 +1177,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1171,10 +1185,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1272,29 +1286,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1306,7 +1322,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1322,7 +1338,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1330,10 +1346,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1427,29 +1443,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1461,7 +1479,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1477,7 +1495,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1485,10 +1503,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1551,29 +1569,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1585,7 +1605,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1601,7 +1621,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1609,10 +1629,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1650,29 +1670,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1684,7 +1706,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1700,7 +1722,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1708,10 +1730,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1761,29 +1783,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1795,7 +1819,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1811,7 +1835,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1819,10 +1843,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -1897,29 +1921,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -1931,7 +1957,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -1947,7 +1973,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -1955,10 +1981,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -2029,29 +2055,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -2063,7 +2091,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -2079,7 +2107,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -2087,10 +2115,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -2133,29 +2161,31 @@
 .button {
   display: block;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  font-family: inherit;
+  width: fit-content;
   border-radius: 10px;
   font-weight: 600;
-  line-height: 1;
   text-transform: initial;
-  width: fit-content;
-  text-align: center;
-  transition: ease-out 0.2s;
-  white-space: nowrap; }
+  transition: ease-out 0.2s; }
   .button--full {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
   .button--lg {
-    font-size: 16px;
+    font-size: 1rem;
     padding: 1rem 1.5rem; }
   .button--md {
-    border-radius: 8px;
-    font-size: 14px;
-    padding: 12px 14px; }
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.25rem; }
   .button--link {
     color: #5d5059;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     transition: none; }
     .button--link:hover {
       background-color: #f9f9f9;
@@ -2167,7 +2197,7 @@
       opacity: 0.7;
       transition: ease-out 0.2s; }
   .button--secondary {
-    border: 1px solid #342430;
+    border: 0.063rem solid #342430;
     color: #342430; }
     .button--secondary:hover {
       opacity: 0.7;
@@ -2183,7 +2213,7 @@
   color: #3fa1d7;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px; }
+  font-size: 0.875rem; }
   .link:hover {
     opacity: 0.7;
     transition: ease-out 0.2s;
@@ -2191,10 +2221,10 @@
 
 .tab {
   display: block;
-  font-size: .84rem;
-  padding: 12px 20px;
-  border-radius: 10px;
-  border: 1px solid #ebebeb;
+  font-size: 0.875rem;
+  padding: .8rem 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.063rem solid #ebebeb;
   color: #5d5059; }
   .tab--is-active {
     color: #342430;
@@ -2209,15 +2239,15 @@
 
 @media (min-width: 495px) {
   .container {
-    padding: 20px 32px; } }
+    padding: 48px 32px; } }
 
 @media (max-width: 494px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 @media (max-width: 380px) {
   .container {
-    padding: 20px 20px; } }
+    padding: 48px 20px; } }
 
 .footer {
   background-color: #342430;
@@ -2240,21 +2270,24 @@
         justify-content: flex-start; } }
   .footer__column__title {
     color: #ffff;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    font-weight: 500;
+    font-size: 1.1em; }
   .footer__column p {
-    color: #ffff;
-    margin-bottom: 1em; }
+    color: #ebebeb;
+    margin-bottom: .6em; }
   .footer__subscribe {
     display: flex;
     flex-direction: column;
-    gap: .8em; }
+    gap: .9em; }
   .footer__content {
     display: flex;
     flex-direction: column;
     gap: .8rem; }
     .footer__content__link {
       color: #f9f9f9;
-      font-weight: 300; }
+      font-weight: 300;
+      font-size: .9em; }
       .footer__content__link:hover {
         opacity: .8; }
       .footer__content__link--disabled {
@@ -2268,13 +2301,13 @@
       .footer__content__logos :hover {
         opacity: .8; }
   .footer__copy {
-    color: #a7a7a7;
+    color: #818181;
     display: block;
     align-self: center;
     text-align: center;
     padding-bottom: 48px;
     padding-top: 16px;
-    border-top: 1px solid #a7a7a7;
+    border-top: 1px solid #818181;
     margin: 0 4em; }
 
 div.footer__column:nth-child(6) {
