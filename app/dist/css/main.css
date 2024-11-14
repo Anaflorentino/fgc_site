@@ -2075,7 +2075,6 @@
 .faq {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   gap: 48px; }
   @media (max-width: 740px) {
     .faq {
@@ -2085,11 +2084,24 @@
     display: flex;
     flex-direction: column;
     flex: 1; }
-  .faq__content__message {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 80%; }
+  .faq__content {
+    justify-content: space-between; }
+    @media (max-width: 740px) {
+      .faq__content {
+        width: 100%; } }
+    .faq__content h3 {
+      color: #342430;
+      font-weight: 500; }
+    .faq__content p {
+      color: #776c74; }
+    .faq__content__message {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 80%; }
+      @media (max-width: 740px) {
+        .faq__content__message {
+          max-width: 100%; } }
 
 .button {
   display: block;
