@@ -1,6 +1,7 @@
 @import "../1-base/sizes";
 @import "../1-base/typography";
 @import "../1-base/colors";
+@import "../2-layout/breakpoints";
 
 // Mixins de texto
 @mixin truncate($lines: 3) {
@@ -55,3 +56,10 @@
     }
   }
   
+
+  // Previnindo seleção de texto em dispositivos menores
+  p, h1, h2, h3, h4, span, label, input, a , li{
+    @media (max-width: $breakpoint-md), (max-width: $breakpoint-sm) {
+      user-select: none;
+    }
+  }
