@@ -2,12 +2,6 @@
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
 
-.navigation-arrows {
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
 
 .whats-included {
     padding: 64px 0;
@@ -28,6 +22,13 @@
     height: 66vh;
     overflow-y: hidden;
     object-fit: contain;
+
+    &.expanded {
+        height: auto;
+        /* Permite que o conteúdo ocupe todo o espaço necessário */
+        overflow-y: visible;
+        /* Mostra todo o conteúdo */
+    }
 
 
     &__header {
@@ -96,3 +97,21 @@
     }
 
 }
+
+.navigation-arrows {
+    display: none;
+  }
+
+
+@media (max-width: 768px) {
+        .navigation-arrows {
+            display: flex;
+            gap: 20px;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+  
+    .included-services {
+      flex-wrap: nowrap; /* Garante que os itens fiquem lado a lado */
+    }
+  }

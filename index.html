@@ -74,11 +74,13 @@
                         class="section__supertitle section__title--highlight">
                         spotless spaces
                         in
-                        Los Angeles</span></h1>
+                        LA</span></h1>
                 <p class="section__body">From homes to offices, experience a professional and personalized cleaning
                     service
                     that
                     suits your lifestyle.</p>
+                <!-- <span class="section__label" id="soon">Soon in San Diego & San Francisco</span> -->
+
 
                 <!-- <div class="hero__insurance">
                     <span class="material-symbols-rounded">
@@ -116,7 +118,7 @@
                                 <option value="6+">6+ bedrooms</option>
                             </select>
                         </div>
-                        <div class="form__inputs">
+                        <!-- <div class="form__inputs">
                             <label for="bathrooms" class="form__label">How many bathrooms?</label>
                             <select id="bathrooms" name="bathrooms">
                                 <option value="1" selected>1 bathroom</option>
@@ -126,7 +128,7 @@
                                 <option value="5">5 bathrooms</option>
                                 <option value="6+">6+ bathrooms</option>
                             </select>
-                        </div>
+                        </div> -->
                         <div class="form__inputs">
                             <label for="cleaning-type" class="form__label">Cleaning type</label>
                             <select id="cleaning-type" name="cleaning-type">
@@ -139,26 +141,17 @@
                             </select>
                         </div>
                         <div class="toggle-container">
-                            <label class="toggle-switch">
-                                <input type="checkbox" id="toggle">
-                                <span class="slider"></span>
-                            </label>
-                            <label for="toggle" id="toggle-label">Pet Friendly</label>
+                            <sl-switch><span class="section__label">Pet-friendly</span></sl-switch>
                         </div>
                         <a href=""><button class="button button--lg button--primary form__cta"
                                 aria-label="Estimate now">Estimate now</button></a>
                     </form>
                 </div>
-                <div><img class="hero__img"
-                        src="https://www.caandesign.com/wp-content/uploads/2019/10/bad-living-room-cleaning-habits.jpg"
-                        alt="Clean and organized kitchen showcasing Flash Guys' service quality" width="619"
-                        height="502">
+                <div><img class="hero__image"
+                        src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
+                        alt="house clean image" class="image-wrapper">
                 </div>
-
-                <span class="section__label">Soon in San Diego & San Francisco</span>
             </div>
-
-
         </section>
 
         <!-- t e s t i m o n i a l s -->
@@ -470,8 +463,8 @@
                     </div>
                 </article>
 
-                  <!-- card-item-6 -->
-                  <article class="testimonials__cards__item">
+                <!-- card-item-6 -->
+                <article class="testimonials__cards__item">
 
                     <header class="testimonials__header">
                         <div class="header__name">
@@ -542,8 +535,20 @@
                         <img src="./assets/Logos/bark.png" alt="">
                     </div>
                     <div class="testimonials__navigation">
-                        <button class="navigation" id="left"></button>
-                        <button class="navigation" id="right"></button>
+                        <button class="navigation" id="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"
+                                part="svg">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
+                                </path>
+                            </svg></button>
+                        <button class="navigation" id="right-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"
+                                part="svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg></button>
                     </div>
                 </div>
             </footer>
@@ -558,26 +563,43 @@
                                 class="material-symbols-rounded">
                                 remove
                             </span></a></h3>
-                    <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
-                        exemplary
-                        treatment and safety for your home 24h.</p>
-                    <a href="#" class="link">Learn more</a>
-                    <!--Levar para 'Our Team'-->
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                        <a href="#" class="link">Learn more</a>
+                        <!--Levar para 'Our Team'-->
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Eco & Pet friendly<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Personalized plans<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">100% guaranteed satisfaction <span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                    </div>
                 </button>
                 <div class="cta">
                     <button class="button button--secondary button--md" aria-label="Get a free estimate">Free
@@ -609,36 +631,41 @@
 
             <nav aria-label="Services Navigation">
                 <ul class="services__menu">
-                    <li><a href="" class="tab tab--is-active"><img src="./assets/Icons/cleanings/deep.svg"
-                                alt="Deep Cleaning Service star icon" width="18px" height="18px">Deep Cleaning</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/standard.svg"
-                                alt="Standard Cleaning Service home icon" width="14px" height="14px">Standard
-                            Cleaning</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/move.svg"
+                    <li><button class="tab tab--is-active" data-target="deep-cleaning"><img
+                                src="./assets/Icons/cleanings/deep.svg" alt="Deep Cleaning Service star icon"
+                                width="18px" height="18px">Deep Cleaning</button></li>
+                    <li><button class="tab" data-target="standard-cleaning"><img
+                                src="./assets/Icons/cleanings/standard.svg" alt="Standard Cleaning Service home icon"
+                                width="14px" height="14px">Standard
+                            Cleaning</button></li>
+                    <li><button class="tab" data-target="move-in"><img src="./assets/Icons/cleanings/move.svg"
                                 alt="Move-in/Move-out Cleaning Service home icon" width="16px"
-                                height="16px">Move-in/Move-out</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/carpet.svg"
+                                height="16px">Move-in/Move-out</button></li>
+                    <li><button class="tab" data-target="carpets"><img src="./assets/Icons/cleanings/carpet.svg"
                                 alt="Carpets & Upholstery Cleaning Services couch icon" width="16px"
-                                height="16px">Carpets & Upholstery</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/extreme.svg"
-                                alt="Extreme Cleaning Service icon" width="16px" height="16px">Extreme Cleaning</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/commercial.svg"
+                                height="16px">Carpets & Upholstery</button></li>
+                    <li><button class="tab" data-target="extreme-cleaning"><img
+                                src="./assets/Icons/cleanings/extreme.svg" alt="Extreme Cleaning Service icon"
+                                width="16px" height="16px">Extreme Cleaning</button></li>
+                    <li><button class="tab" data-target="commercial-cleaning"><img
+                                src="./assets/Icons/cleanings/commercial.svg"
                                 alt="Commercial Cleaning Service building icon" width="14px"
-                                height="14px">Commercial</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/construction.svg"
+                                height="14px">Commercial</button></li>
+                    <li><button class="tab" data-target="post-construction"><img
+                                src="./assets/Icons/cleanings/construction.svg"
                                 alt="Post-Construction Cleaning Service operator icon" width="16px"
-                                height="16px">Post-Construction</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/air.svg"
+                                height="16px">Post-Construction</button></li>
+                    <li><button class="tab" data-target="airbnb-cleaning"><img src="./assets/Icons/cleanings/air.svg"
                                 alt="AirBnb Cleaning Service icon - AirBnb logo" width="16px" height="16px">AirBnb
-                            Cleaning</a></li>
-                    <li><a href="" class="tab"><img src="./assets/Icons/cleanings/eco.svg"
+                            Cleaning</button></li>
+                    <li><button class="tab" data-target="Eco-friendly"><img src="./assets/Icons/cleanings/eco.svg"
                                 alt="Eco-friendly Cleaning Service leaf icon" width="16px"
-                                height="16px">Eco-friendly</a></li>
+                                height="16px">Eco-friendly</button></li>
                 </ul>
             </nav>
 
             <!-- Deep Cleaning -->
-            <article class="services__item --is-active">
+            <article class="services__item services__item--is-active" data-target="deep-cleaning">
                 <h3 class="services__item__title">Deep Cleaning</h3>
                 <p class="services__item__text section__body">A heavy clean to refresh your home. Remove built-up dirt
                     and grime to
@@ -648,10 +675,10 @@
                 <div class="services__item__included">
                     <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops . Table to...<a class="link" href="#"> 5+
-                            more</a></p>
-
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -660,17 +687,18 @@
             </article>
 
             <!-- Standard Cleaning -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="standard-cleaning">
                 <h3 class="services__item__title">Standard Cleaning</h3>
                 <p class="services__item__text">An economical, fast, but very efficient cleaning. Perfect for everyday
                     cleaning for a spotless home.
                     Keep your space always guest-ready with our standard cleaning service. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -679,18 +707,19 @@
             </article>
 
             <!-- Move-in/Move-out -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="move-in">
                 <h3 class="services__item__title">Move-in/Move-out</h3>
                 <p class="services__item__text">Moving? Let us handle the cleaning! Complete cleaning to get your old
                     place ready for the next tenant
                     and your new home ready for you. Our expert team provides a comprehensive clean, so you can focus on
                     settling in. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -699,15 +728,18 @@
             </article>
 
             <!-- Carpets & Upholsery Cleaning -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="carpets">
                 <h3 class="services__item__title">Carpets & Upholsery Cleaning</h3>
                 <p class="services__item__text">Refresh your home with our expert carpet and upholstery cleaning
-                    service. We’ll bring new life to your living spaces, ensuring a clean and comfortable environment
+                    service. We'll bring new life to your living spaces, ensuring a clean and comfortable environment
                     for you and your family to enjoy. </p>
                 <div class="services__item__included">
-                    <p>Easily find this service in our additional section while booking</p>
-                    <a href="#">5+ more</a>
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                        . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -716,18 +748,19 @@
             </article>
 
             <!-- Post Construction -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="post-construction">
                 <h3 class="services__item__title">Post Construction</h3>
                 <p class="services__item__text">Our post-construction cleaning service is designed to transform your
                     newly renovated space into a
                     clean and inviting home. We'll remove construction debris, dust, and odors, leaving your home
                     looking its best. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -736,17 +769,18 @@
             </article>
 
             <!-- Commercial Cleaning -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="commercial-cleaning">
                 <h3 class="services__item__title">Commercial Cleaning</h3>
                 <p class="services__item__text">Create a clean and professional workspace that boosts productivity and
                     impresses clients. Our
                     commercial cleaning services are tailored to meet the unique needs of your business. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -755,33 +789,37 @@
             </article>
 
             <!-- Extreme Cleaning -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="extreme-cleaning">
                 <h3 class="services__item__title">Extreme Cleaning</h3>
                 <p class="services__item__text">Is your place overwhelmed by clutter, damage, or neglect? Our Extreme
                     Cleaning service is designed to
                     handle the toughest and most critical cleaning challenges.</p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <button class="button button--md button--secondary" aria-label="Learn more">Learn more</button>
-                <button class="button button--md button--primary" aria-label="Contact for sale">Contact for
-                    sale</button>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Learn more">Learn more</button>
+                    <button class="button button--md button--primary" aria-label="Contact us for sale">Contact for
+                        sale</button>
+                </div>
             </article>
 
             <!-- AirBnb Cleaning -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="airbnb-cleaning">
                 <h3 class="services__item__title">AirBnb Cleaning</h3>
                 <p class="services__item__text">Keep your Airbnb guests coming back with our top-rated cleaning service.
                     We'll ensure your guests will feel like home, helping you maintain a 5-star rating. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -790,16 +828,18 @@
             </article>
 
             <!-- Eco-friendly -->
-            <article class="services__item disabled">
+            <article class="services__item" data-target="Eco-friendly">
                 <h3 class="services__item__title">Eco-friendly</h3>
-                <p class="services__item__text">Keep your Airbnb guests coming back with our top-rated cleaning service.
-                    We'll ensure your guests will feel like home, helping you maintain a 5-star rating. </p>
+                <p class="services__item__text">Experience a healthier home with our eco-friendly cleaning service.
+                    We use non-toxic cleaning products and sustainable methods to leave your space
+                    sparkling clean. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
                 <div class="cta">
                     <button class="button button--md button--secondary" aria-label="Free estimate">Free
                         estimate</button>
@@ -942,7 +982,7 @@
                             <h3>Weekly Plan</h3><span class="plan__discount">20%off</span>
                         </div>
                         <div class="plan__price">
-                            <h4>$120.84</h4><span class="section__label">Starting price</span>
+                            <h4>$123.58</h4><span class="section__label">Starting price</span>
                         </div>
                         <p class="plan__visit">Every week visit</p>
                     </header>
@@ -969,7 +1009,7 @@
                             <h3>Biweekly Plan</h3><span class="plan__discount">10%off</span>
                         </div>
                         <div class="plan__price">
-                            <h4>$148.74</h4><span class="section__label">Starting price</span>
+                            <h4>$139.03</h4><span class="section__label">Starting price</span>
                         </div>
                         <p class="plan__visit">Biweekly visit</p>
                     </header>
@@ -1170,8 +1210,18 @@
         <section class="whats-included" aria-label="What's Included in Our Services - Table of Content">
             <h2 class="section__title container">What is included in each kind of cleaning?</h2>
             <div class="navigation-arrows container">
-                <button class="navigation" id="left"></button>
-                <button class="navigation" id="right"></button>
+                <button class="navigation" id="l-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16" part="svg">
+                        <path fill-rule="evenodd"
+                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
+                        </path>
+                    </svg></button>
+                <button class="navigation" id="r-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16" part="svg">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                        </path>
+                    </svg></button>
             </div>
 
             <div class="included-services container">
@@ -2623,7 +2673,7 @@
                         </ul>
                     </div>
 
-                    <!-- Cta -->
+                    <!-- cta -->
                     <div class="included-services__cta">
                         <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
@@ -2720,7 +2770,8 @@
                     <label for="message" hidden>Your message</label>
                     <input type="text" placeholder="Your message" class="input-field input-field--lg">
                     <button class="button--lg button--full button button--primary">Send question</button>
-                    <span class="section__label">By sending a question you agree to our <a href="">Privacy Policy</a>.</span>
+                    <span class="section__label">By sending a question you agree to our <a href="">Privacy
+                            Policy</a>.</span>
                 </div>
             </div>
 
@@ -2730,37 +2781,59 @@
                                 class="material-symbols-rounded">
                                 remove
                             </span></a></h3>
-                    <p>When it comes to complete house cleanings, we generally offer
-                        a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
-                    <p>Additionally, if you require cleaning for specific rooms or
-                        areas and not the entire house, we
-                        provide hourly pricing as well.</p>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>Additionally, if you require cleaning for specific rooms or
+                            areas and not the entire house, we
+                            provide hourly pricing as well.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Inclusions in Flat-Rate Servicesy<span
                             class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Cleaning Supplies<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Reschedule and Cancelation <span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Number of Cleaners<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
                 </button>
                 <button class="accordion accordion--is-closed">
                     <h3 class="accordion__title">Presence During Cleaning<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
                 </button>
             </div>
 
@@ -2859,5 +2932,10 @@
 </body>
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js">
 </script>
+<script src="./app/src/javascript/scroll-x.js"></script>
+<script src="./app/src/javascript/accordion.js"></script>
+<script src="./app/src/javascript/expand.js"></script>
+<script src="./app/src/javascript/services-nav.js"></script>
+<script src="./app/src/javascript/whats-included.js"></script>
 
 </html>

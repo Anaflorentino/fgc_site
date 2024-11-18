@@ -49,3 +49,10 @@
 }
 
 
+.accordion__content {
+    display: none; /* Esconde o conteúdo por padrão */
+  }
+  
+  .accordion--is-open .accordion__content {
+    display: block; /* Exibe o conteúdo do acordeão aberto */
+  }

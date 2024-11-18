@@ -8,6 +8,7 @@
         gap: $p-md;
         margin-bottom: $spacer-lg;
         flex-wrap: wrap;
+        
 
         img {
             margin-right: $p-sm;
@@ -21,6 +22,11 @@
 
     &__item {
         margin-bottom: $spacer-lg;
+        display: none;
+
+        &--is-active {
+            display: block;
+        }
 
         &__title {
             margin-bottom: $spacer-sm;
@@ -28,7 +34,13 @@
 
         &__included {
         @include truncate(2);
+        &.expanded {
+            display: block;
+            -webkit-box-orient: vertical;
+
+          }
         }
+        
 
         &__text,
         &__included {
@@ -50,9 +62,4 @@
             }
         }
     }
-}
-
-// Desativando as outras tabs por enquanto ;)
-.disabled {
-    display: none;
 }

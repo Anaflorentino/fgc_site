@@ -25,6 +25,8 @@
         gap: 32px;
         overflow: auto;
         scroll-snap-type: x mandatory;
+        scroll-behavior: smooth; 
+
 
 
         &__item {
