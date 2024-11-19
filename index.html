@@ -63,11 +63,18 @@
         <div class="header__nav-top">
             <a href="/"><img src="./assets/Logos/Flash Guys.png" alt="Flash Guys Cleaning logo" class="brand"></a>
             <nav aria-label="User Navigation">
-                <ul class="header__nav-top__links">
-                    <li><a href="#" class="button button--link">Log in</a></li>
-                    <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
-                    <li><a href="#" class="button button--primary button--md">Book now</a></li>
-                </ul>
+                <div class="header__nav-top__links">
+                    <ul class="header__nav-top__links">
+                        <li><a href="#" class="button button--link">Log in</a></li>
+                        <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
+                        <li><a href="#" class="button button--primary button--md">Book now</a></li>
+                    </ul>
+                    <!-- menu mobile -->
+                    <div class="header__mobile">
+                        <button onclick="openMenu()"><img class="icon" src="./assets/Icons/menu-open.svg" alt="Icon representing open menu action"
+                                aria-label="Open menu mobile"></button>
+                    </div>
+                </div>
             </nav>
         </div>
 
@@ -82,6 +89,25 @@
                 <li><a href="#" class="button button--link">Support</a></li>
             </ul>
         </nav>
+
+        <!-- nav mobile -->
+         <div class="nav__mobile">
+            <ul class="nav__mobile__links">
+                <li><a href="#" class="button button--link">Services</a></li>
+                <li><a href="#" class="button button--link">Subscription</a></li>
+                <li><a href="#" class="button button--link">Blog</a></li>
+                <li><a href="#" class="button button--link">Coupons</a></li>
+                <li><a href="#" class="button button--link">FAQ</a></li>
+                <li><a href="#" class="button button--link">About us</a></li>
+                <li><a href="#" class="button button--link">Support</a></li>
+            </ul>
+            <ul class="nav__mobile__buttons">
+                <li><a href="#" class="button button--link">Log in</a></li>
+                <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
+                <li><a href="#" class="button button--primary button--md">Book now</a></li>
+            </ul>
+         </div>
+
     </header>
 
     <main>
@@ -2955,6 +2981,7 @@
 </body>
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js">
 </script>
+<script src="./app/src/javascript/nav-menu.js"></script>
 <script src="./app/src/javascript/carousel.js"></script>
 <script src="./app/src/javascript/scroll-x.js"></script>
 <script src="./app/src/javascript/accordion.js"></script>

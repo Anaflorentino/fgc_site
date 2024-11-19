@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>hero test</title>
-  <link rel="stylesheet" href="test.css">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="test.css">
 </head>
-
 <body>
-  <div id="div1">
-    this is a div
-  </div>
-  <button onclick="toggleExpand()" id="expand">hide</button>
 
+  <!-- Seletores costumizados com icons -->
+
+ <div class="custom-dropdown">
+  <label for="category">Choose a category:</label>
+  <button type="button" class="dropdown-toggle" id="category">
+    <span class="material-icons icon">folder</span>
+    <span class="selected-text">Select category</span>
+    <span class="material-icons arrow">expand_more</span>
+  </button>
+  
+  <ul class="dropdown-menu">
+    <li data-value="technology" data-icon="computer">
+      <span class="material-icons">computer</span> 
+      <span class="option-text">Technology</span>
+    </li>
+    <li data-value="design" data-icon="brush">
+      <span class="material-icons">brush</span> 
+      <span class="option-text">Design</span>
+    </li>
+    <li data-value="marketing" data-icon="campaign">
+      <span class="material-icons">campaign</span> 
+      <span class="option-text">Marketing</span>
+    </li>
+    <li data-value="finance" data-icon="account_balance">
+      <span class="material-icons">account_balance</span> 
+      <span class="option-text">Finance</span>
+    </li>
+  </ul>
+  
+  <input type="hidden" name="category" id="category-value">
+</div>
+
+  
+  
 </body>
+
 <script>
-  function toggleExpand() {
-    let testDiv = document.getElementById("div1");
+  document.addEventListener('DOMContentLoaded', () => {
+  const dropdownToggle = document.querySelector('.dropdown-toggle');
+  const dropdownMenu = document.querySelector('.dropdown-menu');
+  const selectedText = document.querySelector('.selected-text');
+  const hiddenInput = document.getElementById('category-value');
+  const iconElement = dropdownToggle.querySelector('.icon');
 
-    if(testDiv.style.display === "none") {
-      testDiv.style.display = "block";
-    } else {
-      testDiv.style.display = "none";
+  // Alterna o menu suspenso ao clicar no botão
+  dropdownToggle.addEventListener('click', (event) => {
+    event.stopPropagation();
+    dropdownMenu.classList.toggle('show');
+    dropdownToggle.querySelector('.arrow').textContent = dropdownMenu.classList.contains('show') ? 'expand_less' : 'expand_more';
+  });
+
+  // Atualiza o texto selecionado, ícone e valor do campo oculto ao clicar em uma opção
+  document.querySelectorAll('.dropdown-menu li').forEach(item => {
+    item.addEventListener('click', (e) => {
+      const selectedIcon = e.currentTarget.querySelector('.material-icons').textContent; // Obtém o ícone da opção
+      const selectedOptionText = e.currentTarget.querySelector('.option-text').innerText; // Obtém o texto da opção
+
+      selectedText.textContent = selectedOptionText; // Define apenas o texto da opção
+      hiddenInput.value = e.currentTarget.getAttribute('data-value');
+      iconElement.textContent = selectedIcon; // Atualiza o ícone no botão
+      dropdownMenu.classList.remove('show');
+      dropdownToggle.querySelector('.arrow').textContent = 'expand_more';
+    });
+  });
+
+  // Fecha o menu suspenso ao clicar fora
+  document.addEventListener('click', (e) => {
+    if (!dropdownToggle.contains(e.target) && dropdownMenu.classList.contains('show')) {
+      dropdownMenu.classList.remove('show');
+      dropdownToggle.querySelector('.arrow').textContent = 'expand_more';
     }
-  }
-</script>
+  });
+});
 
+
+</script>
 </html>

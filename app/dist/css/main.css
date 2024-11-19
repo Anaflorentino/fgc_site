@@ -278,6 +278,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .accordion {
   width: 100%;
   border: none;
@@ -447,6 +453,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .container {
   max-width: 1250px;
   margin: auto; }
@@ -465,6 +477,15 @@ svg {
 
 .header {
   padding-top: 16px; }
+  .header__mobile button {
+    background-color: transparent;
+    padding: 0.5em;
+    cursor: pointer;
+    border: none;
+    display: none; }
+    @media (max-width: 740px) {
+      .header__mobile button {
+        display: block; } }
   .header__nav-top {
     display: flex;
     justify-content: space-between;
@@ -472,9 +493,10 @@ svg {
     margin-bottom: 16px; }
     .header__nav-top__links {
       display: flex;
-      gap: 12px; }
-      @media (max-width: 494px) {
-        .header__nav-top__links {
+      gap: 12px;
+      align-items: center; }
+      @media (max-width: 740px) {
+        .header__nav-top__links ul {
           display: none; } }
   .header__nav-bottom {
     display: flex;
@@ -486,6 +508,33 @@ svg {
     .header__nav-bottom__links {
       display: flex;
       gap: 0; }
+
+.nav__mobile {
+  display: none;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  width: 30vh;
+  padding: 2em;
+  left: 0;
+  z-index: 3; }
+  .nav__mobile ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em; }
+  .nav__mobile.open {
+    display: block; }
+  @media (max-width: 740px) {
+    .nav__mobile {
+      display: none; }
+      .nav__mobile.open {
+        display: block; } }
+
+ul.nav__mobile__buttons {
+  margin-top: 2.5em;
+  border-top: 1px solid #ebebeb; }
+  ul.nav__mobile__buttons :nth-child(1) {
+    padding-top: .8rem; }
 
 .container {
   max-width: 1250px;
@@ -609,6 +658,12 @@ svg {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .testimonials {
   background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%);
@@ -986,6 +1041,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .why-choose {
   display: flex;
   gap: 48px;
@@ -1134,6 +1195,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .services__menu {
   display: flex;
   flex-direction: row;
@@ -1278,6 +1345,12 @@ svg {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .team {
   background: linear-gradient(38deg, #e8f4ff 0%, #fffdf7 100%);
@@ -1445,6 +1518,12 @@ svg {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .cleaner__nav {
   margin-bottom: 2em; }
@@ -1639,6 +1718,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .subscription {
   padding: 48px 0; }
   .subscription__title {
@@ -1828,6 +1913,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .coupons__title {
   text-align: center;
   margin-bottom: 48px; }
@@ -1986,6 +2077,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .nav {
   display: flex;
   gap: 4px; }
@@ -2118,6 +2215,12 @@ svg {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .extreme {
   display: flex;
@@ -2263,6 +2366,12 @@ svg {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .whats-included {
   padding: 64px 0;
@@ -2446,6 +2555,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .blog-fixed__title {
   margin-right: 2em; }
   @media (max-width: 740px) {
@@ -2612,6 +2727,12 @@ svg {
   background-repeat: no-repeat;
   background-position: center; }
 
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
+
 .faq {
   display: flex;
   justify-content: space-between;
@@ -2749,6 +2870,12 @@ svg {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .container {
   max-width: 1250px;
@@ -2952,6 +3079,12 @@ div.footer__column:nth-child(6) {
   background-image: url("/assets/Icons/right-arrow.svg");
   background-repeat: no-repeat;
   background-position: center; }
+
+.menu {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  vertical-align: middle; }
 
 .modal-overlay {
   position: fixed;

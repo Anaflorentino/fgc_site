@@ -4,10 +4,20 @@
 @import "../3-modules/buttons";
 @import "../2-layout/breakpoints";
 
-
 .header {
-    
     padding-top: 16px;
+
+    &__mobile button {
+        background-color: transparent;
+        padding: 0.5em;
+        cursor: pointer;
+        border: none;
+        display: none;
+
+        @media (max-width: $breakpoint-md) {
+            display: block;
+        }
+    }
 
     &__nav-top {
         display: flex;
@@ -15,14 +25,15 @@
         align-items: center;
         margin-bottom: $spacer-sm;
 
-      
-
         &__links {
             display: flex;
             gap: $spacer-xs;
+            align-items: center;
 
-            @media (max-width: $breakpoint-sm) {
-                display: none;
+            ul {
+                @media (max-width: $breakpoint-md) {
+                    display: none;
+                }
             }
         }
     }
@@ -41,4 +52,42 @@
             gap: 0;
         }
     }
+}
+
+.nav__mobile {
+    display: none;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    width: 30vh;
+    padding: 2em;
+    left: 0;
+    z-index: 3;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8em;
+    }
+
+    &.open {
+        display: block; // Mostra o menu quando a classe .open é adicionada
+    }
+
+    @media (max-width: $breakpoint-md) {
+        display: none;
+
+        &.open {
+            display: block;
+        }
+    }
+}
+
+ul.nav__mobile__buttons {
+margin-top: 2.5em;
+border-top: 1px solid $neutrals-500;
+
+:nth-child(1) {
+    padding-top: .8rem;
+}
 }
