@@ -1,0 +1,41 @@
+@import "../1-base/colors";
+
+.our-work {
+    h2, p {
+        text-align: center;
+    }
+
+    &__title {
+        @media (max-width: 768px) {
+            margin-bottom: 2em;
+            }
+       
+    }
+}
+
+.carousel {
+    
+    img {
+        border-radius: 16px;
+
+        @media (max-width: 768px) {
+            border-radius: 8px;
+            }
+    }
+}
+
+
+.scroll-hint {
+    --scroll-hint: 25%;
+    max-height: 460px;
+   
+}
+
+
+@media (max-width: 768px) {
+    .scroll-hint {
+        --scroll-hint: 0;
+
+    }
+}
+

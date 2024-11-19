@@ -1,0 +1,102 @@
+@import "../1-base/colors";
+@import "../1-base/sizes";
+@import "../3-modules/buttons";
+@import "../2-layout/breakpoints";
+
+.footer {
+    background-color: $text-500;
+    color: $bg-color;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+        align-items: start;
+        padding: 96px 32px;
+        flex-wrap: wrap;
+
+        @media (max-width: $breakpoint-md) {
+            gap: 4em;
+            justify-content: flex-start;
+        }
+
+        @media (max-width: $breakpoint-sm) {
+            flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        }
+    }
+
+    &__column {
+        &__title {
+            color: $bg-color;
+            margin-bottom: 2em;
+            font-weight: 500;
+            font-size: 1.1em;
+
+        }
+
+        p {
+            color: $neutrals-500;
+            margin-bottom: .6em;
+        }
+    }
+
+    &__subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: .9em;
+    }
+
+    &__content {
+
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+
+        &__link {
+            color: $neutrals-100;
+            font-weight: 300;
+            font-size: .9em;
+
+            &:hover {
+                opacity: .8;
+            }
+
+            &--disabled {
+                color: $neutrals-900;
+                pointer-events: none;
+                // desabilitar click**
+            }
+            
+        }
+
+        &__logos {
+            display: flex;
+            gap: 1em;
+            align-items: center;
+            margin-top: 2em;
+
+            :hover {
+                opacity: .8;
+            }
+        }
+    }
+
+    &__copy {
+        color: $neutrals-800;
+        display: block;
+        align-self: center;
+        text-align: center;
+        padding-bottom: 48px;
+        padding-top: 16px;
+        border-top: 1px solid $neutrals-800;
+        margin: 0 4em;
+    }
+}
+
+div.footer__column:nth-child(6) {
+max-width: 300px;
+}
+

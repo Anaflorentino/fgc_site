@@ -1,19 +1,65 @@
-@import "../1-base/colors";
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
 
-.services__menu {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    margin-bottom: $spacer-xxl;
-    flex-wrap: wrap;
-}
+.services {
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        gap: $p-md;
+        margin-bottom: $spacer-lg;
+        flex-wrap: wrap;
+        
 
-.services__item, .services__item__title {
-    margin-bottom: $spacer-md;
-}
+        img {
+            margin-right: $p-sm;
+        }
 
-.services__item__text, .services__item__included {
-    margin-bottom: $spacer-sm;
+        .services__menu-item {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__item {
+        margin-bottom: $spacer-lg;
+        display: none;
+
+        &--is-active {
+            display: block;
+        }
+
+        &__title {
+            margin-bottom: $spacer-sm;
+        }
+
+        &__included {
+        @include truncate(2);
+        &.expanded {
+            display: block;
+            -webkit-box-orient: vertical;
+
+          }
+        }
+        
+
+        &__text,
+        &__included {
+            margin-bottom: $spacer-sm;
+            max-width: 75%;
+
+            @media (max-width: $breakpoint-sm) {
+               max-width: 100%;
+            }
+
+            a {
+                margin-left: $p-sm;
+            }
+        }
+
+        &__included {
+            p {
+                max-width: 80%;
+            }
+        }
+    }
 }

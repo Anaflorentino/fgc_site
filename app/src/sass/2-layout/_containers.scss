@@ -1,8 +1,12 @@
-.container {
-    max-width: 1250px;
-    margin: auto;
+.section-header {
+    margin-bottom: 52px;
+
+    &--center {
+        text-align: center;
+    }
 }
 
 .section-spacer {
-    margin-bottom: 120px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }

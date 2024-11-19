@@ -7,494 +7,2955 @@
     <meta name="description"
         content="Top reliable cleaning services in Los Angeles, California. Get a free estimate and book your cleaning today for spotless spaces!">
     <meta name="robots" content="index, follow">
+    <meta name="author" content="Flash Guys Cleaning Services">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Flash Guys Cleaning - Professional Cleaning Services in Los Angeles, CA">
+    <meta property="og:description"
+        content="Top reliable cleaning services in Los Angeles, California. Get a free estimate and book your cleaning today for spotless spaces!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.flashguyscleaning.com">
+    <meta property="og:image" content="https://www.flashguyscleaning.com/path/to/image.jpg">
+
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Flash Guys Cleaning - Professional Cleaning Services in Los Angeles, CA">
+    <meta name="twitter:description"
+        content="Top reliable cleaning services in Los Angeles, California. Get a free estimate and book your cleaning today for spotless spaces!">
+    <meta name="twitter:image" content="https://www.flashguyscleaning.com/path/to/image.jpg">
+
     <title>Flash Guys Cleaning - Professional Cleaning Services in Los Angeles, CA</title>
-    <!-- Material Icons -->
+
+    <!-- Optimized Material Icons Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css" />
+
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="./app/dist/css/main.min.css">
 </head>
 
 <body>
-    <!-- <div>
-        Exclusive promotion for your first cleaning: Get 10%OFF at your first cleaning!  Exclusive promotion for your first cleaning: Get 10%OFF at your first cleaning!  Exclusive promotion for your first cleaning: Get 10%OFF at your first cleaning!  Exclusive promotion for your first cleaning: Get 10%OFF at your first cleaning!
-        <p></p>
-    </div> -->
+    <!-- m e m b e r - m o d a l -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal">
+          <button class="close-button" id="closeModal">&times;</button>
+          <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1720634611801x566720474675168200%2F3.png?w=512&h=256&auto=compress&fit=crop&dpr=1" alt="Modal Image" class="modal-image">
+          <div class="modal__content">
+          <h2>Save 25%Off
+            referring a friend!</h2>
+          <p><b>Your friend gets 10%Off</b></p>
+          <button class="button button--full button--lg button--primary modal__button">Refer a friend</button>
+          <span class="modal__span">By referring a friend, you agree to our referral program terms. For more information on how we handle your data, please review our <strong><a href="">Privacy Policy</a></strong>.</span>
+        </div>
+    </div>
+      </div>
+
     <!-- h e a d e r -->
-    <header class="header container section-spacer">
-        <div class="nav-top">
-            <img src="" alt="Flash Guys Cleaning logo" class="brand">
+    <header class="header container">
+        <div class="header__nav-top">
+            <a href="/"><img src="./assets/Logos/Flash Guys.png" alt="Flash Guys Cleaning logo" class="brand"></a>
             <nav aria-label="User Navigation">
-                <ul class="nav-top__links">
-                    <li><a href="#">Log in</a></li>
-                    <li><a href="#">Sign up</a></li>
-                    <li><a href="#">Book now</a></li>
+                <ul class="header__nav-top__links">
+                    <li><a href="#" class="button button--link">Log in</a></li>
+                    <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
+                    <li><a href="#" class="button button--primary button--md">Book now</a></li>
                 </ul>
             </nav>
         </div>
 
-        <nav class="nav-bottom" aria-label="Main Navigation">
-            <ul class="nav-bottom__links">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Subscription</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Coupons</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Support</a></li>
+        <nav class="header__nav-bottom" aria-label="Main Navigation">
+            <ul class="header__nav-bottom__links">
+                <li><a href="#" class="button button--link">Services</a></li>
+                <li><a href="#" class="button button--link">Subscription</a></li>
+                <li><a href="#" class="button button--link">Blog</a></li>
+                <li><a href="#" class="button button--link">Coupons</a></li>
+                <li><a href="#" class="button button--link">FAQ</a></li>
+                <li><a href="#" class="button button--link">About us</a></li>
+                <li><a href="#" class="button button--link">Support</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <main>
-        <section class="hero container section-spacer" aria-label="Hero Section">
+        <!-- h e r o -->
+        <section class="section hero container" aria-label="Reliable Cleaning Services Hero Section">
             <div class="hero__text">
-                <h1 class="hero__text__titlegit">Best reliable cleaning <br> services for <span> spotless spaces in
-                        California</span></h1>
-                <p class="hero__text__subtitle">Experience a professional and personalized <br> cleaning service that
-                    suits your lifestyle</p>
+                <h1 class="section__supertitle hero__title">Best reliable cleaning services for <span
+                        class="section__supertitle section__title--highlight">
+                        spotless spaces
+                        in
+                        LA</span></h1>
+                <p class="section__body">From homes to offices, experience a professional and personalized cleaning
+                    service
+                    that
+                    suits your lifestyle.</p>
+                <!-- <span class="section__label" id="soon">Soon in San Diego & San Francisco</span> -->
 
-                <div id="insurance">
+
+                <!-- <div class="hero__insurance">
                     <span class="material-symbols-rounded">
                         verified_user
-                        </span>
-                    <p>$1 Million Insurance Coverage
+                    </span>
+                    <p class="hero__insurance__text"><strong class="hero__insurance__text">$1 Million Insurance
+                            Coverage</strong><br>
                         for total peace of mind</p>
-                </div>
+                </div> -->
 
-                <ul class="hero__text__benefits">
-                    <li>+5000 cleanings in 4 years</li>
-                    <li>24h professional team</li>
-                    <li>Free estimate in 4 steps</li>
+                <ul class="hero__benefits">
+                    <li class="hero__benefit section__list ">+5000 cleanings in 4 years</li>
+                    <li class="hero__benefit section__list">24h dedicated team</li>
+                    <li class="hero__benefit section__list">Free estimate in 4 steps</li>
                 </ul>
-
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
-            </div>
-            <div class="hero__img">
-                <img src="https://www.caandesign.com/wp-content/uploads/2019/10/bad-living-room-cleaning-habits.jpg"
-                    alt="Kitchen perfectly organized and cleaned" class="img-1">
-                <span id="soon">Soon in San Diego & San Francisco</span>
-
-            </div>
-
-            <!-- <form class="pre-form">
-                <label for="bedrooms">How many bedrooms?</label>
-                <select id="bedrooms" name="bedrooms">
-                    <option value="1" selected>1 bedroom</option>
-                    <option value="2">2 bedrooms</option>
-                    <option value="3">3 bedrooms</option>
-                    <option value="4">4 bedrooms</option>
-                    <option value="5">5 bedrooms</option>
-                    <option value="6+">6+ bedrooms</option>
-                </select>
-                <label for="bathrooms">How many bathrooms?</label>
-                <select id="bathrooms" name="bathrooms">
-                    <option value="1" selected>1 bathroom</option>
-                    <option value="2">2 bathrooms</option>
-                    <option value="3">3 bathrooms</option>
-                    <option value="4">4 bathrooms</option>
-                    <option value="5">5 bathrooms</option>
-                    <option value="6+">6+ bathrooms</option>
-                </select>
-                <label for="cleaning-type">How many bathrooms?</label>
-                <select id="cleaning-type" name="cleaning-type">
-                    <option value="1" selected>Deep Cleaning</option>
-                    <option value="2">Standard Cleaning</option>
-                    <option value="3">Commercial</option>
-                    <option value="4">AirBnb</option>
-                    <option value="5">Extreme Cleaning</option>
-                    <option value="6+">Move-in/out</option>
-                </select>
-                <div class="toggle-container">
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="toggle">
-                        <span class="slider"></span>
-                    </label>
-                    <label for="toggle" id="toggle-label">Pet Friendly</label>
+                <div class="cta">
+                    <a href=""><button class="button button--lg button--secondary" aria-label="Free estimate">Free
+                            estimate</button></a>
+                    <a href="">
+                        <button class="button button--lg button--primary" aria-label="Book now">Book now</button>
+                    </a>
                 </div>
-            </form> -->
+            </div>
+            <div class="image-wrapper">
+                <div class="form-wrapper">
+                    <form class="form">
+                        <div class="form__inputs">
+                            <label class="form__label" for="bedrooms">How many bedrooms?</label>
+                            <select id="bedrooms" name="bedrooms">
+                                <option value="1" selected>1 bedroom</option>
+                                <option value="2">2 bedrooms</option>
+                                <option value="3">3 bedrooms</option>
+                                <option value="4">4 bedrooms</option>
+                                <option value="5">5 bedrooms</option>
+                                <option value="6+">6+ bedrooms</option>
+                            </select>
+                        </div>
+                        <!-- <div class="form__inputs">
+                            <label for="bathrooms" class="form__label">How many bathrooms?</label>
+                            <select id="bathrooms" name="bathrooms">
+                                <option value="1" selected>1 bathroom</option>
+                                <option value="2">2 bathrooms</option>
+                                <option value="3">3 bathrooms</option>
+                                <option value="4">4 bathrooms</option>
+                                <option value="5">5 bathrooms</option>
+                                <option value="6+">6+ bathrooms</option>
+                            </select>
+                        </div> -->
+                        <div class="form__inputs">
+                            <label for="cleaning-type" class="form__label">Cleaning type</label>
+                            <select id="cleaning-type" name="cleaning-type">
+                                <option value="1" selected>Deep Cleaning</option>
+                                <option value="2">Standard Cleaning</option>
+                                <option value="3">Commercial</option>
+                                <option value="4">AirBnb</option>
+                                <option value="5">Extreme Cleaning</option>
+                                <option value="6+">Move-in/out</option>
+                            </select>
+                        </div>
+                        <div class="toggle-container">
+                            <sl-switch><span class="section__label">Pet-friendly</span></sl-switch>
+                        </div>
+                        <a href=""><button class="button button--lg button--primary form__cta"
+                                aria-label="Estimate now">Estimate now</button></a>
+                    </form>
+                </div>
+                <div><img class="hero__image"
+                        src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
+                        alt="house clean image" class="image-wrapper">
+                </div>
+            </div>
         </section>
 
         <!-- t e s t i m o n i a l s -->
-        <section class="testimonials section-spacer" aria-label="Client Testimonials">
+        <section class="testimonials section-spacer" aria-label="Client's Testimonials">
             <div class="testimonials__title container">
-                <h2 class="section-title">What our clients say</h2>
+                <h2 class="section__title">What our clients say</h2>
                 <ul>
-                    <li><a href="#">Make a review</a></li>
+                    <button class="button button--md button--secondary" aria-label="Make a review">Make a
+                        review</button>
                 </ul>
             </div>
+
             <div class="testimonials__cards container">
 
+                <!-- card-item-1 -->
                 <article class="testimonials__cards__item">
 
+                    <header class="testimonials__header">
+                        <div class="header__name">
+                            AF
+                        </div>
+
+                        <div class="name__stars">
+                            <h3>Ana F.</h3>
+                            <div class="stars-rate">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                            </div>
+                        </div>
+
+                        <div class="referal-source">
+                            <span>Jan 10, 2024</span>
+                            <span>Hired on Thumbtack</span>
+                        </div>
+                    </header>
+
+                    <p class="testimonials__text">Highly recommend. It was a tough job, and was done beautifully. Team
+                        did an excellent job!!! 5
+                        stars!</p>
+                    <div class="testimonials__images">
+                        <img src="./assets/Images/testimonials/img1.png" alt="">
+                        <img src="./assets/Images/testimonials/img2.png" alt="">
+                        <div class="last__image">
+                            <img src="./assets/Images/testimonials/img3.png" alt="">
+                            <!-- <span class="plus-3">+3</span> -->
+                        </div>
+                    </div>
+                    <div></div>
+                    <span class="testimonials__details">Details: 2 bedrooms • 2 bathrooms • Deep cleaning • Window
+                        cleaning (interior)</span>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+                    <!-- Answered -->
+                    <div class="answer">
+                        <div class="answer__header">
+                            <div class="flash-logo">
+                                <img src="./assets/Logos/Flash Guys-icon.png" alt="" width="32px" height="32px">
+                                <p>Flash Guys</p>
+                            </div>
+                            <div class="answer__icon">
+                                <img src="./assets/Icons/answered.svg" alt="">
+                                <span>Answered</span>
+                            </div>
+                        </div>
+                        <p>Nunc nec tristique purus. Praesent tristique massa vitae urna cursus, a mattis mi maximus.
+                        </p>
+                    </div>
                 </article>
+
+                <!-- card-item-2 -->
                 <article class="testimonials__cards__item">
 
+                    <header class="testimonials__header">
+                        <div class="header__name">
+                            AF
+                        </div>
+
+                        <div class="name__stars">
+                            <h3>Ana F.</h3>
+                            <div class="stars-rate">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                            </div>
+                        </div>
+
+                        <div class="referal-source">
+                            <span>Jan 10, 2024</span>
+                            <span>Hired on Thumbtack</span>
+                        </div>
+                    </header>
+
+                    <p class="testimonials__text">I've never hired a cleaning service before, so when I picked Flash
+                        guys it was due to their stellar 5 star rating on thumbtack. After their service...</p>
+                    <div class="testimonials__images">
+                        <img src="./assets/Images/testimonials/img1.png" alt="">
+                        <img src="./assets/Images/testimonials/img2.png" alt="">
+                        <div class="last__image">
+                            <img src="./assets/Images/testimonials/img3.png" alt="">
+                            <!-- <span class="plus-3">+3</span> -->
+                        </div>
+                    </div>
+                    <div></div>
+                    <span class="testimonials__details">Details: 2 bedrooms • 2 bathrooms • Deep cleaning • Window
+                        cleaning (interior)</span>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+                    <!-- Answered -->
+                    <div class="answer">
+                        <div class="answer__header">
+                            <div class="flash-logo">
+                                <img src="./assets/Logos/Flash Guys-icon.png" alt="" width="32px" height="32px">
+                                <p>Flash Guys</p>
+                            </div>
+                            <div class="answer__icon">
+                                <img src="./assets/Icons/answered.svg" alt="">
+                                <span>Answered</span>
+                            </div>
+                        </div>
+                        <p>Nunc nec tristique purus. Praesent tristique massa vitae urna cursus, a mattis mi maximus.
+                        </p>
+                    </div>
                 </article>
+
+                <!-- card-item-3 -->
                 <article class="testimonials__cards__item">
 
+                    <header class="testimonials__header">
+                        <div class="header__name">
+                            AF
+                        </div>
+
+                        <div class="name__stars">
+                            <h3>Ana F.</h3>
+                            <div class="stars-rate">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                            </div>
+                        </div>
+
+                        <div class="referal-source">
+                            <span>Jan 10, 2024</span>
+                            <span>Hired on Thumbtack</span>
+                        </div>
+                    </header>
+
+                    <p class="testimonials__text">The cleaning ladies did a great job deep cleaning our bed&bath. They
+                        were punctual and efficient. We’ll definitely use the service whenever we need cleanings. Wish I
+                        had some before pictures to show the good work they’ve done. Strongly recommend!</p>
+                    <div class="testimonials__images">
+                        <img src="./assets/Images/testimonials/img1.png" alt="">
+                        <img src="./assets/Images/testimonials/img2.png" alt="">
+                        <div class="last__image">
+                            <img src="./assets/Images/testimonials/img3.png" alt="">
+                            <!-- <span class="plus-3">+3</span> -->
+                        </div>
+                    </div>
+                    <div></div>
+                    <span class="testimonials__details">Details: 2 bedrooms • 2 bathrooms • Deep cleaning • Window
+                        cleaning (interior)</span>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+                    <!-- Answered -->
+                    <div class="answer">
+                        <div class="answer__header">
+                            <div class="flash-logo">
+                                <img src="./assets/Logos/Flash Guys-icon.png" alt="" width="32px" height="32px">
+                                <p>Flash Guys</p>
+                            </div>
+                            <div class="answer__icon">
+                                <img src="./assets/Icons/answered.svg" alt="">
+                                <span>Answered</span>
+                            </div>
+                        </div>
+                        <p>Nunc nec tristique purus. Praesent tristique massa vitae urna cursus, a mattis mi maximus.
+                        </p>
+                    </div>
                 </article>
+
+                <!-- card-item-4 -->
                 <article class="testimonials__cards__item">
 
+                    <header class="testimonials__header">
+                        <div class="header__name">
+                            AF
+                        </div>
+
+                        <div class="name__stars">
+                            <h3>Ana F.</h3>
+                            <div class="stars-rate">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                            </div>
+                        </div>
+
+                        <div class="referal-source">
+                            <span>Jan 10, 2024</span>
+                            <span>Hired on Thumbtack</span>
+                        </div>
+                    </header>
+
+                    <p class="testimonials__text">Highly recommend. It was a tough job, and was done beautifully. Team
+                        did an excellent job!!! 5
+                        stars!</p>
+                    <div class="testimonials__images">
+                        <img src="./assets/Images/testimonials/img1.png" alt="">
+                        <img src="./assets/Images/testimonials/img2.png" alt="">
+                        <div class="last__image">
+                            <img src="./assets/Images/testimonials/img3.png" alt="">
+                            <!-- <span class="plus-3">+3</span> -->
+                        </div>
+                    </div>
+                    <div></div>
+                    <span class="testimonials__details">Details: 2 bedrooms • 2 bathrooms • Deep cleaning • Window
+                        cleaning (interior)</span>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+                    <!-- Answered -->
+                    <div class="answer">
+                        <div class="answer__header">
+                            <div class="flash-logo">
+                                <img src="./assets/Logos/Flash Guys-icon.png" alt="" width="32px" height="32px">
+                                <p>Flash Guys</p>
+                            </div>
+                            <div class="answer__icon">
+                                <img src="./assets/Icons/answered.svg" alt="">
+                                <span>Answered</span>
+                            </div>
+                        </div>
+                        <p>Nunc nec tristique purus. Praesent tristique massa vitae urna cursus, a mattis mi maximus.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- card-item-5 -->
+                <article class="testimonials__cards__item">
+
+                    <header class="testimonials__header">
+                        <div class="header__name">
+                            AF
+                        </div>
+
+                        <div class="name__stars">
+                            <h3>Ana F.</h3>
+                            <div class="stars-rate">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                            </div>
+                        </div>
+
+                        <div class="referal-source">
+                            <span>Jan 10, 2024</span>
+                            <span>Hired on Thumbtack</span>
+                        </div>
+                    </header>
+
+                    <p class="testimonials__text">Lana and Elena are very efficient and thorough. My home is clean top
+                        to bottom! Very professional and considerate, I will continue to use Flash Guys.</p>
+                    <div class="testimonials__images">
+                        <img src="./assets/Images/testimonials/img1.png" alt="">
+                        <img src="./assets/Images/testimonials/img2.png" alt="">
+                        <div class="last__image">
+                            <img src="./assets/Images/testimonials/img3.png" alt="">
+                            <!-- <span class="plus-3">+3</span> -->
+                        </div>
+                    </div>
+                    <div></div>
+                    <span class="testimonials__details">Details: 2 bedrooms • 2 bathrooms • Deep cleaning • Window
+                        cleaning (interior)</span>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+
+                    <!-- Answered -->
+                    <div class="answer">
+                        <div class="answer__header">
+                            <div class="flash-logo">
+                                <img src="./assets/Logos/Flash Guys-icon.png" alt="" width="32px" height="32px">
+                                <p>Flash Guys</p>
+                            </div>
+                            <div class="answer__icon">
+                                <img src="./assets/Icons/answered.svg" alt="">
+                                <span>Answered</span>
+                            </div>
+                        </div>
+                        <p>Nunc nec tristique purus. Praesent tristique massa vitae urna cursus, a mattis mi maximus.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- card-item-6 -->
+                <article class="testimonials__cards__item">
+
+                    <header class="testimonials__header">
+                        <div class="header__name">
+                            AF
+                        </div>
+
+                        <div class="name__stars">
+                            <h3>Ana F.</h3>
+                            <div class="stars-rate">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                                <img src="./assets/Icons/start-fill.svg" alt="filled yellow rate star">
+                            </div>
+                        </div>
+
+                        <div class="referal-source">
+                            <span>Jan 10, 2024</span>
+                            <span>Hired on Thumbtack</span>
+                        </div>
+                    </header>
+
+                    <p class="testimonials__text">Highly recommend. It was a tough job, and was done beautifully. Team
+                        did an excellent job!!! 5
+                        stars!</p>
+                    <div class="testimonials__images">
+                        <img src="./assets/Images/testimonials/img1.png" alt="">
+                        <img src="./assets/Images/testimonials/img2.png" alt="">
+                        <div class="last__image">
+                            <img src="./assets/Images/testimonials/img3.png" alt="">
+                            <!-- <span class="plus-3">+3</span> -->
+                        </div>
+                    </div>
+                    <div></div>
+                    <span class="testimonials__details">Details: 2 bedrooms • 2 bathrooms • Deep cleaning • Window
+                        cleaning (interior)</span>
+
+                    <!-- divider -->
+                    <div class="divider"></div>
+                    <!-- Answered -->
+                    <div class="answer">
+                        <div class="answer__header">
+                            <div class="flash-logo">
+                                <img src="./assets/Logos/Flash Guys-icon.png" alt="" width="32px" height="32px">
+                                <p>Flash Guys</p>
+                            </div>
+                            <div class="answer__icon">
+                                <img src="./assets/Icons/answered.svg" alt="">
+                                <span>Answered</span>
+                            </div>
+                        </div>
+                        <p>Nunc nec tristique purus. Praesent tristique massa vitae urna cursus, a mattis mi maximus.
+                        </p>
+                    </div>
                 </article>
             </div>
-            <footer class="container testimonials__navigation">
-                <img src="./assets/Icons/left-arrow.svg" alt="Left arrow icon for navigation">
-                <img src="./assets/Icons/right-arrow.svg" alt="Right arrow icon for navigation">
+
+            <footer class="container">
+                <div class=" testimonials__footer">
+                    <div class="testimonials__footer__brands">
+                        <div class="testimonials__footer__text">
+                            <span><strong>4,9 overall rating</strong></span>
+                            <span>in over 2000 reviews</span>
+                        </div>
+                        <img src="./assets/thumbtack.svg" alt="">
+                        <img src="./assets/Logos/google.png" alt="">
+                        <img src="./assets/Logos/bark.png" alt="">
+                    </div>
+                    <div class="testimonials__navigation">
+                        <button class="navigation" id="left-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"
+                                part="svg">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
+                                </path>
+                            </svg></button>
+                        <button class="navigation" id="right-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"
+                                part="svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg></button>
+                    </div>
+                </div>
             </footer>
         </section>
 
         <!-- W h y - c h o o s e - u s -->
         <section class="why-choose container section-spacer" aria-label="Why Choose Us">
-
             <div class="why-choose__accordion">
-                <h2 class="section-title">Why choose Flash Guys?</h2>
-                <button class="why-choose__accordion__item why-choose__accordion__item--is-open">
-                    <h3 class="why-choose__accordion__title">Super qualified 24/7 professionals<a href="#"><span
+                <h2 class="section__title">Why choose Flash Guys?</h2>
+                <button class="accordion accordion--is-open">
+                    <h3 class="accordion__title">Super qualified 24/7 professionals<a href="#"><span
                                 class="material-symbols-rounded">
                                 remove
                             </span></a></h3>
-                    <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
-                        exemplary
-                        treatment and safety for your home 24h.</p>
-                    <a href="#">Learn more</a>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                        <a href="#" class="link">Learn more</a>
+                        <!--Levar para 'Our Team'-->
+                    </div>
                 </button>
-                <button class="why-choose__accordion__item why-choose__accordion__item--is-closed">
-                    <h3 class="why-choose__accordion__title">Eco & Pet friendly<span class="material-symbols-rounded">
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Eco & Pet friendly<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                    </div>
                 </button>
-                <button class="why-choose__accordion__item why-choose__accordion__item--is-closed">
-                    <h3 class="why-choose__accordion__title">Personalized plans<span class="material-symbols-rounded">
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Personalized plans<span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                    </div>
                 </button>
-                <button class="why-choose__accordion__item why-choose__accordion__item--is-closed">
-                    <h3 class="why-choose__accordion__title">100% guaranteed satisfaction <span
-                            class="material-symbols-rounded">
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">100% guaranteed satisfaction <span class="material-symbols-rounded">
                             add
                         </span></h3>
+                    <div class="accordion__content">
+                        <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
+                            exemplary
+                            treatment and safety for your home 24h.</p>
+                    </div>
                 </button>
-                <button class="why-choose__accordion__item why-choose__accordion__item--is-closed">
-                    <h3 class="why-choose__accordion__title">Commitment to Privacy<span
-                            class="material-symbols-rounded">
-                            add
-                        </span></h3>
-                </button>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <div class="cta">
+                    <button class="button button--secondary button--md" aria-label="Get a free estimate">Free
+                        estimate</button>
+                    <button class="button button--primary button--md" aria-label="Book your cleaning now">Book
+                        now</button>
+                </div>
             </div>
-            <div class="why-choose__img">
-                <img src="https://app.dropinblog.com/uploaded/blogs/34246798/files/How_To_Maintain_Your_Kitchen_Cabinets.png"
-                    alt="Kitchen perfectly organized and cleaned" class="img-1">
+            <div class="why-choose__carousel">
+                <div class="why-choose__carousel__images">
+                <img src="https://images.unsplash.com/photo-1552944150-6dd1180e5999?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1568307970720-a8c50b644a7c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1597237154674-1a0d2274cef4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
             </div>
+        </div>
         </section>
 
         <!-- p r o m o t i o n a l  - b a n n e r -->
-        <aside class="promotion container section-spacer" aria-label="Promotional Banner">
+        <aside class="promotion container" aria-label="Promotional AD Banner">
             <div class="promotion__banner">
-                <a href="#"> <img src="../fgc_site/assets/Images/banner.png" alt="Halloween 15%Off Promotion Banner"
+                <a href="#"> <img src="./assets/Images/banner.png" alt="Halloween 15%Off Promotion Banner"
                         class="promotion__banner__img"></a>
         </aside>
 
         <!-- o u r  -  s e r v i c e s -->
         <section class="services container section-spacer" aria-label="Our Services">
-            <div class="section-title">
-                <h2>Discover our services</h2>
-                <p>From homes to offices, we got it all covered</p>
+            <div class="section-header">
+                <h2 class="section__title">Discover our services</h2>
+                <p class="section__subtitle">From homes to offices, we got it all covered</p>
             </div>
 
             <nav aria-label="Services Navigation">
                 <ul class="services__menu">
-                    <li><a href="">Deep Cleaning</a></li>
-                    <li><a href="">Standard Cleaning</a></li>
-                    <li><a href="">Move-in/Move-out</a></li>
-                    <li><a href="">Carpets & Upholstery</a></li>
-                    <li><a href="">Extreme Cleaning</a></li>
-                    <li><a href="">Commercial</a></li>
-                    <li><a href="">Post-Construction</a></li>
-                    <li><a href="">AirBnb Cleaning</a></li>
+                    <li><button class="tab tab--is-active" data-target="deep-cleaning"><img
+                                src="./assets/Icons/cleanings/deep.svg" alt="Deep Cleaning Service star icon"
+                                width="18px" height="18px">Deep Cleaning</button></li>
+                    <li><button class="tab" data-target="standard-cleaning"><img
+                                src="./assets/Icons/cleanings/standard.svg" alt="Standard Cleaning Service home icon"
+                                width="14px" height="14px">Standard
+                            Cleaning</button></li>
+                    <li><button class="tab" data-target="move-in"><img src="./assets/Icons/cleanings/move.svg"
+                                alt="Move-in/Move-out Cleaning Service home icon" width="16px"
+                                height="16px">Move-in/Move-out</button></li>
+                    <li><button class="tab" data-target="carpets"><img src="./assets/Icons/cleanings/carpet.svg"
+                                alt="Carpets & Upholstery Cleaning Services couch icon" width="16px"
+                                height="16px">Carpets & Upholstery</button></li>
+                    <li><button class="tab" data-target="extreme-cleaning"><img
+                                src="./assets/Icons/cleanings/extreme.svg" alt="Extreme Cleaning Service icon"
+                                width="16px" height="16px">Extreme Cleaning</button></li>
+                    <li><button class="tab" data-target="commercial-cleaning"><img
+                                src="./assets/Icons/cleanings/commercial.svg"
+                                alt="Commercial Cleaning Service building icon" width="14px"
+                                height="14px">Commercial</button></li>
+                    <li><button class="tab" data-target="post-construction"><img
+                                src="./assets/Icons/cleanings/construction.svg"
+                                alt="Post-Construction Cleaning Service operator icon" width="16px"
+                                height="16px">Post-Construction</button></li>
+                    <li><button class="tab" data-target="airbnb-cleaning"><img src="./assets/Icons/cleanings/air.svg"
+                                alt="AirBnb Cleaning Service icon - AirBnb logo" width="16px" height="16px">AirBnb
+                            Cleaning</button></li>
+                    <li><button class="tab" data-target="Eco-friendly"><img src="./assets/Icons/cleanings/eco.svg"
+                                alt="Eco-friendly Cleaning Service leaf icon" width="16px"
+                                height="16px">Eco-friendly</button></li>
                 </ul>
             </nav>
 
             <!-- Deep Cleaning -->
-            <article class="services__item">
+            <article class="services__item services__item--is-active" data-target="deep-cleaning">
                 <h3 class="services__item__title">Deep Cleaning</h3>
-                <p class="services__item__text">A heavy clean to refresh your home. Remove built-up dirt and grime to
+                <p class="services__item__text section__body">A heavy clean to refresh your home. Remove built-up dirt
+                    and grime to
                     make your space feel brand new.
                     Deep Cleaning is the top choice for thoroughly cleaning your home down to the smallest detail.
                     Perfect for preparing for a special occasion or simply treating yourself. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
 
             <!-- Standard Cleaning -->
-            <article class="services__item">
+            <article class="services__item" data-target="standard-cleaning">
                 <h3 class="services__item__title">Standard Cleaning</h3>
                 <p class="services__item__text">An economical, fast, but very efficient cleaning. Perfect for everyday
                     cleaning for a spotless home.
                     Keep your space always guest-ready with our standard cleaning service. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
 
             <!-- Move-in/Move-out -->
-            <article class="services__item">
+            <article class="services__item" data-target="move-in">
                 <h3 class="services__item__title">Move-in/Move-out</h3>
                 <p class="services__item__text">Moving? Let us handle the cleaning! Complete cleaning to get your old
                     place ready for the next tenant
                     and your new home ready for you. Our expert team provides a comprehensive clean, so you can focus on
                     settling in. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
 
             <!-- Carpets & Upholsery Cleaning -->
-            <article class="services__item">
+            <article class="services__item" data-target="carpets">
                 <h3 class="services__item__title">Carpets & Upholsery Cleaning</h3>
                 <p class="services__item__text">Refresh your home with our expert carpet and upholstery cleaning
-                    service. We’ll bring new life to your living spaces, ensuring a clean and comfortable environment
+                    service. We'll bring new life to your living spaces, ensuring a clean and comfortable environment
                     for you and your family to enjoy. </p>
                 <div class="services__item__included">
-                    <p>Easily find this service in our additional section while booking</p>
-                    <a href="#">5+ more</a>
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                        . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
 
             <!-- Post Construction -->
-            <article class="services__item">
+            <article class="services__item" data-target="post-construction">
                 <h3 class="services__item__title">Post Construction</h3>
                 <p class="services__item__text">Our post-construction cleaning service is designed to transform your
                     newly renovated space into a
                     clean and inviting home. We'll remove construction debris, dust, and odors, leaving your home
                     looking its best. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
 
             <!-- Commercial Cleaning -->
-            <article class="services__item">
+            <article class="services__item" data-target="commercial-cleaning">
                 <h3 class="services__item__title">Commercial Cleaning</h3>
                 <p class="services__item__text">Create a clean and professional workspace that boosts productivity and
                     impresses clients. Our
                     commercial cleaning services are tailored to meet the unique needs of your business. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
 
             <!-- Extreme Cleaning -->
-            <article class="services__item">
+            <article class="services__item" data-target="extreme-cleaning">
                 <h3 class="services__item__title">Extreme Cleaning</h3>
                 <p class="services__item__text">Is your place overwhelmed by clutter, damage, or neglect? Our Extreme
                     Cleaning service is designed to
                     handle the toughest and most critical cleaning challenges.</p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Learn more">Learn more</button>
+                    <button class="button button--md button--primary" aria-label="Contact us for sale">Contact for
+                        sale</button>
+                </div>
             </article>
 
             <!-- AirBnb Cleaning -->
-            <article class="services__item">
+            <article class="services__item" data-target="airbnb-cleaning">
                 <h3 class="services__item__title">AirBnb Cleaning</h3>
                 <p class="services__item__text">Keep your Airbnb guests coming back with our top-rated cleaning service.
                     We'll ensure your guests will feel like home, helping you maintain a 5-star rating. </p>
                 <div class="services__item__included">
-                    <p>Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
                         . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
-                        Making beds . Clutter . Electronics . Table tops</p>
-                    <a href="#">5+ more</a>
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
                 </div>
-                <a href="#">Free estimate</a>
-                <a href="#">Book now</a>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
+            </article>
+
+            <!-- Eco-friendly -->
+            <article class="services__item" data-target="Eco-friendly">
+                <h3 class="services__item__title">Eco-friendly</h3>
+                <p class="services__item__text">Experience a healthier home with our eco-friendly cleaning service.
+                    We use non-toxic cleaning products and sustainable methods to leave your space
+                    sparkling clean. </p>
+                <div class="services__item__included">
+                    <p class="section__label">Included: Sinks . Mirrors . Toilets . Vacuum and moping the floor
+                        . Dusting . Counter tops . Furniture . Outside of cabinets and drawers . Hallways . Staircases .
+                        Making beds . Clutter . Electronics . Table tops . Table tops . Table tops . Table tops . Table
+                        tops . Table tops . Table tops . Table tops . Table tops . Table tops</p>
+                </div>
+                <button class="toggle-button button link" data-expanded="false">5+ more</button>
+                <div class="cta">
+                    <button class="button button--md button--secondary" aria-label="Free estimate">Free
+                        estimate</button>
+                    <button class="button button--md button--primary" aria-label="Book now">Book now</button>
+                </div>
             </article>
         </section>
 
-        <!-- o u r  - t e a m -->
-        <section class="team" aria-label="Our Professional Team Of Cleaners">
-            <div class="container">
-                <div class="team__title section-title">
-                    <h2>Meet some of the people who make your home shine</h2>
-                    <p>Our cleaning team is trained to treating your home with the care and respect it deserves</p>
+        <!-- o u r - w o r k -->
+        <section class="container our-work">
+            <div class="carousel">
+                <div class="our-work__title">
+                    <h2 class="section__title">Our Work</h2>
+                    <p class="section__subtitle">Commited to making spaces sparkle, <b><span
+                                class="section__subtitle--highlight">everytime.</span></b></p>
                 </div>
-                <div class="team__cards">
-                    <div class="team__cards__item">
-
-                    </div>
-                    <div class="team__cards__item">
-
-                    </div>
-                    <div class="team__cards__item">
-
-                    </div>
-                </div>
+                <sl-carousel class="scroll-hint" navigation autoplay loop pagination>
+                    <sl-carousel-item>
+                        <img alt="The sun shines on the mountains and trees (by Adam Kool on Unsplash)"
+                            src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                        <img alt="A waterfall in the middle of a forest (by Thomas Kelly on Unsplash)"
+                            src="https://media.istockphoto.com/id/517248693/pt/foto/o-gato-que-situa-se-para-baixo.webp?a=1&s=612x612&w=0&k=20&c=Tg9QaZb_-wuB7RPsQnGQwjpmTjQY03ThlNyBrCiKJT8=" />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                        <img alt="The sun is setting over a lavender field (by Leonard Cotte on Unsplash)"
+                            src="https://media.istockphoto.com/id/2157163745/pt/foto/street-stray-cat-closeup.webp?a=1&s=612x612&w=0&k=20&c=Y_YBx5ibtOiuOLeFGlbuZK7AAFtQHLLHi9VSd66QR5E=" />
+                    </sl-carousel-item>
+                    <sl-carousel-item>
+                        <img alt="A field of grass with the sun setting in the background (by Sapan Patel on Unsplash)"
+                            src="https://images.unsplash.com/photo-1583524505974-6facd53f4597?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" />
+                    </sl-carousel-item>
+                </sl-carousel>
             </div>
         </section>
 
-        <!-- o u r  - w o r k -->
-        <section class="work container section-spacer" aria-label="Our Work - Gallery">
-            <div class="work__bg">
-                <div class="section-title work__title">
-                    <h2>Our Work</h2>
-                    <p>Committed to making spaces sparkle, <span>everytime.</span></p>
+        <!-- o u r  - t e a m -->
+        <section class="team" aria-label="Our Professional adn Dedicated Team Of Cleaners">
+            <div class="container">
+                <div class="section-header section-header--center">
+                    <h2 class="section__title">Meet some of the people who make your home shine</h2>
+                    <p class="section__subtitle">Our cleaning team is trained to treating your home with the care and
+                        respect it deserves</p>
                 </div>
-            </div>
-            <div class="work__gallery">
-                <div class="work__gallery__item">
-                    <img src="https://images.stockcake.com/public/f/0/a/f0a9652d-f99c-4f80-b758-c912017f5158_large/modern-kitchen-interior-stockcake.jpg"
-                        alt="" class="work__gallery__item__img">
+                <div class="team__cards">
+
+                    <!-- cleaner-1 -->
+                    <div class="team__cards__item">
+                        <header class="cleaner">
+                            <img src="./assets/Images/cleaners/img-1.png"
+                                alt="Picture of Flahs Guys professional cleaner Elisa" width="98px" height="98px">
+                            <h3 class="cleaner__name">Elisa<img src="./assets/Icons/verified.svg" alt="Verified icon">
+                            </h3>
+                            <div>
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                            </div>
+                            <span class="cleaner__job">Professional cleaner</span>
+                        </header>
+                        <p class="cleaner__bio">Elisa moved from Brazil to California, seeking a brighter future.
+                            Starting as a...</p>
+                        <a href="" class="button--primary button--md cleaner__cta">Read more</a>
+                    </div>
+
+                    <!-- cleaner-2 -->
+                    <div class="team__cards__item">
+                        <header class="cleaner">
+                            <img src="./assets/Images/cleaners/img-2.png"
+                                alt="Picture of Flahs Guys professional cleaner Elisa" width="98px" height="98px">
+                            <h3 class="cleaner__name">Marcela<img src="./assets/Icons/verified.svg" alt="Verified icon">
+                            </h3>
+                            <div>
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                            </div>
+                            <span class="cleaner__job">Professional cleaner</span>
+                        </header>
+                        <p class="cleaner__bio">Marcela was born and raised in a vibrant neighborhood in Chile, where
+                            her artistic flair...</p>
+                        <a href="" class="button--primary button--md cleaner__cta">Read more</a>
+                    </div>
+
+                    <!-- cleaner-3 -->
+                    <div class="team__cards__item">
+                        <header class="cleaner">
+                            <img src="./assets/Images/cleaners/img-3.png"
+                                alt="Picture of Flahs Guys professional cleaner Elisa" width="98px" height="98px">
+                            <h3 class="cleaner__name">Juan<img src="./assets/Icons/verified.svg" alt="Verified icon">
+                            </h3>
+                            <div>
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                                <img src="./assets/Icons/start-fill.svg"
+                                    alt="Filled yellow star icon representing 5.0 rate">
+                            </div>
+                            <span class="cleaner__job">Professional cleaner</span>
+                        </header>
+                        <p class="cleaner__bio">Juan grew up in a small town in Spain, where he learned the value of
+                            hard work from...</p>
+                        <a href="" class="button--primary button--md cleaner__cta">Read more</a>
+                    </div>
+
                 </div>
-                <div class="work__gallery__item">
-                    <img src="https://i.pinimg.com/236x/5d/23/20/5d2320eeb530a72163fe9773c3c7ca6c.jpg" alt=""
-                        class="work__gallery__item__img">
-                </div>
-                <div class="work__gallery__item">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0UOKfXiRg6N03t488-380Zzfl3pdL4nc0Q&s"
-                        alt="" class="work__gallery__item__img">
-                </div>
-                <div class="work__gallery__item">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJWQzV1JqB7_z9XdrfLI5NZVLVszyh6SQp8A&s"
-                        alt="" class="work__gallery__item__img">
-                </div>
-            </div>
         </section>
 
         <!-- s u b s c r i p t i o n -->
-        <section class="subscription container section-spacer" aria-label="Our Subscription Plans">
+        <section class="subscription container" aria-label="Our Subscription Plans">
             <div class="subscription__title">
-                <h2>Discover our subscription plans</h2>
-                <p>For every lifestyle, a customized and flexible plan</p>
+                <h2 class="section__title--pairing">Discover our subscription plans</h2>
+                <p class="section__subtitle">For every lifestyle, a customized and flexible plan</p>
             </div>
-            <div class="subscription__cards">
+            <div class="subscription__cards container">
+                <!-- plan-1 -->
                 <div class="subscription__cards__item">
-
-                </div>
-                <div class="subscription__cards">
-                    <div class="subscription__cards__item">
-
-                    </div>
-                    <div class="subscription__cards">
-                        <div class="subscription__cards__item">
-
+                    <header class="plan">
+                        <div class="plan__name">
+                            <h3>Weekly Plan</h3><span class="plan__discount">20%off</span>
                         </div>
-                    </div>
+                        <div class="plan__price">
+                            <h4>$123.58</h4><span class="section__label">Starting price</span>
+                        </div>
+                        <p class="plan__visit">Every week visit</p>
+                    </header>
+                    <ul class="plan__list">
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Cancel anytime</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Choose your cleaners</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">4 Cleaning visits per month</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">4 extras additional per month</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Guaranteed recall</li>
+                    </ul>
+                    <button class="button button--primary button--lg button--full" aria-label="Subscribe now">Subscribe
+                        now</button>
+                    <span class="section__label plan__disclaimer">Charged for each cleaning*</span>
+                </div>
+                <!-- plan-2 -->
+                <div class="subscription__cards__item">
+                    <header class="plan">
+                        <div class="plan__name">
+                            <h3>Biweekly Plan</h3><span class="plan__discount">10%off</span>
+                        </div>
+                        <div class="plan__price">
+                            <h4>$139.03</h4><span class="section__label">Starting price</span>
+                        </div>
+                        <p class="plan__visit">Biweekly visit</p>
+                    </header>
+                    <ul class="plan__list">
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Cancel anytime</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Choose your cleaners</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">2 Cleaning visits per month</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">2 extras additional per month</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Guaranteed recall</li>
+                    </ul>
+                    <button class="button button--primary button--lg button--full" aria-label="Subscribe now">Subscribe
+                        now</button>
+                    <span class="section__label plan__disclaimer">Charged for each cleaning*</span>
+                </div>
+                <!-- plan-3 -->
+                <div class="subscription__cards__item">
+                    <header class="plan">
+                        <div class="plan__name">
+                            <h3>Monthly Plan</h3><span class="plan__discount">5%off</span>
+                        </div>
+                        <div class="plan__price">
+                            <h4>$164.25</h4><span class="section__label">Starting price</span>
+                        </div>
+                        <p class="plan__visit">Monthly visit</p>
+                    </header>
+                    <ul class="plan__list">
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Cancel anytime</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Choose your cleaners</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">1 Cleaning visits per month</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">1 extras additional per month</li>
+                        <li class="plan__list__item section__body--small"><img src="./assets/Icons/check.svg"
+                                alt="Check icon indicating what's included">Guaranteed recall</li>
+                    </ul>
+                    <button class="button button--primary button--lg button--full" aria-label="Subscribe now">Subscribe
+                        now</button>
+                    <span class="section__label plan__disclaimer">Charged for each cleaning*</span>
+                </div>
         </section>
 
-        <!-- c o u p o n s -->
-        <section class="coupons container section-spacer">
-            <h2 class="coupons__title">Exclusive cleaning coupons for a sparkling, fresh makeover</h2>
+        <!-- c o u p o n s  &  p r o m o t i o n s -->
+        <section class="coupons container" aria-label="Coupons and Promotions">
+            <h2 class="coupons__title section__title">Exclusive cleaning coupons for a sparkling, fresh makeover</h2>
             <div class="coupons__combos">
+                <!-- combo-1 -->
                 <div class="coupons__combos__item">
-
+                    <header class="combo">
+                        <img src="./assets/Icons/coupons/dream-kitchen.svg"
+                            alt="Oven icon representing Dream Kitchen combo">
+                        <h3>Dream Kitchen</h3>
+                    </header>
+                    <p class="combo__description">It's never been easier to have the kitchen of your dreams! We've
+                        created the perfect package.</p>
+                    <span class="combo__includes section__label"><b>Includes:</b> item, item, item, item, item</span>
                 </div>
-                <div class="coupons__combos__item">
 
+                <!-- combo-2 -->
+                <div class="coupons__combos__item">
+                    <header class="combo">
+                        <img src="./assets/Icons/coupons/special.svg" alt="Oven icon representing Special Care combo">
+                        <h3>Special Care</h3>
+                    </header>
+                    <p class="combo__description">We all need a little extra support from time to time, whether it's
+                        because of health issues or simply lack of time</p>
+                    <span class="combo__includes section__label"><b>Includes:</b> item, item, item, item, item</span>
                 </div>
-                <div class="coupons__combos__item">
 
+                <!-- combo-3 -->
+                <div class="coupons__combos__item">
+                    <header class="combo">
+                        <img src="./assets/Icons/coupons/baby.svg" alt="Oven icon representing Baby Arrive combo">
+                        <h3>Baby Arrive</h3>
+                    </header>
+                    <p class="combo__description">New family member? Create a safe & sptoless space, free of dust and
+                        mites for your baby</p>
+                    <span class="combo__includes section__label"><b>Includes:</b> item, item, item, item, item</span>
                 </div>
-                <div class="coupons__combos__item">
 
+                <!-- combo-4 -->
+                <div class="coupons__combos__item">
+                    <header class="combo">
+                        <img src="./assets/Icons/coupons/furry.svg" alt="Pet icon representing Furry Friend combo">
+                        <h3>Furry Friend</h3>
+                    </header>
+                    <p class="combo__description">For every pet owner who treat their furry friends like family. We got
+                        you!</p>
+                    <span class="combo__includes section__label"><b>Includes:</b> item, item, item, item, item</span>
                 </div>
             </div>
+
+
             <div class="coupons__discount">
 
+                <!-- coupon-1 -->
                 <div class="coupons__discount__item">
-
+                    <header class="coupon">
+                        <img src="./assets/Icons/coupons/10.svg" alt="Calendar icon representing 10%off coupon">
+                        <h3>10% discount</h3>
+                    </header>
+                    <p class="coupon__description section__label">Using the welcome coupon for your first cleaning</p>
                 </div>
-                <div class="coupons__discount__item">
 
+                <!-- coupon-2 -->
+                <div class="coupons__discount__item">
+                    <header class="coupon">
+                        <img src="./assets/Icons/coupons/15.svg" alt="Calendar icon representing 10%off coupon">
+                        <h3>Up to 15% discount</h3>
+                    </header>
+                    <p class="coupon__description section__label">Using the welcome coupon for your first cleaning</p>
                 </div>
-                <div class="coupons__discount__item">
 
+                <!-- coupon-3 -->
+                <div class="coupons__discount__item">
+                    <header class="coupon">
+                        <img src="./assets/Icons/coupons/refer.svg"
+                            alt="Loyalty icon representing Member Get Member - Refer a Friend coupon">
+                        <h3>10% discount</h3>
+                    </header>
+                    <p class="coupon__description section__label">Referring a friend. Your friend gets 20%off</p>
                 </div>
-                <div class="coupons__discount__item">
 
+
+                <!-- coupon-4 -->
+                <div class="coupons__discount__item">
+                    <header class="coupon">
+                        <img src="./assets/Icons/coupons/carpet.svg"
+                            alt="Couch icon representing Carpet & Upholsetry coupon">
+                        <h3>15% discount</h3>
+                    </header>
+                    <p class="coupon__description section__label">On our new Carpet & Upholstery additionals</p>
                 </div>
-                <div class="coupons__discount__item">
 
+                <!-- coupon-5 -->
+                <div class="coupons__discount__item">
+                    <header class="coupon">
+                        <img src="./assets/Icons/coupons/standard.svg"
+                            alt="Calendar icon representing Standard Cleaning: $140 coupon">
+                        <h3>$140</h3>
+                    </header>
+                    <p class="coupon__description section__label">On the basic standard package</p>
                 </div>
             </div>
         </section>
 
         <!-- e x t r e m e -->
-        <section class="extreme section-spacer container">
-            <div class="extreme__img">
-                <img src="https://img.freepik.com/premium-photo/chaos-room-sloppy-dirty-house-depressive-apartment_89386-3224.jpg"
-                    alt="">
+        <section class="extreme container" aria-label="Extreme Cleaning Service">
+            <div class="extreme__image">
+                <sl-image-comparer>
+                    <img slot="before"
+                        src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80&sat=-100&bri=-5"
+                        alt="Grayscale version of kittens in a basket looking around." />
+                    <img slot="after"
+                        src="https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+                        alt="Color version of kittens in a basket looking around." />
+                </sl-image-comparer>
             </div>
             <div class="extreme__content">
-                <div class="extreme__content__title">
-                    <h2>Extreme Cleaning</h2>
-                    <p>Our latest service to transform your space into a new welcoming home</p>
-                </div>
-                <div class="extreme__content__text">
-                    <p>Is your place overwhelmed by clutter, damage, or neglect? Our Extreme Cleaning service is
+                <h2 class="section__title extreme__title">Extreme Cleaning</h2>
+                <div>
+                    <p class="section__body extreme__description"><b>Is your place overwhelmed by clutter,
+                            damage, or neglect?</b> Our Extreme
+                        Cleaning service is
                         designed to
-                        handle the toughest and most critical cleaning challenges.</p>
-                    <ul>
-                        <li><span class="material-symbols-rounded">
-                                check
-                            </span><b>Disaster cleanup:</b> Fire, flood, and mold remediation.</li>
-                        <li><span class="material-symbols-rounded">
-                                check
-                            </span><b>Hoarding cleanup:</b> Safe and compassionate removal of excessive belongings.</li>
-                        <li><span class="material-symbols-rounded">
-                                check
-                            </span><b>Vacant property cleanup:</b> Deep cleaning and restoration of unoccupied spaces.
+                        handle the toughest and most critical cleaning challenges with total care and discretion.</p>
+                    <ul class="extreme__list">
+                        <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
+                                alt="Check icon representing what's included"><b>Disaster cleanup:</b> Fire, flood, and
+                            mold remediation.</li>
+                        <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
+                                alt="Check icon representing what's included"><b>Hoarding cleanup:</b> Safe and
+                            compassionate removal of excessive belongings.</li>
+                        <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
+                                alt="Check icon representing what's included"><b>Vacant property cleanup:</b> Deep
+                            cleaning and restoration of unoccupied spaces.
                         </li>
-                        <li><span class="material-symbols-rounded">
-                                check
-                            </span><b>Absolute Privacy:</b> We are committed to protecting your personal information
+                        <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
+                                alt="Check icon representing what's included"><b>Absolute Privacy:</b> We are committed
+                            to protecting your personal information
                             with
                             care and
                             discretion</li>
                     </ul>
                 </div>
-                <a href="#">Contact us for sale</a>
+                <button class="button button--lg button--primary" aria-label="Contact us for sale">Contact us for
+                    sale</button>
+            </div>
+        </section>
 
+        <!--  w h a t  i s  i n c l u d e d -->
+        <section class="whats-included" aria-label="What's Included in Our Services - Table of Content">
+            <h2 class="section__title container">What is included in each kind of cleaning?</h2>
+            <div class="navigation-arrows container">
+                <button class="navigation" id="l-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16" part="svg">
+                        <path fill-rule="evenodd"
+                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
+                        </path>
+                    </svg></button>
+                <button class="navigation" id="r-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16" part="svg">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                        </path>
+                    </svg></button>
             </div>
 
+            <div class="included-services container">
+
+                <!-- STANDARD CLEANING -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/standard.svg"
+                            alt="Home icon representing Standard Cleaning Service" width="28px" height="28px">
+                        <h3>Standard Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+                <!-- DEEP CLEANING -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/deep.svg"
+                            alt="Home icon representing Deep Cleaning Service" width="28px" height="28px">
+                        <h3>Deep Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+                <!-- MOVE-IN/MOVE-OUT -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/move.svg"
+                            alt="Home Switch icon representing Move-in/Move-out Cleaning Service" width="28px"
+                            height="28px">
+                        <h3>Move-in/out Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+
+                <!-- POST CONSTRUCTION -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/post.svg"
+                            alt="Operator icon representing Post-Construction Cleaning Service" width="28px"
+                            height="28px">
+                        <h3>Post-Construction</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+                <!-- AirBnb -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/air.svg"
+                            alt="AirBnb logo  representing AirBnb Cleaning Service" width="28px" height="28px">
+                        <h3>AirBnb Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+                <!-- Commercial -->
+                <div class="included-services__item">
+                    <header class="included-services__header">
+                        <img src="./assets/Icons/whats-included/commercial.svg"
+                            alt="Building icon representing Commercial Cleaning Service" width="28px" height="28px">
+                        <h3>Commercial Cleaning</h3>
+                        <a href="#" class="button button--primary button--md button--full">Book now</a>
+                    </header>
+
+                    <!-- Bathroom -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bathroom.svg"
+                                alt="Bathroom icon representing what's included in the room">
+                            <h4>Bathroom</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                                (clean
+                                &
+                                polish)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clean/sanitize
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Toilets
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Showers
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kitchen -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/kitchen.svg"
+                                alt="Oven icon representing what's included in the room">
+                            <h4>Kitchen</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Microwave
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                appliances</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge/oven
+                                (outside)</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dishwashing
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Fridge
+                                (inside)
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                                (inside)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- General Rooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/general.svg"
+                                alt="Door icon representing what's included in the room">
+                            <h4>General rooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Counter
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Furniture
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Mirrors
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                mopping the floor</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Outside
+                                of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Dusting
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                switches
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                                knobs
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                                fixtures
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Living
+                                Spaces
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Living Spaces -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/living.svg"
+                                alt="Couch icon representing what's included in the room">
+                            <h4>Living spaces</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Hallways
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Staircases
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                                tops
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Electronics
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Laundry
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!-- Bedrooms -->
+                    <div class="included-services__room">
+                        <div class="included-services__room__header">
+                            <img src="./assets/Icons/whats-included/rooms/bedroom.svg"
+                                alt="Bed icon representing what's included in the room">
+                            <h4>Bedrooms</h4>
+                        </div>
+                        <ul>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Making
+                                beds
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Vacuum
+                                and
+                                moping
+                                the flooer</li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Clutter
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Windows
+                                sills
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Baseboards
+                            </li>
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Inside of
+                                cabinets and drawers</li>
+                        </ul>
+                    </div>
+
+                    <!-- cta -->
+                    <div class="included-services__cta">
+                        <span><a href="#" class="link">Show less</a></span>
+                        <a href="#" class="button button--full button--primary button--md">Book now</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <a href="#" class="link view-all">View all</a>
+        </section>
+
+        <!-- f i x e d  b l o g -->
+        <section class="blog-fixed container section-spacer" aria-label="Our Latest Blog Posts">
+            <div class="title-wrapper">
+                <div class="blog-fixed__title">
+                    <h3 class="section__title">Cleaning tips</h3>
+                    <p class="section__subtitle">Find simple, helpful tips to make cleaning easy and keep your home
+                        always sparkling clean</p>
+                </div>
+                <div class="blog-fixed__cta">
+                    <button class="button button--lg button--secondary">See all articles</button>
+                </div>
+            </div>
+            <div class="blog-fixed__articles">
+                <!-- Article -->
+                <article class="blog-fixed__articles__item">
+                    <a href="#">
+                        <img src="https://www.truedispensers.com/cdn/shop/articles/benefits_of_a_clean_home_featured_image.jpg?v=1651401747"
+                            alt="Woman cleaning floor" class="blog-fixed__articles__item__img">
+                        <span class="section__label">Cleaning tips</span>
+                        <h3>The Ultimate Guide to Keeping Your Living Room Always Tidy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem ex dolor nemo. Ut
+                            officia
+                            laboriosam nam eligendi aperiam placeat consequatur dolor libero aliquam sunt, non
+                            consequuntur,
+                            soluta id ad?</p>
+                    </a>
+                </article>
+                <!-- Article -->
+                <article class="blog-fixed__articles__item">
+                    <a href="#">
+                        <img src="https://www.truedispensers.com/cdn/shop/articles/benefits_of_a_clean_home_featured_image.jpg?v=1651401747"
+                            alt="Woman cleaning floor" class="blog-fixed__articles__item__img">
+                        <span class="section__label">Cleaning tips</span>
+                        <h3>The Ultimate Guide to Keeping Your Living Room Always Tidy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem ex dolor nemo. Ut
+                            officia
+                            laboriosam nam eligendi aperiam placeat consequatur dolor libero aliquam sunt, non
+                            consequuntur,
+                            soluta id ad?</p>
+                    </a>
+                </article>
+                <!-- Article -->
+                <article class="blog-fixed__articles__item">
+                    <a href="#">
+                        <img src="https://www.truedispensers.com/cdn/shop/articles/benefits_of_a_clean_home_featured_image.jpg?v=1651401747"
+                            alt="Woman cleaning floor" class="blog-fixed__articles__item__img">
+                        <span class="section__label">Cleaning tips</span>
+                        <h3>The Ultimate Guide to Keeping Your Living Room Always Tidy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem ex dolor nemo. Ut
+                            officia
+                            laboriosam nam eligendi aperiam placeat consequatur dolor libero aliquam sunt, non
+                            consequuntur,
+                            soluta id ad?</p>
+                    </a>
+                </article>
+                <!-- Article -->
+                <article class="blog-fixed__articles__item">
+                    <a href="#">
+                        <img src="https://www.truedispensers.com/cdn/shop/articles/benefits_of_a_clean_home_featured_image.jpg?v=1651401747"
+                            alt="Woman cleaning floor" class="blog-fixed__articles__item__img">
+                        <span class="section__label">Cleaning tips</span>
+                        <h3>The Ultimate Guide to Keeping Your Living Room Always Tidy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem ex dolor nemo. Ut
+                            officia
+                            laboriosam nam eligendi aperiam placeat consequatur dolor libero aliquam sunt, non
+                            consequuntur,
+                            soluta id ad?</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- F A Q -->
+        <section class="faq container" aria-label="FAQ - Frequently Asked Questions">
+            <div class="faq__content">
+                <h2 class="section__title">Frequently Asked Questions</h2>
+                <div class="faq__content__message">
+                    <h3>Did not see your question?</h3>
+                    <p>Send us a message</p>
+                    <label for="email" hidden>Email</label>
+                    <input type="email" placeholder="Email" class="input-field">
+                    <label for="message" hidden>Your message</label>
+                    <input type="text" placeholder="Your message" class="input-field input-field--lg">
+                    <button class="button--lg button--full button button--primary">Send question</button>
+                    <span class="section__label">By sending a question you agree to our <a href="">Privacy
+                            Policy</a>.</span>
+                </div>
+            </div>
+
+            <div class="faq__accordion">
+                <button class="accordion accordion--is-open">
+                    <h3 class="accordion__title">Super qualified 24/7 professionals<a href="#"><span
+                                class="material-symbols-rounded">
+                                remove
+                            </span></a></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>Additionally, if you require cleaning for specific rooms or
+                            areas and not the entire house, we
+                            provide hourly pricing as well.</p>
+                    </div>
+                </button>
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Inclusions in Flat-Rate Servicesy<span
+                            class="material-symbols-rounded">
+                            add
+                        </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
+                </button>
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Cleaning Supplies<span class="material-symbols-rounded">
+                            add
+                        </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
+                </button>
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Reschedule and Cancelation <span class="material-symbols-rounded">
+                            add
+                        </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
+                </button>
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Number of Cleaners<span class="material-symbols-rounded">
+                            add
+                        </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
+                </button>
+                <button class="accordion accordion--is-closed">
+                    <h3 class="accordion__title">Presence During Cleaning<span class="material-symbols-rounded">
+                            add
+                        </span></h3>
+                    <div class="accordion__content">
+                        <p>When it comes to complete house cleanings, we generally offer
+                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                    </div>
+                </button>
+            </div>
 
         </section>
+
+        <!-- f o o t e r -->
+        <footer class="footer" aria-label="Footer Navigation">
+            <div class="footer__wrapper container">
+
+                <!-- col-1 -->
+                <div class="footer__column">
+                    <a href="/"><img src="./assets/Logos/flash-bw.svg" alt="Flash Guys Cleaning logo"
+                            class="footer__column__title"></a>
+                    <ul class="footer__content">
+                        <li><a class="footer__content__link" href="#">About us</a></li>
+                        <li><a class="footer__content__link" href="#">Blog</a></li>
+                        <li><a class="footer__content__link" href="#">Terms of use</a></li>
+                        <li><a class="footer__content__link" href="#">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="footer__content__logos">
+                        <li><a href="#"><img src="./assets/Logos/fb.png" alt="Facebook - logo"></a></li>
+                        <li><a href="#"><img src="./assets/Logos/ig.png" alt="Instagram - logo"></a></li>
+                        <li><a href="#"><img src="./assets/Logos/yb.png" alt="Youtube - logo"></a></li>
+                    </ul>
+                </div>
+
+                <!--  col-2 -->
+                <div class="footer__column">
+                    <h3 class="footer__column__title">Flash Guys</h3>
+                    <ul class="footer__content">
+                        <li><a class="footer__content__link" href="#">Professionals</a></li>
+                        <li><a class="footer__content__link" href="#">Subscription</a></li>
+                        <li><a class="footer__content__link" href="#">Promotions</a></li>
+                    </ul>
+                </div>
+
+                <!--  col-3 -->
+                <div class="footer__column">
+                    <h3 class="footer__column__title">Services</h3>
+                    <ul class="footer__content">
+                        <li><a class="footer__content__link" href="#">Deep Cleaning</a></li>
+                        <li><a class="footer__content__link" href="#">Standard Cleaning</a></li>
+                        <li><a class="footer__content__link" href="#">Move-in/out Cleaning</a></li>
+                        <li><a class="footer__content__link" href="#">Post Construction Cleaning</a></li>
+                        <li><a class="footer__content__link" href="#">Extreme Cleaning</a></li>
+                        <li><a class="footer__content__link" href="#">Carpets & Upholsery</a></li>
+                        <li><a class="footer__content__link" href="#">Commercial Cleaning</a></li>
+                        <li><a class="footer__content__link" href="#">Airbnb Cleaning</a></li>
+                    </ul>
+                </div>
+
+                <!--  col-4 -->
+                <div class="footer__column">
+                    <h3 class="footer__column__title">Areas served</h3>
+                    <ul class="footer__content">
+                        <li><a class="footer__content__link" href="#">Los Angeles and area</a></li>
+                        <li><a class="footer__content__link" href="#">South Bay, CA</a></li>
+                        <li><a class="footer__content__link" href="#">South L.A, CA</a></li>
+                        <li><a class="footer__content__link" href="#">Southheast, CA</a></li>
+                        <li><a class="footer__content__link" href="#">Westside, CA</a></li>
+                        <li><a class="footer__content__link footer__content__link--disabled" href="#">San Diego
+                                (soon)</a></li>
+                        <li><a class="footer__content__link footer__content__link--disabled" href="#">San Francisco
+                                (soon)</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--  col-5 -->
+                <div class="footer__column">
+                    <h3 class="footer__column__title">Support</h3>
+                    <ul class="footer__content">
+                        <li><a class="footer__content__link" href="#">FAQ</a></li>
+                        <li><a class="footer__content__link" href="#">Help Center</a></li>
+                        <li><a class="footer__content__link" href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <!--  col-6 -->
+                <div class="footer__column">
+                    <h3 class="footer__column__title">Get updates and promotions</h3>
+                    <p>Subscribe now to stay tuned</p>
+                    <div class="footer__subscribe">
+                        <label for="email" hidden>Email</label>
+                        <input class="input-field" type="email" placeholder="Email">
+                        <button class="button button--md button--primary button--full">Subscribe</button>
+                        <span>By subscribing you agree to our Privacy Policy.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- copy -->
+            <span class="footer__copy">&copy; 2024 All Rights Reserved, Flash Guys Cleaning </span>
+
+        </footer>
     </main>
 
 </body>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js">
+</script>
+<script src="./app/src/javascript/carousel.js"></script>
+<script src="./app/src/javascript/scroll-x.js"></script>
+<script src="./app/src/javascript/accordion.js"></script>
+<script src="./app/src/javascript/expand.js"></script>
+<script src="./app/src/javascript/services-nav.js"></script>
+<script src="./app/src/javascript/whats-included.js"></script>
+<script src="./app/src/javascript/member-get-member.js"></script>
+
 
 </html>

@@ -1,65 +1,45 @@
 @import "../1-base/colors";
 @import "../1-base/sizes";
 @import "../1-base/sizes";
+@import "../2-layout/breakpoints";
 @import "../3-modules/buttons";
 
 .why-choose {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     gap: 48px;
-}
-
-
-.why-choose__img {
-
-    width: 526.97px;
-    height: 574px;
-    border-radius: 24px;
-.img-1 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: $br-xxl;
-}
- 
-}
-
-.why-choose__accordion {
-    width: 540px;
-}
-
-.why-choose__accordion__item {
-
-    border: none;
-    display: flex;
-    gap: $spacer-sm;
-    flex-direction: column;
-    align-items: flex-start;
-    cursor: pointer;
-    padding: $p-xxl;
-    width: 100%;
-    border-radius: $br-lg;
-    margin-bottom: $spacer-md;
-
-
-    &--is-open {
-        background-color: $neutrals-100;
-    }
-
-    &--is-closed {
-        background-color: transparent;
-    }
-}
-
-.why-choose__accordion__title {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
+    align-items: stretch;
 
-.why-choose__accordion__text {
-    text-align: start;
+    @media (max-width: $breakpoint-md) {
+        flex-direction: column;
+    }
+
+    &__accordion {
+        min-width: 320px;
+        flex: 1;
+    }
+
+    &__carousel {
+        overflow: hidden;
+        display: flex;
+        flex: 1;
+        border-radius: $br-md;
+
+
+
+        &__images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            height: auto;
+
+
+            img {
+                width: 100%;
+                height: auto;
+                flex-shrink: 0;
+                object-fit: cover;
+            }
+
+        }
+    }
 }

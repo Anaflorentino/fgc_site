@@ -1,0 +1,10 @@
+#div1 {
+    background-color: tomato;
+    padding: 48px;
+}
+
+#expand {
+    display: inline-block;
+    margin-left: 2em;
+
+}

@@ -1,0 +1,99 @@
+// Font families
+$font-primary: 'Axiforma',
+'Arial',
+'Helvetica',
+sans-serif;
+
+// Font sizes (Major Second Scale)
+$font-size-40: 2.5rem; // 40px
+$font-size-36: 2.250rem; // 36px
+$font-size-32: 2.000rem; // 32px
+
+$font-size-29: 1.812rem; // 29px
+$font-size-26: 1.625rem; // 26px
+$font-size-23: 1.438rem; // 23px
+$font-size-20: 1.250rem; // 20px
+
+$font-size-18: 1.125rem; // 18px
+$font-size-16: 1.000rem; // 16px
+$font-size-14: 0.875rem; // 14px
+
+$font-size-13: 0.812rem; // 13px
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Line heights
+$line-height-100: 100%; // Linha base para botões e links
+$line-height-120: 120%;
+$line-height-130: 130%;
+$line-height-140: 140%;
+$line-height-150: 150%;
+$line-height-164: 164%;
+
+// Letter spacings
+$letter-spacing-0: 0px; // 0
+$letter-spacing-negative-40: -0.056px; // -.4
+$letter-spacing-negative-60: -0.096px; // -.6
+$letter-spacing-negative-80: -0.144px; // -.8
+$letter-spacing-negative-110: -0.198px; // -1.1
+$letter-spacing-negative-160: -0.32px; // -1.6
+$letter-spacing-negative-200: -0.52px; // -2
+$letter-spacing-negative-220: -0.704px; // -2.2
+$letter-spacing-negative-240: -0.864px; // -2.4
+
+// Text Styles Map
+$text-styles: (
+  'headline': (
+    'lg': (size: $font-size-40, weight: $font-weight-bold, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+    'md': (size: $font-size-32, weight: $font-weight-semibold, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+    'sm': (size: $font-size-29, weight: $font-weight-bold, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160)
+  ),
+  'title': (
+    'lg': (size: $font-size-26, weight: $font-weight-medium, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+    'md': (size: $font-size-23, weight: $font-weight-medium, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+    'sm': (size: $font-size-20, weight: $font-weight-medium, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160)
+  ),
+  'body': (
+    'lg': (
+      'regular': (size: $font-size-18, weight: $font-weight-regular, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+      'medium': (size: $font-size-18, weight: $font-weight-medium, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+      'bold': (size: $font-size-18, weight: $font-weight-bold, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160)
+    ),
+    'md': (
+      'regular': (size: $font-size-16, weight: $font-weight-regular, line-height: $line-height-164, letter-spacing: $letter-spacing-negative-160),
+      'medium': (size: $font-size-16, weight: $font-weight-medium, line-height: $line-height-164, letter-spacing: $letter-spacing-negative-160),
+      'bold': (size: $font-size-16, weight: $font-weight-bold, line-height: $line-height-164, letter-spacing: $letter-spacing-negative-160)
+    ),
+    'sm': (
+      'regular': (size: $font-size-14, weight: $font-weight-regular, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+      'medium': (size: $font-size-14, weight: $font-weight-medium, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160),
+      'bold': (size: $font-size-14, weight: $font-weight-bold, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160)
+    )
+  ),
+  'label': (
+    'default': (size: $font-size-13, weight: $font-weight-regular, line-height: $line-height-164, letter-spacing: $letter-spacing-negative-160),
+    'bold': (size: $font-size-13, weight: $font-weight-medium, line-height: $line-height-120, letter-spacing: $letter-spacing-negative-160)
+  )
+);
+
+// Mixin para aplicar estilos de texto (weight opcional)
+@mixin text-style($type, $variant, $weight: null) {
+  // Tenta acessar o estilo com o peso especificado, se fornecido
+  $style: if($weight, map-get(map-get(map-get($text-styles, $type), $variant), $weight), map-get(map-get($text-styles, $type), $variant));
+
+  @if $style {
+    font-size: map-get($style, size);
+    font-weight: map-get($style, weight);
+    line-height: map-get($style, line-height);
+    letter-spacing: map-get($style, letter-spacing);
+  } @else {
+    @warn "======>> Oops, o estilo `#{$type}`, variante `#{$variant}`, ou peso `#{$weight}` não foi encontrado em `$text-styles` :(";
+  }
+}
+
+
+

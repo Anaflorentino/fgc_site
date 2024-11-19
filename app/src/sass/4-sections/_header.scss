@@ -1,28 +1,44 @@
+@import "../1-base/typography";
 @import "../1-base/colors";
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
+@import "../2-layout/breakpoints";
 
 
 .header {
-    padding: 16px 0;
-}
-.nav-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
+    
+    padding-top: 16px;
 
-    &__links {
+    &__nav-top {
         display: flex;
-        gap: $spacer-xs;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: $spacer-sm;
+
+      
+
+        &__links {
+            display: flex;
+            gap: $spacer-xs;
+
+            @media (max-width: $breakpoint-sm) {
+                display: none;
+            }
+        }
     }
-}
 
-.nav-bottom {
-
-    &__links {
+    &__nav-bottom {
         display: flex;
-        gap: 16px;
         justify-content: start;
+        gap: $spacer-sm;
+
+        @media (max-width: $breakpoint-md) {
+            display: none;
+        }
+
+        &__links {
+            display: flex;
+            gap: 0;
+        }
     }
 }

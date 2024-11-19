@@ -1,6 +1,8 @@
 @import "../1-base/colors";
 @import "../1-base/sizes";
 
+
+
 .input-field {
     background-color: transparent;
     padding: $p-md $p-lg;
@@ -9,19 +11,21 @@
     transition: border-color 0.3s ease;
     color: $text-500;
 
-    // Estado Hover
-    &:hover {
-        border-color: $primary-300;
+    &--lg {
+        padding-bottom: 5rem;
     }
 
-    // Estado Focus
+    &:hover {
+        border-color: $primary-300;
+        background-color: $bg-color;
+    }
+
     &:focus {
         background-color: $neutrals-100;
         border-color: $primary-500;
         outline: none;
     }
 
-    // Estado Disabled
     &:disabled {
         border-color: $text-200;
         background-color: $neutrals-500;
@@ -29,7 +33,6 @@
         opacity: 0.6;
     }
 
-    // Estilo do Placeholder
     &::placeholder {
         color: $text-200;
     }

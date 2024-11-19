@@ -1,0 +1,65 @@
+@import "../1-base/sizes";
+@import "../1-base/typography";
+@import "../1-base/colors";
+@import "../2-layout/breakpoints";
+
+// Mixins de texto
+@mixin truncate($lines: 3) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Componentes globais de texto
+.section {
+    &__supertitle, &__title, &__subtitle, &__paragraph  {
+        color: $text-500;
+    }
+
+    &__supertitle {
+      @include text-style('headline', 'lg');
+    }
+
+    &__title {
+        @include text-style('headline', 'md');
+    }
+  
+    &__subtitle {
+      @include text-style('body', 'lg', 'regular');
+      margin-top: .4em;
+      color: $text-400;
+    }
+  
+    &__body {
+      @include text-style('body', 'md', 'regular');
+      &--small {
+        @include text-style('body', 'sm', 'regular');
+      }
+    }
+
+    &__list {
+        @include text-style('body', 'md', 'bold');
+    }
+
+    &__label {
+        @include text-style('label', 'default');
+        color: $text-300;
+    }
+  
+    &__title--highlight, &__subtitle--highlight, &__body--highlight {
+      color: $primary-500;
+    }
+
+    &__subtitle--center, &__title--center, &__body--center {
+      text-align: center;
+    }
+  }
+  
+
+  // Previnindo seleção de texto em dispositivos menores
+  p, h1, h2, h3, h4, span, label, input, a , li{
+    @media (max-width: $breakpoint-md), (max-width: $breakpoint-sm) {
+      user-select: none;
+    }
+  }

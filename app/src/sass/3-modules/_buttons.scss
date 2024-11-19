@@ -1,31 +1,86 @@
 @import "../1-base/colors";
+@import "../1-base/sizes";
 
-.button {
+
+// Mixin de hover
+@mixin button-hover($color: null) {
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+
+    @if $color {
+        color: $color;
+    }
+}
+
+// Mixin de reset dos botões
+@mixin button-reset {
+    border: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    white-space: nowrap;
     text-decoration: none;
-    padding: 16px 20px;
-    border-radius: 4px;
-    font-size: 14px;
-    text-transform: initial;
     width: fit-content;
-    text-align: center;
+    line-height: 1;
+}
+
+
+// Estilos gerais dos botões
+.button {
+    @include button-reset();
+
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: initial;
+    transition: ease-out 0.2s;
+
+    &--full {
+        width: 100%;
+    }
+
+    &--lg {
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    &--md {
+        border-radius: 0.5rem;
+        font-size: 0.875rem;
+        padding: 0.875rem 1.25rem;
+    }
+
+
+    &--link {
+        color: $text-400;
+        font-size: 0.875rem;
+        font-weight: 400;
+        padding: 0.75rem 1rem;
+        transition: none;
+
+        &:hover {
+            background-color: $neutrals-100;
+            color: $text-500;
+        }
+    }
 
     &--primary {
         background-color: $primary-500;
         color: $bg-color;
 
         &:hover {
-            opacity: 0.7;
-            transition: ease-out .2s;
+            @include button-hover();
         }
     }
 
+
     &--secondary {
-        border: 1px solid $text-500;
+        border: 0.063rem solid $text-500;
         color: $text-500;
 
         &:hover {
-            opacity: 0.7;
-            transition: ease-out .2s;
+            @include button-hover();
         }
     }
 
@@ -33,20 +88,71 @@
         color: $text-500;
 
         &:hover {
+            @include button-hover();
             text-decoration: underline;
-            opacity: 0.7;
-            transition: ease-out .2s;
         }
     }
 }
 
+// Estilos para links
 .link {
     color: $secondary-400;
     font-weight: bold;
     text-decoration: none;
+    font-size: 0.875rem;
 
     &:hover {
-        color: $secondary-500;
-        transition: ease-out .2s;
+        @include button-hover($secondary-500);
     }
+}
+
+// Estilos para tabs
+.tab {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: .8rem 1.25rem;
+    border-radius: 0.625rem;
+    border: 0.063rem solid $neutrals-500;
+    color: $text-400;
+
+    &--is-active {
+
+        color: $text-500;
+        border-color: $secondary-400;
+        background-color: $neutrals-100;
+    }
+
+    &:hover {
+        border-color: $secondary-400;
+    }
+}
+
+// Estilos para setas de navegação  <- ->
+.navigation {
+    @include button-reset();
+    border: 1px solid $text-500;
+    border-radius: 0.75rem;
+    width: 42px;
+    height: 42px;
+    ;
+
+
+
+    &:hover {
+        @include button-hover();
+    }
+}
+
+#left {
+    background-image: url("/assets/Icons/left-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#right {
+    background-image: url("/assets/Icons/right-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
