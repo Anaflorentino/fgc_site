@@ -8,7 +8,18 @@
         gap: $p-md;
         margin-bottom: $spacer-lg;
         flex-wrap: wrap;
+
+        @media (max-width: $breakpoint-sm) {
+            flex-wrap: nowrap;
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
         
+            // Esconde a barra de rolagem no Firefox
+            scrollbar-width: none; // Firefox suporta essa propriedade
+        }
 
         img {
             margin-right: $p-sm;
@@ -17,6 +28,8 @@
         .services__menu-item {
             display: flex;
             align-items: center;
+            flex-shrink: 0;
+            white-space: nowrap; // Impede que o texto nos botões quebre a linha
         }
     }
 
@@ -33,14 +46,17 @@
         }
 
         &__included {
-        @include truncate(2);
-        &.expanded {
-            display: block;
-            -webkit-box-orient: vertical;
+            @include truncate(2);
 
-          }
+            &.expanded {
+                display: block;
+                -webkit-box-orient: vertical;
+            }
+
+            p {
+                max-width: 80%;
+            }
         }
-        
 
         &__text,
         &__included {
@@ -48,17 +64,11 @@
             max-width: 75%;
 
             @media (max-width: $breakpoint-sm) {
-               max-width: 100%;
+                max-width: 100%;
             }
 
             a {
                 margin-left: $p-sm;
-            }
-        }
-
-        &__included {
-            p {
-                max-width: 80%;
             }
         }
     }
