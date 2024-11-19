@@ -13,6 +13,7 @@
 
     @media (max-width: $breakpoint-md) {
         flex-direction: column;
+        height: 100%;
     }
 
     &__accordion {
@@ -39,7 +40,6 @@
         &__images {
             display: flex;
             transition: transform 0.5s ease-in-out;
-
 
             img {
                 width: 100%;

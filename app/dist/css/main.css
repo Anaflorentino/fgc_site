@@ -292,6 +292,7 @@ svg {
   transition: ease-in-out 300ms; }
   .accordion__title {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center; }
   .accordion--is-closed {
@@ -993,7 +994,8 @@ svg {
   height: 680px; }
   @media (max-width: 740px) {
     .why-choose {
-      flex-direction: column; } }
+      flex-direction: column;
+      height: 100%; } }
   .why-choose__accordion {
     min-width: 320px;
     display: flex;
