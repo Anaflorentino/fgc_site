@@ -54,7 +54,7 @@
         margin-bottom: 16px;
         h3 {
             color: $text-400;
-            font-size: 20px;
+            font-size: 1.25rem;
             font-weight: 700;
             line-height: 1.46;
             letter-spacing: -1.6%;
@@ -64,7 +64,7 @@
 
         &__price {
             h4 {
-                font-size: 23px;
+                font-size: 1.438rem;
                 font-weight: 700;
                 letter-spacing: -2%;
             }
@@ -75,7 +75,7 @@
         }
 
         &__visit {
-            font-size: 18px;
+            font-size: 1.125rem;
             color: $text-200;
             font-weight: 600;
         }
@@ -84,7 +84,7 @@
         background-color: #4BFFCC;
         text-transform: uppercase;
         padding: 6px 12px;
-        font-size: 13px;
+        font-size: 0.875rem;
         border-radius: $br-full;
         line-height: 1;
         font-weight: 600;
@@ -100,7 +100,7 @@
             align-items: center;
             gap: 4px;
             margin-bottom: 8px;
-            font-size: 14px;
+            font-size: 0.875rem;
             color: $text-400;
         }
     }

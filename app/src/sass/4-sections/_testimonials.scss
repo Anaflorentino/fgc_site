@@ -9,11 +9,14 @@
     padding: 48px 0;
 
     &__title {
-        display: flex;
         align-items: end;
+        display: flex;
+        flex-wrap: wrap;
         gap: 24px;
         justify-content: space-between;
-        flex-wrap: wrap
+        max-width: 1250px;
+        margin: 0 auto;
+        margin-bottom: 52px
     }
 
     &__text {

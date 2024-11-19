@@ -7,6 +7,12 @@
     padding: 64px 0;
 }
 
+.team__stars {
+    display: inline-flex;
+    gap: .125rem;
+    margin-bottom: .75rem;
+}
+
 .team__title {
     text-align: center;
 }
@@ -43,28 +49,32 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-bottom: 24px;
+            margin-bottom: 1rem;
 
             &__name {
                 margin-top: 1rem;
-                font-size: 20px;
-                font-weight: 600;
+                color: $text-500;
+                font-size: 1.25rem;
+                font-weight: 700;
+                line-height: 1.46;
                 text-align: center;
 
                 img {
-                    vertical-align: middle;
+                    vertical-align: sub;
                     margin-left: 2px;
+                    width: 22px;
                 }
             }
 
             &__job {
-                margin-top: 4px;
-                color: $text-200;
+                font-size: 1rem;
+                color: $neutrals-700;
+                font-weight: 400;
                 text-align: center;
             }
 
             &__bio {
-                font-size: 1rem;
+                font-size: 0.875rem;
                 font-weight: 400;
                 color: $text-400;
                 text-align: center;
@@ -72,12 +82,6 @@
 
                 @include truncate(3);
             }
-
-           &__cta {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-           }
         }
     }
 }

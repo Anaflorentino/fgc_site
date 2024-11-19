@@ -2,9 +2,14 @@
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
 
-.nav {
+.nav-page__list {
     display: flex;
     gap: 4px;
+    margin: 2rem 0;
+
+    &__item {
+        font-size: 0.813rem;
+    }
 }
 
 .blog {

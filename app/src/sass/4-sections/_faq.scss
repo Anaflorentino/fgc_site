@@ -25,7 +25,7 @@
     }
 
     &__content {
-        justify-content: space-between;
+        justify-content: space-evenly;
         @media (max-width: $breakpoint-md) { 
             width: 100%;
         }

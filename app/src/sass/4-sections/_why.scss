@@ -9,7 +9,7 @@
     gap: 48px;
     justify-content: space-between;
     align-items: stretch;
-    height: 680px;
+    height: auto;
 
     @media (max-width: $breakpoint-md) {
         flex-direction: column;
@@ -22,10 +22,6 @@
         flex-direction: column;
         justify-content: space-between;
         flex: 1;
-
-        h2 {
-            margin-bottom: 1.4em;
-        }
     }
 
     &__carousel {
@@ -33,7 +29,7 @@
         display: flex;
         flex: 1;
         border-radius: $br-md;
-        height: 94%;
+        height: 520px;
         
 
 

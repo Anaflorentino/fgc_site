@@ -79,8 +79,7 @@
 .title-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2em;
+    align-items: end;
 
     @media (max-width: $breakpoint-md) {
         flex-direction: column;

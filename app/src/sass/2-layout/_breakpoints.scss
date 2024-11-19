@@ -8,28 +8,11 @@ $breakpoint-xs: 380px;
   
   .container {
     max-width: 1250px;
-    margin: auto;
+    margin: 0 auto;
   }
 
-
-
-@media (min-width: 495px) {
-  .container {
-    padding: 1em 32px;
-  }
-}
-
-@media (max-width: 494px) {
-  .container {
-    padding: 1em 20px;
-  }
-}
-
-
-@media (max-width: 380px) {
-  .container {
-    padding: 1em 20px;
-  }
+  .section-spacer {
+    margin-bottom: 5.5rem;
 }
 
 

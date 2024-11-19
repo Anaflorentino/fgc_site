@@ -1,12 +1,10 @@
 .section-header {
+    max-width: 1250px;
     margin-bottom: 52px;
+    text-align: start;
 
     &--center {
         text-align: center;
     }
 }
 
-.section-spacer {
-    margin-top: 48px;
-    margin-bottom: 48px;
-}
