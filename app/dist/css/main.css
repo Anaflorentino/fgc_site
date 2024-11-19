@@ -989,22 +989,28 @@ svg {
   display: flex;
   gap: 48px;
   justify-content: space-between;
-  align-items: stretch; }
+  align-items: stretch;
+  height: 680px; }
   @media (max-width: 740px) {
     .why-choose {
       flex-direction: column; } }
   .why-choose__accordion {
     min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 1; }
+    .why-choose__accordion h2 {
+      margin-bottom: 1.4em; }
   .why-choose__carousel {
     overflow: hidden;
     display: flex;
     flex: 1;
-    border-radius: 8px; }
+    border-radius: 8px;
+    height: 94%; }
     .why-choose__carousel__images {
       display: flex;
-      transition: transform 0.5s ease-in-out;
-      height: auto; }
+      transition: transform 0.5s ease-in-out; }
       .why-choose__carousel__images img {
         width: 100%;
         height: auto;
