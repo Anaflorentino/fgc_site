@@ -72,6 +72,9 @@
 .section-spacer {
   margin-bottom: 5.5rem; }
 
+.section-spacer--md {
+  margin-bottom: 2rem; }
+
 .section__supertitle, .section__title, .section__subtitle, .section__paragraph {
   color: #342430; }
 
@@ -142,6 +145,9 @@
 
 .section-spacer {
   margin-bottom: 5.5rem; }
+
+.section-spacer--md {
+  margin-bottom: 2rem; }
 
 .cta {
   display: flex;
@@ -456,6 +462,9 @@ svg {
 .section-spacer {
   margin-bottom: 5.5rem; }
 
+.section-spacer--md {
+  margin-bottom: 2rem; }
+
 .header {
   padding-top: 16px; }
   .header__mobile button {
@@ -523,6 +532,9 @@ ul.nav__mobile__buttons {
 
 .section-spacer {
   margin-bottom: 5.5rem; }
+
+.section-spacer--md {
+  margin-bottom: 2rem; }
 
 .button {
   border: none;
@@ -787,6 +799,9 @@ ul.nav__mobile__buttons {
 .section-spacer {
   margin-bottom: 5.5rem; }
 
+.section-spacer--md {
+  margin-bottom: 2rem; }
+
 .container-test {
   max-width: 1250px;
   margin: 0 auto;
@@ -798,7 +813,7 @@ ul.nav__mobile__buttons {
   align-items: center;
   justify-content: space-between;
   height: 80vh;
-  padding: 0 20px; }
+  gap: 48px; }
 
 .hero-content {
   flex: 1;
@@ -836,7 +851,7 @@ ul.nav__mobile__buttons {
 .form-overlay {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.945);
   padding: 20px;
@@ -910,6 +925,9 @@ ul.nav__mobile__buttons {
 
 .section-spacer {
   margin-bottom: 5.5rem; }
+
+.section-spacer--md {
+  margin-bottom: 2rem; }
 
 .button {
   border: none;
@@ -3006,6 +3024,9 @@ ul.nav__mobile__buttons {
 .section-spacer {
   margin-bottom: 5.5rem; }
 
+.section-spacer--md {
+  margin-bottom: 2rem; }
+
 .footer {
   background-color: #342430;
   color: #ffff; }
@@ -3076,6 +3097,9 @@ div.footer__column:nth-child(6) {
 
 .section-spacer {
   margin-bottom: 5.5rem; }
+
+.section-spacer--md {
+  margin-bottom: 2rem; }
 
 .button {
   border: none;

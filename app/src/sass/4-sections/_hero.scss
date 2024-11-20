@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-between;
   height: 80vh;
-  padding: 0 20px;
+  gap: 48px;
 }
 
 .hero-content {
@@ -61,7 +61,7 @@
 .form-overlay {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.945);
   padding: 20px;
