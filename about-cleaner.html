@@ -38,44 +38,77 @@
 </head>
 
 <body>
+
     <!-- h e a d e r -->
-    <header class="header container">
+    <header class="container header section-spacer--md">
         <div class="header__nav-top">
             <a href="/"><img src="./assets/Logos/Flash Guys.png" alt="Flash Guys Cleaning logo" class="brand"></a>
             <nav aria-label="User Navigation">
-                <ul class="header__nav-top__links">
-                    <li><a href="#" class="button button--link">Log in</a></li>
-                    <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
-                    <li><a href="#" class="button button--primary button--md">Book now</a></li>
-                </ul>
+                <div class="header__nav-top__links">
+                    <ul class="header__nav-top__links">
+                        <li><a href="#" class="button button--link">Log in</a></li>
+                        <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
+                        <li><a href="#" class="button button--primary button--md">Book now</a></li>
+                    </ul>
+                    <!-- menu mobile -->
+                    <div class="header__mobile">
+                        <button onclick="openMenu()"><img class="icon" src="./assets/Icons/menu-open.svg"
+                                alt="Icon representing open menu action" aria-label="Open menu mobile"></button>
+                    </div>
+                </div>
             </nav>
         </div>
 
         <nav class="header__nav-bottom" aria-label="Main Navigation">
             <ul class="header__nav-bottom__links">
-                <li><a href="#" class="button button--link">Services</a></li>
-                <li><a href="#" class="button button--link">Subscription</a></li>
-                <li><a href="#" class="button button--link">Blog</a></li>
-                <li><a href="#" class="button button--link">Coupons</a></li>
-                <li><a href="#" class="button button--link">FAQ</a></li>
-                <li><a href="#" class="button button--link">About us</a></li>
+                <li><a href="#services" class="button button--link">Services</a></li>
+                <li><a href="#subscription-plans" class="button button--link">Subscription</a></li>
+                <li><a href="./blog.html" class="button button--link">Blog</a></li>
+                <li><a href="#coupons" class="button button--link">Coupons</a></li>
+                <li><a href="#faq" class="button button--link">FAQ</a></li>
+                <li><a href="#our-team" class="button button--link">About us</a></li>
                 <li><a href="#" class="button button--link">Support</a></li>
             </ul>
         </nav>
+
+        <!-- nav mobile -->
+        <div class="nav__mobile">
+            <ul class="nav__mobile__links">
+                <li><a href="#services" class="button button--link">Services</a></li>
+                <li><a href="#subscription-plans" class="button button--link">Subscription</a></li>
+                <li><a href="./blog.html" class="button button--link">Blog</a></li>
+                <li><a href="#coupons" class="button button--link">Coupons</a></li>
+                <li><a href="#faq" class="button button--link">FAQ</a></li>
+                <li><a href="#our-team" class="button button--link">About us</a></li>
+                <li><a href="#" class="button button--link">Support</a></li>
+            </ul>
+            <ul class="nav__mobile__buttons">
+                <li><a href="#" class="button button--link">Log in</a></li>
+                <li><a href="#" class="button button--secondary  button--md">Sign up</a></li>
+                <li><a href="#" class="button button--primary button--md">Book now</a></li>
+            </ul>
+        </div>
+
     </header>
+
+    <!-- m a i n -->
     <main>
-        <section class="cleaner container">
-            <nav class="cleaner__nav">
-                <ol class="cleaner__nav__list">
-                    <li><a href="#" class="section__label">Homepage > </a></li>
-                    <li><a href="#" class="section__label">About us > </a></li>
-                    <li><a href="#" class="section__label">Cleaner</a></li>
-                </ol>
+        <section class="cleaner container section-spacer">
+            <!-- n a v i g a t i o n -->
+            <nav class="container" aria-label="Pages Navigation">
+                <ul class="nav-page__list">
+                    <li class="nav-page__list__item"><a href="#">Home ></a></li>
+                    <li class="nav-page__list__item"><a href="#">About us ></a></li>
+                    <li class="nav-page__list__item"><a href="#"><strong>Stories</strong></a></li>
+                </ul>
             </nav>
-            <div class="cleaner__title">
+
+            <!-- c o n t e n t -->
+            <div class="section-header">
                 <h2 class="section__title">Get to know our cleaners</h2>
                 <p class="section__subtitle">Stories of inspiration from Flash's team of cleaners</p>
             </div>
+
             <article>
                 <div class="cleaner-wrapper">
                     <div class="cleaner__bio">
@@ -92,19 +125,22 @@
                     </div>
                     <div class="cleaner__content">
                         <header>
-                            <h3>Meet Elisa: A Story of Success and Resilience</h3>
+                            <h3 class="section__title">Meet Elisa: A Story of Success and Resilience</h3>
                         </header>
-                        <p>Elisa left Brazil with dreams of a brighter future in California. Upon arriving, she faced
+                        <p class="section__body">Elisa left Brazil with dreams of a brighter future in California. Upon
+                            arriving, she faced
                             challenges
                             like language barriers and homesickness. But her determination led her to a job at Flash
                             Guys
                             Cleaning.</p>
-                        <p>Starting as a cleaner, Elisa quickly showcased her dedication and attention to detail. Her
+                        <p class="section__body">Starting as a cleaner, Elisa quickly showcased her dedication and
+                            attention to detail. Her
                             hard
                             work
                             paid off, and she was soon promoted to supervisor, where she introduced innovative cleaning
                             techniques and eco-friendly practices.</p>
-                        <p>Elisa didn't just clean palces; she transformed them into home for the families. Inspired by
+                        <p class="section__body">Elisa didn't just clean palces; she transformed them into home for the
+                            families. Inspired by
                             her
                             journey, she began mentoring other immigrant women, encouraging them to pursue their
                             professional
@@ -137,6 +173,95 @@
             </div>
         </section>
     </main>
+
+    <!-- f o o t e r -->
+    <footer class="footer" aria-label="Footer Navigation" id="footer">
+        <div class="footer__wrapper container">
+
+            <!-- col-1 -->
+            <div class="footer__column">
+                <a href="/"><img src="./assets/Logos/flash-bw.svg" alt="Flash Guys Cleaning logo"
+                        class="footer__column__title"></a>
+                <ul class="footer__content">
+                    <li><a class="footer__content__link" href="#">About us</a></li>
+                    <li><a class="footer__content__link" href="#">Blog</a></li>
+                    <li><a class="footer__content__link" href="#">Terms of use</a></li>
+                    <li><a class="footer__content__link" href="#">Privacy Policy</a></li>
+                </ul>
+                <ul class="footer__content__logos">
+                    <li><a href="#"><img src="./assets/Logos/fb.png" alt="Facebook - logo"></a></li>
+                    <li><a href="#"><img src="./assets/Logos/ig.png" alt="Instagram - logo"></a></li>
+                    <li><a href="#"><img src="./assets/Logos/yb.png" alt="Youtube - logo"></a></li>
+                </ul>
+            </div>
+
+            <!--  col-2 -->
+            <div class="footer__column">
+                <h3 class="footer__column__title">Flash Guys</h3>
+                <ul class="footer__content">
+                    <li><a class="footer__content__link" href="#">Professionals</a></li>
+                    <li><a class="footer__content__link" href="#">Subscription</a></li>
+                    <li><a class="footer__content__link" href="#">Promotions</a></li>
+                </ul>
+            </div>
+
+            <!--  col-3 -->
+            <div class="footer__column">
+                <h3 class="footer__column__title">Services</h3>
+                <ul class="footer__content">
+                    <li><a class="footer__content__link" href="#">Deep Cleaning</a></li>
+                    <li><a class="footer__content__link" href="#">Standard Cleaning</a></li>
+                    <li><a class="footer__content__link" href="#">Move-in/out Cleaning</a></li>
+                    <li><a class="footer__content__link" href="#">Post Construction Cleaning</a></li>
+                    <li><a class="footer__content__link" href="#">Extreme Cleaning</a></li>
+                    <li><a class="footer__content__link" href="#">Carpets & Upholsery</a></li>
+                    <li><a class="footer__content__link" href="#">Commercial Cleaning</a></li>
+                    <li><a class="footer__content__link" href="#">Airbnb Cleaning</a></li>
+                </ul>
+            </div>
+
+            <!--  col-4 -->
+            <div class="footer__column">
+                <h3 class="footer__column__title">Areas served</h3>
+                <ul class="footer__content">
+                    <li><a class="footer__content__link" href="#">Los Angeles and area</a></li>
+                    <li><a class="footer__content__link" href="#">South Bay, CA</a></li>
+                    <li><a class="footer__content__link" href="#">South L.A, CA</a></li>
+                    <li><a class="footer__content__link" href="#">Southheast, CA</a></li>
+                    <li><a class="footer__content__link" href="#">Westside, CA</a></li>
+                    <li><a class="footer__content__link footer__content__link--disabled" href="#">San Diego
+                            (soon)</a></li>
+                    <li><a class="footer__content__link footer__content__link--disabled" href="#">San Francisco
+                            (soon)</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--  col-5 -->
+            <div class="footer__column">
+                <h3 class="footer__column__title">Support</h3>
+                <ul class="footer__content">
+                    <li><a class="footer__content__link" href="#">FAQ</a></li>
+                    <li><a class="footer__content__link" href="#">Help Center</a></li>
+                    <li><a class="footer__content__link" href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <!--  col-6 -->
+            <div class="footer__column">
+                <h3 class="footer__column__title">Get updates and promotions</h3>
+                <p>Subscribe now to stay tuned</p>
+                <div class="footer__subscribe">
+                    <label for="email" hidden>Email</label>
+                    <input class="input-field" type="email" placeholder="Email">
+                    <button class="button button--md button--primary button--full">Subscribe</button>
+                    <span>By subscribing you agree to our Privacy Policy.</span>
+                </div>
+            </div>
+        </div>
+        <!-- copy -->
+        <span class="footer__copy">&copy; 2024 All Rights Reserved, Flash Guys Cleaning </span>
+
+    </footer>
 </body>
 
 </html>

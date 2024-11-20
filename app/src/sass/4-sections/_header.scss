@@ -5,7 +5,7 @@
 @import "../2-layout/breakpoints";
 
 .header {
-    padding-top: 16px;
+    padding: 1em;
 
     &__mobile button {
         background-color: transparent;
@@ -23,6 +23,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: $spacer-sm;
         margin-bottom: $spacer-sm;
 
         &__links {

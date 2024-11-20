@@ -81,12 +81,12 @@
 
         <nav class="header__nav-bottom" aria-label="Main Navigation">
             <ul class="header__nav-bottom__links">
-                <li><a href="#" class="button button--link">Services</a></li>
-                <li><a href="#" class="button button--link">Subscription</a></li>
-                <li><a href="#" class="button button--link">Blog</a></li>
-                <li><a href="#" class="button button--link">Coupons</a></li>
-                <li><a href="#" class="button button--link">FAQ</a></li>
-                <li><a href="#" class="button button--link">About us</a></li>
+                <li><a href="#services" class="button button--link">Services</a></li>
+                <li><a href="#subscription-plans" class="button button--link">Subscription</a></li>
+                <li><a href="./blog.html" class="button button--link">Blog</a></li>
+                <li><a href="#coupons" class="button button--link">Coupons</a></li>
+                <li><a href="#faq" class="button button--link">FAQ</a></li>
+                <li><a href="#our-team" class="button button--link">About us</a></li>
                 <li><a href="#" class="button button--link">Support</a></li>
             </ul>
         </nav>
@@ -94,12 +94,12 @@
         <!-- nav mobile -->
         <div class="nav__mobile">
             <ul class="nav__mobile__links">
-                <li><a href="#" class="button button--link">Services</a></li>
-                <li><a href="#" class="button button--link">Subscription</a></li>
-                <li><a href="#" class="button button--link">Blog</a></li>
-                <li><a href="#" class="button button--link">Coupons</a></li>
-                <li><a href="#" class="button button--link">FAQ</a></li>
-                <li><a href="#" class="button button--link">About us</a></li>
+                <li><a href="#services" class="button button--link">Services</a></li>
+                <li><a href="#subscription-plans" class="button button--link">Subscription</a></li>
+                <li><a href="./blog.html" class="button button--link">Blog</a></li>
+                <li><a href="#coupons" class="button button--link">Coupons</a></li>
+                <li><a href="#faq" class="button button--link">FAQ</a></li>
+                <li><a href="#our-team" class="button button--link">About us</a></li>
                 <li><a href="#" class="button button--link">Support</a></li>
             </ul>
             <ul class="nav__mobile__buttons">
@@ -111,30 +111,34 @@
 
     </header>
 
+    <!-- m a i n  -->
     <main>
         <!-- h e r o -->
         <div class="container-test">
             <section class="hero">
                 <div>
                     <div class="hero-content">
-                        <h1 class="hero__title">Best Reliable cleaning services for <span>spotless spaces in LA</span></h1>
-                        <p class="section__body">Experience pristine cleanliness with our dedicated team. From homes to offices, we ensure every corner gleams with perfection.</p>
+                        <h1 class="hero__title">Best Reliable cleaning services for <span>spotless spaces in LA</span>
+                        </h1>
+                        <p class="section__body">Experience pristine cleanliness with our dedicated team. From homes to
+                            offices, we ensure every corner gleams with perfection.</p>
                         <div class="hero-list">
                             <ul>
                                 <li>+5,000 cleanings in 4 years</li>
-                                <li>Top notch professionals</li>
-                                <li>+5,000 cleanings in 4 years</li>
+                                <li>24/7 dedicated team</li>
+                                <li>Free estimate in 4 steps</li>
                             </ul>
                             <div class="cta">
-                            <button class="button button--lg button--secondary">Free estimate</button>
-                            <button class="button button--lg button--primary">Book now</button>
-                        </div>
+                                <button class="button button--lg button--secondary">Free estimate</button>
+                                <button class="button button--lg button--primary">Book now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg" alt="Imagem da Hero">
-                    
+                    <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
+                        alt="Imagem da Hero">
+
                     <!-- Formulário sobreposto -->
                     <div class="form-overlay">
                         <form class="form">
@@ -151,7 +155,7 @@
                             </div>
                             <div class="form__inputs">
                                 <label for="cleaning-type" class="form__label">Cleaning type</label>
-                                <select  class="input-field"  id="cleaning-type" name="cleaning-type">
+                                <select class="input-field" id="cleaning-type" name="cleaning-type">
                                     <option value="1" selected>Deep Cleaning</option>
                                     <option value="2">Standard Cleaning</option>
                                     <option value="3">Commercial</option>
@@ -160,18 +164,17 @@
                                     <option value="6+">Move-in/out</option>
                                 </select>
                             </div>
-                            <a href="#"><button class="button button--primary button--md button--full" aria-label="Estimate now">Estimate now</button></a>
+                            <a href="#"><button class="button button--primary button--md button--full"
+                                    aria-label="Estimate now">Estimate now</button></a>
                         </form>
                     </div>
                 </div>
             </section>
         </div>
-        
-        
 
         <!-- t e s t i m o n i a l s -->
-        <section class="testimonials section-spacer" aria-label="Client's Testimonials">
-            <div class="testimonials__title">
+        <section class="testimonials section-spacer" aria-label="Client's Testimonials" id="testimonials">
+            <div class="testimonials__title container">
                 <h2 class="section__title">What our clients say</h2>
                 <ul>
                     <button class="button button--md button--secondary" aria-label="Make a review">Make a
@@ -570,7 +573,7 @@
         </section>
 
         <!-- W h y - c h o o s e - u s -->
-        <section class="why-choose container section-spacer" aria-label="Why Choose Us">
+        <section class="why-choose container section-spacer" aria-label="Why Choose Us" id="why-choose-us">
             <div class="why-choose__accordion">
                 <h2 class="section__title section-header">Why choose Flash Guys?</h2>
                 <button class="accordion accordion--is-open">
@@ -582,7 +585,7 @@
                         <p class="why-choose__accordion__text">Our professional, verified and dedicated team guarantees
                             exemplary
                             treatment and safety for your home 24h.</p>
-                        <a href="#" class="link">Learn more</a>
+                        <a href="#our-team" class="link">Learn more</a>
                         <!--Levar para 'Our Team'-->
                     </div>
                 </button>
@@ -639,14 +642,14 @@
         </section>
 
         <!-- p r o m o t i o n a l  - b a n n e r -->
-        <aside class="promotion container section-spacer" aria-label="Promotional AD Banner">
+        <aside class="promotion container section-spacer" aria-label="Promotional AD Banner" id="promotional-ad">
             <div class="promotion__banner">
                 <a href="#"> <img src="./assets/Images/banner.png" alt="Halloween 15%Off Promotion Banner"
                         class="promotion__banner__img"></a>
         </aside>
 
         <!-- o u r  -  s e r v i c e s -->
-        <section class="services container section-spacer" aria-label="Our Services">
+        <section class="services container section-spacer" aria-label="Our Services" id="services">
             <div class="section-header">
                 <h2 class="section__title">Discover our services</h2>
                 <p class="section__subtitle">From homes to offices, we got it all covered</p>
@@ -872,7 +875,7 @@
         </section>
 
         <!-- o u r - w o r k -->
-        <section class="container our-work section-spacer">
+        <section class="container our-work section-spacer" id="our-work">
             <div class="carousel">
                 <div class="our-work__title">
                     <h2 class="section__title">Our Work</h2>
@@ -901,7 +904,7 @@
         </section>
 
         <!-- o u r  - t e a m -->
-        <section class="team section-spacer" aria-label="Our Professional adn Dedicated Team Of Cleaners">
+        <section class="team section-spacer" aria-label="Our Professional adn Dedicated Team Of Cleaners" id="our-team">
             <div class="container">
                 <div class="section-header section-header--center">
                     <h2 class="section__title">Meet some of the people who make your home shine</h2>
@@ -933,7 +936,8 @@
                         </header>
                         <p class="cleaner__bio">Elisa moved from Brazil to California, seeking a brighter future.
                             Starting as a...</p>
-                        <button class="button button--primary button--lg button--full">Read more</button>
+                        <a href="./about-cleaner.html" class="button button--primary button--lg button--full">Read
+                            more</a>
                     </div>
 
                     <!-- cleaner-2 -->
@@ -959,7 +963,8 @@
                         </header>
                         <p class="cleaner__bio">Marcela was born and raised in a vibrant neighborhood in Chile, where
                             her artistic flair...</p>
-                        <button class="button button--primary button--lg button--full">Read more</button>
+                        <a href="./about-cleaner.html" class="button button--primary button--lg button--full">Read
+                            more</a>
                     </div>
 
                     <!-- cleaner-3 -->
@@ -985,14 +990,17 @@
                         </header>
                         <p class="cleaner__bio">Juan grew up in a small town in Spain, where he learned the value of
                             hard work from...</p>
-                        <button class="button button--primary button--lg button--full">Read more</button>
+                        <a href="./about-cleaner.html" class="button button--primary button--lg button--full">Read
+                            more</a>
                     </div>
 
                 </div>
         </section>
 
+
         <!-- s u b s c r i p t i o n -->
-        <section class="subscription container section-spacer" aria-label="Our Subscription Plans">
+        <section class="subscription container section-spacer" aria-label="Our Subscription Plans"
+            id="subscription-plans">
             <div class="section-header section-header--center">
                 <h2 class="section__title">Discover our subscription plans</h2>
                 <p class="section__subtitle">For every lifestyle, a customized and flexible plan</p>
@@ -1082,7 +1090,7 @@
         </section>
 
         <!-- c o u p o n s  &  p r o m o t i o n s -->
-        <section class="coupons container section-spacer" aria-label="Coupons and Promotions">
+        <section class="coupons container section-spacer" aria-label="Coupons and Promotions" id="coupons">
             <h2 class="section-header--center section-header section__title">Exclusive cleaning coupons for a sparkling,
                 fresh makeover</h2>
             <div class="coupons__combos">
@@ -1131,10 +1139,7 @@
                     <span class="combo__includes section__label"><b>Includes:</b> item, item, item, item, item</span>
                 </div>
             </div>
-
-
             <div class="coupons__discount">
-
                 <!-- coupon-1 -->
                 <div class="coupons__discount__item">
                     <header class="coupon">
@@ -1143,7 +1148,6 @@
                     </header>
                     <p class="coupon__description section__label">Using the welcome coupon for your first cleaning</p>
                 </div>
-
                 <!-- coupon-2 -->
                 <div class="coupons__discount__item">
                     <header class="coupon">
@@ -1152,7 +1156,6 @@
                     </header>
                     <p class="coupon__description section__label">Using the welcome coupon for your first cleaning</p>
                 </div>
-
                 <!-- coupon-3 -->
                 <div class="coupons__discount__item">
                     <header class="coupon">
@@ -1162,8 +1165,6 @@
                     </header>
                     <p class="coupon__description section__label">Referring a friend. Your friend gets 20%off</p>
                 </div>
-
-
                 <!-- coupon-4 -->
                 <div class="coupons__discount__item">
                     <header class="coupon">
@@ -1173,7 +1174,6 @@
                     </header>
                     <p class="coupon__description section__label">On our new Carpet & Upholstery additionals</p>
                 </div>
-
                 <!-- coupon-5 -->
                 <div class="coupons__discount__item">
                     <header class="coupon">
@@ -1187,7 +1187,7 @@
         </section>
 
         <!-- e x t r e m e -->
-        <section class="extreme container section-spacer" aria-label="Extreme Cleaning Service">
+        <section class="extreme container section-spacer" aria-label="Extreme Cleaning Service" id="extreme-cleaning">
             <div class="extreme__image">
                 <sl-image-comparer>
                     <img slot="before"
@@ -1205,10 +1205,12 @@
                             damage, or neglect?</b> Our Extreme
                         Cleaning service is
                         designed to
-                        handle the toughest and most critical cleaning challenges with total care and discretion.</p>
+                        handle the toughest and most critical cleaning challenges with total care and discretion.
+                    </p>
                     <ul class="extreme__list">
                         <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
-                                alt="Check icon representing what's included"><b>Disaster cleanup:</b> Fire, flood, and
+                                alt="Check icon representing what's included"><b>Disaster cleanup:</b> Fire, flood,
+                            and
                             mold remediation.</li>
                         <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
                                 alt="Check icon representing what's included"><b>Hoarding cleanup:</b> Safe and
@@ -1218,7 +1220,8 @@
                             cleaning and restoration of unoccupied spaces.
                         </li>
                         <li class="section__body--small extreme__list__item"><img src="./assets/Icons/check.svg"
-                                alt="Check icon representing what's included"><b>Absolute Privacy:</b> We are committed
+                                alt="Check icon representing what's included"><b>Absolute Privacy:</b> We are
+                            committed
                             to protecting your personal information
                             with
                             care and
@@ -1231,8 +1234,10 @@
         </section>
 
         <!--  w h a t  i s  i n c l u d e d -->
-        <section class="whats-included section-spacer" aria-label="What's Included in Our Services - Table of Content">
-            <h2 class="section__title section-header whats-included__title">What is included in each kind of cleaning?
+        <section class="whats-included section-spacer" aria-label="What's Included in Our Services - Table of Content"
+            id="whats-included">
+            <h2 class="section__title section-header whats-included__title">What is included in each kind of
+                cleaning?
             </h2>
             <div class="navigation-arrows container">
                 <button class="navigation" id="l-arrow"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -1272,7 +1277,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                                 (clean
                                 &
                                 polish)</li>
@@ -1289,7 +1295,8 @@
                                 Vacuum
                                 and
                                 mopping the floor</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Tubs
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
@@ -1326,7 +1333,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
@@ -1363,7 +1371,8 @@
                                 Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Oven
                                 (inside)
                             </li>
                         </ul>
@@ -1403,13 +1412,16 @@
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 fixtures
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -1439,7 +1451,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Staircases
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Table
                                 tops
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -1487,7 +1500,6 @@
 
                     <!-- Cta -->
                     <div class="included-services__cta">
-                        <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
 
@@ -1514,7 +1526,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                                 (clean
                                 &
                                 polish)</li>
@@ -1531,7 +1544,8 @@
                                 Vacuum
                                 and
                                 mopping the floor</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Tubs
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
@@ -1568,7 +1582,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
@@ -1605,7 +1620,8 @@
                                 Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Oven
                                 (inside)
                             </li>
                         </ul>
@@ -1645,13 +1661,16 @@
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 fixtures
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -1681,7 +1700,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Staircases
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Table
                                 tops
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -1729,7 +1749,6 @@
 
                     <!-- Cta -->
                     <div class="included-services__cta">
-                        <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
 
@@ -1757,7 +1776,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                                 (clean
                                 &
                                 polish)</li>
@@ -1774,7 +1794,8 @@
                                 Vacuum
                                 and
                                 mopping the floor</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Tubs
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
@@ -1811,7 +1832,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
@@ -1848,7 +1870,8 @@
                                 Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Oven
                                 (inside)
                             </li>
                         </ul>
@@ -1888,13 +1911,16 @@
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 fixtures
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -1924,7 +1950,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Staircases
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Table
                                 tops
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -1972,7 +1999,6 @@
 
                     <!-- Cta -->
                     <div class="included-services__cta">
-                        <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
 
@@ -2001,7 +2027,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                                 (clean
                                 &
                                 polish)</li>
@@ -2018,7 +2045,8 @@
                                 Vacuum
                                 and
                                 mopping the floor</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Tubs
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
@@ -2055,7 +2083,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
@@ -2092,7 +2121,8 @@
                                 Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Oven
                                 (inside)
                             </li>
                         </ul>
@@ -2132,13 +2162,16 @@
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 fixtures
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -2168,7 +2201,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Staircases
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Table
                                 tops
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -2216,7 +2250,6 @@
 
                     <!-- Cta -->
                     <div class="included-services__cta">
-                        <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
 
@@ -2243,7 +2276,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                                 (clean
                                 &
                                 polish)</li>
@@ -2260,7 +2294,8 @@
                                 Vacuum
                                 and
                                 mopping the floor</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Tubs
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
@@ -2297,7 +2332,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
@@ -2334,7 +2370,8 @@
                                 Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Oven
                                 (inside)
                             </li>
                         </ul>
@@ -2374,13 +2411,16 @@
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 fixtures
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -2410,7 +2450,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Staircases
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Table
                                 tops
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -2458,7 +2499,6 @@
 
                     <!-- Cta -->
                     <div class="included-services__cta">
-                        <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
 
@@ -2485,7 +2525,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                                 (clean
                                 &
                                 polish)</li>
@@ -2502,7 +2543,8 @@
                                 Vacuum
                                 and
                                 mopping the floor</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Tubs
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Tubs
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
@@ -2539,7 +2581,8 @@
                                 Counter
                                 tops
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Sinks
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Sinks
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
@@ -2576,7 +2619,8 @@
                                 Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Oven
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Oven
                                 (inside)
                             </li>
                         </ul>
@@ -2616,13 +2660,16 @@
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Door
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Light
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Light
                                 fixtures
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -2652,7 +2699,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Staircases
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included"> Table
+                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Table
                                 tops
                             </li>
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
@@ -2700,19 +2748,17 @@
 
                     <!-- cta -->
                     <div class="included-services__cta">
-                        <span><a href="#" class="link">Show less</a></span>
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
 
                 </div>
-
-
             </div>
+
             <a href="#" class="link view-all">View all</a>
         </section>
 
         <!-- f i x e d  b l o g -->
-        <section class="blog-fixed container section-spacer" aria-label="Our Latest Blog Posts">
+        <section class="blog-fixed container section-spacer" aria-label="Our Latest Blog Posts" id="latest-posts">
             <div class="title-wrapper section-header">
                 <div>
                     <h3 class="section__title">Cleaning tips</h3>
@@ -2720,7 +2766,7 @@
                         always sparkling clean</p>
                 </div>
                 <div class="blog-fixed__cta">
-                    <button class="button button--lg button--secondary">See all articles</button>
+                    <a href="./blog.html" class="button button--lg button--secondary">See all articles</a>
                 </div>
             </div>
             <div class="blog-fixed__articles">
@@ -2784,7 +2830,7 @@
         </section>
 
         <!-- F A Q -->
-        <section class="faq container section-spacer" aria-label="FAQ - Frequently Asked Questions">
+        <section class="faq container section-spacer" aria-label="FAQ - Frequently Asked Questions" id="faq">
             <div class="faq__content">
                 <h2 class="section__title">Frequently Asked Questions</h2>
                 <div class="faq__content__message">
@@ -2799,7 +2845,6 @@
                             Policy</a>.</span>
                 </div>
             </div>
-
             <div class="faq__accordion">
                 <button class="accordion accordion--is-open">
                     <h3 class="accordion__title">Super qualified 24/7 professionals<a href="#"><span
@@ -2809,19 +2854,21 @@
                     <div class="accordion__content">
                         <p>When it comes to complete house cleanings, we generally offer
                             a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <br>
                         <p>Additionally, if you require cleaning for specific rooms or
                             areas and not the entire house, we
                             provide hourly pricing as well.</p>
                     </div>
                 </button>
                 <button class="accordion accordion--is-closed">
-                    <h3 class="accordion__title">Inclusions in Flat-Rate Servicesy<span
-                            class="material-symbols-rounded">
+                    <h3 class="accordion__title">Inclusions in Flat-Rate Services<span class="material-symbols-rounded">
                             add
                         </span></h3>
                     <div class="accordion__content">
-                        <p>When it comes to complete house cleanings, we generally offer
-                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>Flat-rate cleaning services are typically determined by the number of bedrooms and
+                            bathrooms in your home. This encompasses all living, dining, and kitchen areas.</p><br>
+                        <p>Additional spaces like studies or home offices are treated as bedrooms. Any unselected
+                            extras on the form are not part of the cleaning service.</p>
                     </div>
                 </button>
                 <button class="accordion accordion--is-closed">
@@ -2829,8 +2876,8 @@
                             add
                         </span></h3>
                     <div class="accordion__content">
-                        <p>When it comes to complete house cleanings, we generally offer
-                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>Cleaners can provide all necessary cleaning supplies, or they can use yours if specified
+                            during booking.</p>
                     </div>
                 </button>
                 <button class="accordion accordion--is-closed">
@@ -2838,8 +2885,11 @@
                             add
                         </span></h3>
                     <div class="accordion__content">
-                        <p>When it comes to complete house cleanings, we generally offer
-                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>We understand that plans can change, which is why we have a flexible policy in place.
+                            Through our <a href="#"><b>client's dashboard</b></a> , you can easily reschedule or
+                            cancel your appointments whenever needed.
+
+                        </p>
                     </div>
                 </button>
                 <button class="accordion accordion--is-closed">
@@ -2847,8 +2897,9 @@
                             add
                         </span></h3>
                     <div class="accordion__content">
-                        <p>When it comes to complete house cleanings, we generally offer
-                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>The number of cleaners sent depends on the size of the cleaning task, ranging from 1 to
+                            6. For hourly services, the minimum of 3 hours always applies, with the price per hour
+                            per cleaner.</p>
                     </div>
                 </button>
                 <button class="accordion accordion--is-closed">
@@ -2856,16 +2907,16 @@
                             add
                         </span></h3>
                     <div class="accordion__content">
-                        <p>When it comes to complete house cleanings, we generally offer
-                            a fixed rate, and you can find the approximate prices listed on our pricing page.</p>
+                        <p>Clients can choose to be present or away during cleaning. If absent, access arrangements
+                            are needed. Cleaners assure responsible handling of your home, including locking up or
+                            key placement as per your instructions.</p>
                     </div>
                 </button>
             </div>
-
         </section>
 
         <!-- f o o t e r -->
-        <footer class="footer" aria-label="Footer Navigation">
+        <footer class="footer" aria-label="Footer Navigation" id="footer">
             <div class="footer__wrapper container">
 
                 <!-- col-1 -->
@@ -2952,14 +3003,17 @@
             <span class="footer__copy">&copy; 2024 All Rights Reserved, Flash Guys Cleaning </span>
 
         </footer>
-
     </main>
 
+
+
 </body>
-<!-- Shoelace -->
+
+<!-- s c r i p t s -->
+<!-- External scripts -->
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js">
 </script>
-<!-- Scripts -->
+<!-- App Scripts -->
 <script src="./app/src/javascript/nav-menu.js"></script>
 <script src="./app/src/javascript/carousel.js"></script>
 <script src="./app/src/javascript/scroll-x.js"></script>

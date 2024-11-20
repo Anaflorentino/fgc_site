@@ -67,7 +67,8 @@
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -141,7 +142,8 @@
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -457,7 +459,8 @@ svg {
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -466,7 +469,7 @@ svg {
   margin-bottom: 2rem; }
 
 .header {
-  padding-top: 16px; }
+  padding: 1em; }
   .header__mobile button {
     background-color: transparent;
     padding: 0.5em;
@@ -480,6 +483,7 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 16px;
     margin-bottom: 16px; }
     .header__nav-top__links {
       display: flex;
@@ -528,7 +532,8 @@ ul.nav__mobile__buttons {
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -688,7 +693,8 @@ ul.nav__mobile__buttons {
   .testimonials__footer {
     display: flex;
     align-items: start;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: 2em; }
     .testimonials__footer__text {
       display: flex;
       flex-direction: column; }
@@ -794,7 +800,8 @@ ul.nav__mobile__buttons {
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -921,7 +928,8 @@ ul.nav__mobile__buttons {
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -2225,6 +2233,13 @@ ul.nav__mobile__buttons {
           font-size: 1.2em;
           padding: 0.5em; } }
 
+.blog__img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2em; }
+
 .button {
   border: none;
   background-color: transparent;
@@ -2499,7 +2514,8 @@ ul.nav__mobile__buttons {
 
 .whats-included {
   padding: 64px 0;
-  background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%); }
+  background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%);
+  max-width: 100%; }
   .whats-included__title {
     margin: 52px auto; }
   .whats-included .view-all {
@@ -2871,15 +2887,21 @@ ul.nav__mobile__buttons {
 .faq {
   display: flex;
   justify-content: space-between;
-  gap: 48px; }
+  gap: 48px;
+  height: 80vh; }
   @media (max-width: 740px) {
     .faq {
       flex-direction: column;
-      align-items: center; } }
+      align-items: center;
+      height: auto;
+      width: 100%; } }
   .faq__content, .faq__accordion {
     display: flex;
     flex-direction: column;
     flex: 1; }
+    @media (max-width: 740px) {
+      .faq__content, .faq__accordion {
+        width: 100%; } }
   .faq__content {
     justify-content: space-evenly; }
     @media (max-width: 740px) {
@@ -2897,7 +2919,9 @@ ul.nav__mobile__buttons {
       max-width: 80%; }
       @media (max-width: 740px) {
         .faq__content__message {
-          max-width: 100%; } }
+          width: 100%; }
+          .faq__content__message input {
+            width: 100%; } }
 
 .button {
   border: none;
@@ -3019,7 +3043,8 @@ ul.nav__mobile__buttons {
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
@@ -3029,7 +3054,8 @@ ul.nav__mobile__buttons {
 
 .footer {
   background-color: #342430;
-  color: #ffff; }
+  color: #ffff;
+  padding: 4em 1em; }
   .footer__wrapper {
     display: flex;
     justify-content: space-between;
@@ -3083,17 +3109,17 @@ ul.nav__mobile__buttons {
     display: block;
     align-self: center;
     text-align: center;
-    padding-bottom: 48px;
-    padding-top: 16px;
     border-top: 1px solid #818181;
-    margin: 0 4em; }
+    margin-top: 4em;
+    padding: 1em; }
 
 div.footer__column:nth-child(6) {
   max-width: 300px; }
 
 .container {
   max-width: 1250px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2em 1em; }
 
 .section-spacer {
   margin-bottom: 5.5rem; }
