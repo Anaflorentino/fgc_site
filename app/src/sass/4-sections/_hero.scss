@@ -4,26 +4,36 @@
 @import "../2-layout/breakpoints";
 @import "../3-modules/inputs";
 
-.container-test {
-  max-width: 1250px;
-  margin: 0 auto;
-  width: 100%;
-}
 
+.container-hero {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
 .hero {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
-  height: 74vh;
   gap: 48px;
+  height: 100vh;
+}
+
+.hero__soon {
+  margin-top: 14px;
+
+  span {
+
+    color: $neutrals-800;
+  }
 }
 
 .hero-content {
   flex: 1;
   z-index: 1;
-  padding-right: 20px;
+  margin-top: 6em;
   max-width: 80vh;
+
 }
 
 .hero__title {
@@ -47,8 +57,8 @@
 .hero-image {
   position: relative;
   width: 70vw;
-  height: 100%;
-  overflow: hidden;
+  height: 100vh;
+  overflow: visible;
   z-index: 0;
   margin-right: calc(50% - 50vw);
 }
@@ -57,20 +67,26 @@
   max-width: 100%;
   height: 100%;
   object-fit: cover;
+
+  img {
+    min-height: 600px;
+  }
 }
 
 .form-overlay {
   position: absolute;
-  top: 50%;
-  left: 35%;
+  top: 35%;
+  left: 26%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.99);
-  padding: 20px;
+  padding: 24px;
+  padding-top: 32px;
   border-radius: 8px;
   max-width: 350px;
   width: 80%;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 2;
+  
 }
 
 .form__label {
@@ -81,11 +97,12 @@
 
 .form__cta {
   width: 100%;
+  margin-bottom: 12px;
 }
 
-/* Responsividade */
 @media (max-width: 1024px) {
-  .hero {
+
+   .hero {
     flex-direction: column;
     align-items: center;
     height: auto;
@@ -95,8 +112,9 @@
   .hero-content {
     width: 100%;
     padding-right: 0;
-    text-align: center;
+    text-align: start;
     margin-bottom: 20px;
+    margin-top: 2em;
   }
 
   .hero-image {
@@ -112,17 +130,33 @@
     transform: translateX(-50%);
     width: 90%;
   }
-}
 
-@media (max-width: 768px) {
   .form-overlay {
+    position: static;
+    margin: 20px auto;
+    transform: none;
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
   }
 
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .hero-image {
+  
+
+    #img-hero {
+      display: none;
+    }
+
+  }
+
   .hero-content h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .hero-content p {
@@ -130,7 +164,7 @@
   }
 
   .hero {
-    text-align: center;
+    text-align: start;
     padding: 20px;
   }
 
@@ -143,5 +177,32 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    background-image: url('https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    width: 100vw; /* A imagem ocupa toda a largura da tela */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a imagem */
+  }
+
+}
+
+@media (max-width: 442px) {
+  .form-overlay {
+    margin: 20px auto;
+    transform: none;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
   }
 }

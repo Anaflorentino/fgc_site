@@ -8,6 +8,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectPlaceholder = customSelect.querySelector('.select-placeholder');
         const hiddenInput = customSelect.querySelector('input[type="hidden"]');
 
+        // **Inicializa o placeholder com a primeira opção**
+        const firstOption = selectOptions.querySelector('.select-option');
+        if (firstOption) {
+            const firstText = firstOption.textContent.trim();
+            const firstIconSrc = firstOption.querySelector('img').src;
+
+            // Atualiza o placeholder
+            selectPlaceholder.textContent = firstText;
+            selectPlaceholder.style.color = '#000';
+
+            // Atualiza o ícone do input
+            const inputIcon = selectInput.querySelector('.select-icon');
+            inputIcon.src = firstIconSrc;
+
+            // Atualiza o valor do input hidden
+            hiddenInput.value = firstOption.dataset.value;
+        }
+
         // Toggle dropdown visibility
         selectInput.addEventListener('click', () => {
             customSelects.forEach(cs => {

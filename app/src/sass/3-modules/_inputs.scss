@@ -121,3 +121,12 @@
     }
   }
   
+  .select-options .select-option {
+  color: $text-300;  
+  }
+
+/* Altera a cor do texto ao passar o mouse */
+.select-options .select-option:hover {
+    color: $text-500;
+    background-color: $neutrals-100; 
+}

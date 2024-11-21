@@ -41,6 +41,23 @@
 </head>
 
 <body>
+
+    <!-- 🍪 c o o k i e s - m o d a l -->
+    <div id="cookie-modal" class="cookie-modal">
+        <div class="cookie-content">
+            <img src="./assets/Icons/cookie.svg" width="48px" alt="Cookie icon representing Cookie Policy">
+            <h2>We Value Your Privacy!</h2>
+            <p>
+                Hi there! We use cookies to make your experience smoother, faster, and more personalized.
+                Some cookies are essential, while others help us understand how we can improve.
+            </p>
+            <div class="cookie-buttons">
+                <button id="manage-preferences" class="button button--lg button--secondary accept-all">Only Necessary</button>
+                <button id="accept-all" class="button button--lg button--primary accept-all">Accept All Cookies</button>
+            </div>
+        </div>
+    </div>
+
     <!-- m e m b e r - m o d a l -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal" id="modal">
@@ -79,7 +96,7 @@
     </section>
 
     <!-- h e a d e r -->
-    <header class="container header">
+    <header class="header header">
         <div class="header__nav-top">
             <a href="/"><img src="./assets/Logos/Flash Guys.png" alt="Flash Guys Cleaning logo" class="brand"></a>
             <nav aria-label="User Navigation">
@@ -90,7 +107,7 @@
                         <li><a href="#" class="button button--primary button--md">Book now</a></li>
                     </ul>
                     <!-- menu mobile -->
-                    <div class="header__mobile">
+                    <div class=" header__mobile">
                         <button onclick="openMenu()"><img class="icon" src="./assets/Icons/menu-open.svg"
                                 alt="Icon representing open menu action" aria-label="Open menu mobile"></button>
                     </div>
@@ -133,7 +150,7 @@
     <!-- m a i n  -->
     <main>
         <!-- h e r o -->
-        <div class="container-test">
+        <div class="container-hero">
             <section class="hero">
                 <div>
                     <div class="hero-content">
@@ -152,10 +169,11 @@
                                 <button class="button button--lg button--primary">Book now</button>
                             </div>
                         </div>
+                        <div class="hero__soon"><span>Soon in San Diego & San Francisco</span></div>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
+                    <img id="img-hero" src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
                         alt="Imagem da Hero">
 
                     <!-- Formulário sobreposto -->
@@ -1421,18 +1439,18 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Outside
                                 of
                                 cabinets and drawers</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Baseboards
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Inside of
                                 cabinets and drawers</li>
                         </ul>
@@ -1470,34 +1488,33 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Dusting
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Dishwashing
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Dishwashing
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Windows
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Outside
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Outside
                                 of
                                 cabinets and drawers</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Baseboards
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Baseboards
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Inside of
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Inside of
                                 cabinets and drawers
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Fridge
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Fridge
                                 (inside)
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Oven
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Oven
                                 (inside)
                             </li>
                         </ul>
                     </div>
-
 
                     <!-- General Rooms -->
                     <div class="included-services__room">
@@ -1528,30 +1545,30 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Dusting
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Windows
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Light
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Light
                                 switches
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Door
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Door
                                 knobs
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Light
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Light
                                 fixtures
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Baseboards
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Baseboards
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Inside of
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Inside of
                                 cabinets and drawers</li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Living
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Living
                                 Spaces
                             </li>
                         </ul>
@@ -1578,12 +1595,11 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Electronics
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Laundry
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Laundry
                             </li>
                         </ul>
                     </div>
-
 
                     <!-- Bedrooms -->
                     <div class="included-services__room">
@@ -1605,15 +1621,15 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Clutter
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Windows
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Windows
                                 sills
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Baseboards
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Baseboards
                             </li>
-                            <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
-                                Inside of
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                                Extra: Inside of
                                 cabinets and drawers</li>
                         </ul>
                     </div>
@@ -1622,7 +1638,6 @@
                     <div class="included-services__cta">
                         <a href="#" class="button button--full button--primary button--md">Book now</a>
                     </div>
-
                 </div>
 
                 <!-- DEEP CLEANING -->
@@ -3134,6 +3149,7 @@
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js">
 </script>
 <!-- App Scripts -->
+<script src="./app/src/javascript/cookies.js"></script>
 <script src="./app/src/javascript/nav-menu.js"></script>
 <script src="./app/src/javascript/custom-inputs.js"></script>
 <script src="./app/src/javascript/carousel.js"></script>

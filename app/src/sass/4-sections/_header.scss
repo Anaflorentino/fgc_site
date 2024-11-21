@@ -6,6 +6,18 @@
 
 .header {
     padding: 1em;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+
+
+    &.scrolled {
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    }
+
 
     &__mobile button {
         background-color: transparent;
@@ -23,6 +35,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 0 auto;
+        max-width: 1250px;
         margin-bottom: $spacer-xs;
 
         &__links {
@@ -39,6 +53,8 @@
     }
 
     &__nav-bottom {
+        margin: 0 auto;
+        max-width: 1250px;
         display: flex;
         justify-content: start;
         gap: $spacer-sm;
@@ -84,10 +100,11 @@
 }
 
 ul.nav__mobile__buttons {
-margin-top: 2.5em;
-border-top: 1px solid $neutrals-500;
+    margin-top: 2.5em;
+    border-top: 1px solid $neutrals-500;
 
-:nth-child(1) {
-    padding-top: .8rem;
+    :nth-child(1) {
+        padding-top: .8rem;
+    }
 }
-}
+

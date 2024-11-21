@@ -31,13 +31,13 @@
             transition: ease-in-out 300ms;
 
             :hover {
-                img, p {
+                p {
                     opacity: .9;
                 }
                 h3 {
 
-                    text-decoration: underline;
-                    color: $secondary-400;
+                    // text-decoration: underline;
+                    color: $primary-500
                 }
             }
 
