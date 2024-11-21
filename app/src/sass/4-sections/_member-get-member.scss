@@ -33,6 +33,15 @@
 
     &__button {
         margin-bottom: 1.4em;
+        &__contact {
+            margin-bottom: 0.5em;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
     }
 
     &__span {
@@ -57,7 +66,15 @@
             font-size: 16px;
             margin-bottom: 1rem;
         }
+        &__title {
+            text-align: start;
+            margin-bottom: 0;
+            line-height: 1.4;
+        }
+    }
 
+    .support {
+        padding: 3em;
     }
 
     .modal-image {
@@ -81,8 +98,20 @@
         border-radius: 4px;
         cursor: pointer;
 
+        &--hide {
+           display: none; 
+        }
+
         &:hover {
             color: #333;
         }
     }
+
+    &__cta {
+        margin-top: 1.5em;
+        button {
+            cursor: default;
+        }
+    }
 }
+

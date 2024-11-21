@@ -37,3 +37,87 @@
         color: $text-200;
     }
 }
+
+
+
+
+.custom-select {
+    position: relative;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin-bottom: 16px;
+
+    label {
+        color: $neutrals-700;
+    }
+  
+    .select-input {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 12px;
+      border: 1px solid $neutrals-500;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 4px;
+      background: $neutrals-200;
+
+      .select-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+  
+      .select-placeholder {
+        flex-grow: 1;
+        font-size: 16px;
+        color: $text-300;
+      }
+  
+      .dropdown-arrow {
+        width: 16px;
+        height: 12px;
+        object-fit: contain;
+      }
+    }
+  
+    .select-options {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 1;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  
+      .select-option {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+  
+        &:hover {
+          background: #f0f0f0;
+        }
+  
+        .option-icon {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    &.open .select-options {
+      display: block;
+    }
+  }
+  

@@ -59,8 +59,27 @@
         </div>
     </div>
 
+    <!-- s u p p o r t - m o d a l -->
+    <section class="support">
+        <div class="modal-overlay" id="supportModal" style="display: none;">
+            <div class="modal" id="modal">
+                <div class="modal__content support">
+                    <h2 class="modal__content__title">Need help?</h2>
+                    <h2 class="modal__content__title">Get in touch by email or phone</h2>
+                    <div class="modal__cta">
+                        <button class="button button--full button--lg button--primary modal__button__contact">+1 310
+                            986 9840</button>
+                        <button
+                            class="button button--full button--lg button--primary modal__button__contact">contact@flashguyscleaning.com</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <!-- h e a d e r -->
-    <header class="container header section-spacer--md">
+    <header class="container header">
         <div class="header__nav-top">
             <a href="/"><img src="./assets/Logos/Flash Guys.png" alt="Flash Guys Cleaning logo" class="brand"></a>
             <nav aria-label="User Navigation">
@@ -87,7 +106,7 @@
                 <li><a href="#coupons" class="button button--link">Coupons</a></li>
                 <li><a href="#faq" class="button button--link">FAQ</a></li>
                 <li><a href="#our-team" class="button button--link">About us</a></li>
-                <li><a href="#" class="button button--link">Support</a></li>
+                <li><a href="#" class="button button--link" id="supportLink">Support</a></li>
             </ul>
         </nav>
 
@@ -120,13 +139,13 @@
                     <div class="hero-content">
                         <h1 class="hero__title">Best Reliable cleaning services for <span>spotless spaces in LA</span>
                         </h1>
-                        <p class="section__body">Experience pristine cleanliness with our dedicated team. From homes to
-                            offices, we ensure every corner gleams with perfection.</p>
+                        <p class="section__body">Experience a professional and personalized cleaning service that suits
+                            your lifestyle. From homes to offices, we've got you covered.</p>
                         <div class="hero-list">
                             <ul>
-                                <li>+5,000 cleanings in 4 years</li>
-                                <li>24/7 dedicated team</li>
-                                <li>Free estimate in 4 steps</li>
+                                <li><strong>$1 Million Insurance Coverage</strong></li>
+                                <li><strong>+5,000 cleanings in 4 years</strong></li>
+                                <li><strong>24/7 dedicated team</strong></li>
                             </ul>
                             <div class="cta">
                                 <button class="button button--lg button--secondary">Free estimate</button>
@@ -141,32 +160,133 @@
 
                     <!-- Formulário sobreposto -->
                     <div class="form-overlay">
-                        <form class="form">
-                            <div class="form__inputs">
-                                <label class="form__label" for="bedrooms">How many bedrooms?</label>
-                                <select class="input-field" id="bedrooms" name="bedrooms">
-                                    <option value="1" selected>1 bedroom</option>
-                                    <option value="2">2 bedrooms</option>
-                                    <option value="3">3 bedrooms</option>
-                                    <option value="4">4 bedrooms</option>
-                                    <option value="5">5 bedrooms</option>
-                                    <option value="6+">6+ bedrooms</option>
-                                </select>
+
+                        <!-- Pre-form -->
+                        <form>
+                            <!-- How many bedrooms? -->
+                            <div class="custom-select">
+                                <label>How many bedrooms?</label>
+                                <div class="select-input">
+                                    <img src="./assets/Icons/inputs/bedrooms.svg" alt="Icon" class="select-icon">
+                                    <span class="select-placeholder">Choose an option</span>
+                                    <img src="./assets/Icons/inputs/down-arrow.svg" alt="Arrow" class="dropdown-arrow">
+                                </div>
+                                <ul class="select-options">
+                                    <li class="select-option" data-value="option1">
+                                        <img src="./assets/Icons/inputs/bedrooms.svg" alt="Option 1 Icon"
+                                            class="option-icon">
+                                        1
+                                    </li>
+                                    <li class="select-option" data-value="option2">
+                                        <img src="./assets/Icons/inputs/bedrooms.svg" alt="Option 2 Icon"
+                                            class="option-icon">
+                                        2
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/bedrooms.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        3
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/bedrooms.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        4+
+                                    </li>
+                                </ul>
+                                <input type="hidden" id="customSelectValue" name="customSelectValue">
                             </div>
-                            <div class="form__inputs">
-                                <label for="cleaning-type" class="form__label">Cleaning type</label>
-                                <select class="input-field" id="cleaning-type" name="cleaning-type">
-                                    <option value="1" selected>Deep Cleaning</option>
-                                    <option value="2">Standard Cleaning</option>
-                                    <option value="3">Commercial</option>
-                                    <option value="4">AirBnb</option>
-                                    <option value="5">Extreme Cleaning</option>
-                                    <option value="6+">Move-in/out</option>
-                                </select>
+
+                            <!-- How many bathrooms? -->
+                            <div class="custom-select">
+                                <label>How many bathrooms?</label>
+                                <div class="select-input">
+                                    <img src="./assets/Icons/inputs/bathrooms.svg" alt="Icon" class="select-icon">
+                                    <span class="select-placeholder">Choose an option</span>
+                                    <img src="./assets/Icons/inputs/down-arrow.svg" alt="Arrow" class="dropdown-arrow">
+                                </div>
+                                <ul class="select-options">
+                                    <li class="select-option" data-value="option1">
+                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 1 Icon"
+                                            class="option-icon">
+                                        1
+                                    </li>
+                                    <li class="select-option" data-value="option2">
+                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 2 Icon"
+                                            class="option-icon">
+                                        2
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        3
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        4+
+                                    </li>
+                                </ul>
+                                <input type="hidden" id="customSelectValue" name="customSelectValue">
                             </div>
-                            <a href="#"><button class="button button--primary button--md button--full"
-                                    aria-label="Estimate now">Estimate now</button></a>
+
+                            <!-- Cleaning type -->
+                            <div class="custom-select">
+                                <label>Cleaning type</label>
+                                <div class="select-input">
+                                    <img src="./assets/Icons/inputs/deep.svg" alt="Icon" class="select-icon">
+                                    <span class="select-placeholder">Choose an option</span>
+                                    <img src="./assets/Icons/inputs/down-arrow.svg" alt="Arrow" class="dropdown-arrow">
+                                </div>
+                                <ul class="select-options">
+                                    <li class="select-option" data-value="option1">
+                                        <img src="./assets/Icons/inputs/deep.svg" alt="Option 1 Icon"
+                                            class="option-icon">
+                                        Deep Cleaning
+                                    </li>
+                                    <li class="select-option" data-value="option2">
+                                        <img src="./assets/Icons/inputs/standard.svg" alt="Option 2 Icon"
+                                            class="option-icon">
+                                        Standard Cleaning
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/move.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        Move in/out
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/extreme.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        Extreme Cleaning
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/commercial.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        Commercial Cleaning
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/post-construction.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        Post-construction
+                                    </li>
+                                    <li class="select-option" data-value="option3">
+                                        <img src="./assets/Icons/inputs/airbnb.svg" alt="Option 3 Icon"
+                                            class="option-icon">
+                                        AirBnb Cleaning
+                                    </li>
+                                </ul>
+                                <input type="hidden" id="customSelectValue" name="customSelectValue">
+                            </div>
                         </form>
+                        <!-- Toggle -->
+                        <div class="toggle-container">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="pet-friendly-toggle">
+                                <span class="toggle-slider"></span>
+                            </label>
+                            <span class="toggle-text">Pet Friendly</span>
+                        </div>
+                        <!-- Cta -->
+                        <button class="button button--full button--primary button--lg">Free estimate</button>
                     </div>
                 </div>
             </section>
@@ -268,7 +388,7 @@
                         </div>
                     </header>
 
-                    <p class="testimonials__text">I've never hired a cleaning service before, so when I picked Flash
+                    <p class="testimonials__text">I've never hired a cleaning service before, so when I Chooseed Flash
                         guys it was due to their stellar 5 star rating on thumbtack. After their service...</p>
                     <div class="testimonials__images">
                         <img src="./assets/Images/testimonials/img1.png" alt="">
@@ -1204,7 +1324,7 @@
                     <p class="section__body extreme__description"><b>Is your place overwhelmed by clutter,
                             damage, or neglect?</b> Our Extreme
                         Cleaning service is
-                        designed to
+                        designed tobv
                         handle the toughest and most critical cleaning challenges with total care and discretion.
                     </p>
                     <ul class="extreme__list">
@@ -3015,6 +3135,7 @@
 </script>
 <!-- App Scripts -->
 <script src="./app/src/javascript/nav-menu.js"></script>
+<script src="./app/src/javascript/custom-inputs.js"></script>
 <script src="./app/src/javascript/carousel.js"></script>
 <script src="./app/src/javascript/scroll-x.js"></script>
 <script src="./app/src/javascript/accordion.js"></script>
@@ -3022,5 +3143,6 @@
 <script src="./app/src/javascript/services-nav.js"></script>
 <script src="./app/src/javascript/whats-included.js"></script>
 <script src="./app/src/javascript/member-get-member.js"></script>
+<script src="./app/src/javascript/support.js"></script>
 
 </html>
