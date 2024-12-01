@@ -28,6 +28,8 @@
     <title>Flash Guys Cleaning - Professional Cleaning Services in Los Angeles, CA</title>
 
     <!-- Optimized Material Icons Loading -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&icon_names=check" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
@@ -49,10 +51,10 @@
             <h2>We Value Your Privacy!</h2>
             <p>
                 Hi there! We use cookies to make your experience smoother, faster, and more personalized.
-                Some cookies are essential, while others help us understand how we can improve.
             </p>
             <div class="cookie-buttons">
-                <button id="manage-preferences" class="button button--lg button--secondary accept-all">Only Necessary</button>
+                <button id="manage-preferences" class="button button--lg button--secondary accept-all">Only
+                    Necessary</button>
                 <button id="accept-all" class="button button--lg button--primary accept-all">Accept All Cookies</button>
             </div>
         </div>
@@ -147,7 +149,7 @@
 
     </header>
 
-    <!-- m a i n  -->
+    <!-- M A I N  -->
     <main>
         <!-- h e r o -->
         <div class="container-hero">
@@ -160,20 +162,27 @@
                             your lifestyle. From homes to offices, we've got you covered.</p>
                         <div class="hero-list">
                             <ul>
-                                <li><strong>$1 Million Insurance Coverage</strong></li>
-                                <li><strong>+5,000 cleanings in 4 years</strong></li>
-                                <li><strong>24/7 dedicated team</strong></li>
+                                <li><span class="material-symbols-rounded">
+                                        check
+                                    </span><strong class="hero-list__feature">$1 Million Insurance Coverage</strong></li>
+                                <li><span class="material-symbols-rounded">
+                                        check
+                                    </span><strong class="hero-list__feature">+5,000 cleanings in 4 years</strong></li>
+                                <li><span class="material-symbols-rounded">
+                                        check
+                                    </span><strong class="hero-list__feature">24/7 dedicated team</strong></li>
                             </ul>
                             <div class="cta">
                                 <button class="button button--lg button--secondary">Free estimate</button>
                                 <button class="button button--lg button--primary">Book now</button>
                             </div>
                         </div>
-                        <div class="hero__soon"><span>Soon in San Diego & San Francisco</span></div>
+                        <!-- <div class="hero__soon"><span>Soon in San Diego & San Francisco</span></div> -->
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img id="img-hero" src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
+                    <img id="img-hero"
+                        src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F3e05e1059faef26605a551bdc8638217.cdn.bubble.io%2Ff1714452283463x938766090336881300%2Finterior-shot-modern-house-kitchen-with-large-windows_181624-24368.jpg"
                         alt="Imagem da Hero">
 
                     <!-- Formulário sobreposto -->
@@ -207,39 +216,6 @@
                                     </li>
                                     <li class="select-option" data-value="option3">
                                         <img src="./assets/Icons/inputs/bedrooms.svg" alt="Option 3 Icon"
-                                            class="option-icon">
-                                        4+
-                                    </li>
-                                </ul>
-                                <input type="hidden" id="customSelectValue" name="customSelectValue">
-                            </div>
-
-                            <!-- How many bathrooms? -->
-                            <div class="custom-select">
-                                <label>How many bathrooms?</label>
-                                <div class="select-input">
-                                    <img src="./assets/Icons/inputs/bathrooms.svg" alt="Icon" class="select-icon">
-                                    <span class="select-placeholder">Choose an option</span>
-                                    <img src="./assets/Icons/inputs/down-arrow.svg" alt="Arrow" class="dropdown-arrow">
-                                </div>
-                                <ul class="select-options">
-                                    <li class="select-option" data-value="option1">
-                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 1 Icon"
-                                            class="option-icon">
-                                        1
-                                    </li>
-                                    <li class="select-option" data-value="option2">
-                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 2 Icon"
-                                            class="option-icon">
-                                        2
-                                    </li>
-                                    <li class="select-option" data-value="option3">
-                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 3 Icon"
-                                            class="option-icon">
-                                        3
-                                    </li>
-                                    <li class="select-option" data-value="option3">
-                                        <img src="./assets/Icons/inputs/bathrooms.svg" alt="Option 3 Icon"
                                             class="option-icon">
                                         4+
                                     </li>
@@ -295,14 +271,15 @@
                                 <input type="hidden" id="customSelectValue" name="customSelectValue">
                             </div>
                         </form>
-                        <!-- Toggle -->
-                        <div class="toggle-container">
-                            <label class="toggle-switch">
-                                <input type="checkbox" id="pet-friendly-toggle">
-                                <span class="toggle-slider"></span>
+                        <!-- Toggler -->
+                        <div class="switch-container">
+                            <label class="switch">
+                              <input type="checkbox" id="toggler" />
+                              <span class="slider"></span>
                             </label>
-                            <span class="toggle-text">Pet Friendly</span>
-                        </div>
+                            <label for="toggler" class="switch-text">Pet friendly</label>
+                          </div>
+                          
                         <!-- Cta -->
                         <button class="button button--full button--primary button--lg">Free estimate</button>
                     </div>
@@ -1337,7 +1314,7 @@
                 </sl-image-comparer>
             </div>
             <div class="extreme__content">
-                <h2 class="section__title extreme__title section-header">Extreme Cleaning</h2>
+                <h2 class="section__title extreme__title">Extreme Cleaning</h2>
                 <div>
                     <p class="section__body extreme__description"><b>Is your place overwhelmed by clutter,
                             damage, or neglect?</b> Our Extreme
@@ -1439,18 +1416,22 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Showers
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Outside
                                 of
                                 cabinets and drawers</li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Windows
                                 sills
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Baseboards
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Inside of
                                 cabinets and drawers</li>
                         </ul>
@@ -1488,28 +1469,35 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Dusting
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Dishwashing
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Windows
                                 sills
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Outside
                                 of
                                 cabinets and drawers</li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Baseboards
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Inside of
                                 cabinets and drawers
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Fridge
                                 (inside)
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Oven
                                 (inside)
                             </li>
@@ -1545,29 +1533,36 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Dusting
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Windows
                                 sills
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Light
                                 switches
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Door
                                 knobs
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Light
                                 fixtures
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Baseboards
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Inside of
                                 cabinets and drawers</li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Living
                                 Spaces
                             </li>
@@ -1595,7 +1590,8 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Electronics
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Laundry
                             </li>
                         </ul>
@@ -1621,14 +1617,17 @@
                             <li><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
                                 Clutter
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Windows
                                 sills
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Baseboards
                             </li>
-                            <li class="list-disabled"><img src="./assets/Icons/check.svg" alt="Check icon representing what's included">
+                            <li class="list-disabled"><img src="./assets/Icons/check.svg"
+                                    alt="Check icon representing what's included">
                                 Extra: Inside of
                                 cabinets and drawers</li>
                         </ul>

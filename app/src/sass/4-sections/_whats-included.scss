@@ -2,7 +2,6 @@
 @import "../1-base/sizes";
 @import "../3-modules/buttons";
 
-
 .whats-included {
     padding: 64px 0;
     background: -webkit-linear-gradient(rgba(255, 70, 192, 0.05) 0%, rgba(21, 165, 246, 0.05) 100%);
@@ -15,10 +14,9 @@
     .view-all {
         display: block;
         text-align: center;
-        margin-top: 2rem
+        margin-top: 2rem;
     }
 }
-
 
 .included-services {
     display: flex;
@@ -26,15 +24,12 @@
     gap: 16px;
     height: 66vh;
     overflow-y: hidden;
-    object-fit: contain;
 
+    /* Permite expansão para altura completa */
     &.expanded {
         height: auto;
-        /* Permite que o conteúdo ocupe todo o espaço necessário */
         overflow-y: visible;
-        /* Mostra todo o conteúdo */
     }
-
 
     &__header {
         text-align: center;
@@ -46,6 +41,7 @@
         }
     }
 
+    /* Itens com largura uniforme */
     &__item {
         border: 1px solid $neutrals-500;
         background-color: $bg-color;
@@ -56,18 +52,22 @@
         display: flex;
         flex-direction: column;
         gap: 1.4rem;
-        min-width: 177px;
+
+        flex: 1 1 auto; /* Garante que todos os cards tenham o mesmo tamanho */
+        max-width: 300px; /* Define o limite máximo da largura */
+        min-width: 200px; /* Define o limite mínimo */
+        height: auto; /* Altura ajustável conforme o conteúdo */
     }
 
     &__room {
         ul {
             display: flex;
             flex-direction: column;
-            gap: .8rem;
+            gap: 0.8rem;
             margin-top: 1.4rem;
 
             li {
-                font-size: .8rem;
+                font-size: 0.8rem;
                 color: $text-400;
                 display: flex;
                 gap: 4px;
@@ -97,26 +97,30 @@
             text-align: end;
             margin-bottom: 2rem;
         }
-
-
     }
-
 }
 
+/* Navegação escondida para desktops */
 .navigation-arrows {
     display: none;
-  }
+}
 
-
+/* Responsividade */
 @media (max-width: 768px) {
-        .navigation-arrows {
-            display: flex;
-            gap: 20px;
-            justify-content: flex-end;
-            align-items: flex-end;
-        }
-  
-    .included-services {
-      flex-wrap: nowrap; /* Garante que os itens fiquem lado a lado */
+    .navigation-arrows {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
-  }
+
+    .included-services {
+        flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+        justify-content: space-between; /* Distribui os itens */
+    }
+
+    .included-services__item {
+        flex: 1 1 100%; /* Ocupa toda a largura em telas pequenas */
+        max-width: none; /* Remove o limite máximo */
+    }
+}
